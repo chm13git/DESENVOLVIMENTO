@@ -1,0 +1,228 @@
+$ -------------------------------------------------------------------- $
+$ WAVEWATCH III shel input file                                        $
+$ -------------------------------------------------------------------- $
+$
+   F F     $ Ice parameter 1
+   F F     $ Ice parameter 2
+   F F     $ Ice parameter 3
+   F F     $ Ice parameter 4
+   F F     $ Ice parameter 5
+   F F     $ Mud parameter 1
+   F F     $ Mud parameter 2
+   F F     $ Mud parameter 3
+   F F     $ Water levels
+   F F     $ Currents
+   T T     $ Winds
+   F       $ Ice concentrations
+   F       $ Assimilation data : Mean parameters
+   F       $ Assimilation data : 1-D spectra
+   F       $ Assimilation data : 2-D spectra
+$
+   dataini cyc0000  $ Starting time in yyyymmdd hhmmss format
+   datafim cyc000   $ Ending time in yyyymmdd hhmmss format
+$
+$ Define output server mode. This is used only in the parallel version
+$ of the model. To keep the input file consistent, it is always needed.
+$ IOSTYP = 1 is generally recommended. IOSTYP > 2 may be more efficient
+$ for massively parallel computations. Only IOSTYP = 0 requires a true
+$ parallel file system like GPFS.
+$
+$    IOSTYP = 0 : No data server processes, direct access output from
+$                 each process (requires true parallel file system).
+$             1 : No data server process. All output for each type 
+$                 performed by process that performs computations too.
+$             2 : Last process is reserved for all output, and does no
+$                 computing.
+$             3 : Multiple dedicated output processes.
+$
+   2
+$
+$  OUPUT: first time in yyyymmdd hhmmss format, output interval (s), 
+$  and last time in yyyymmdd hhmmss format (all integers).
+$
+   dataini cyc0000   3600  datafim cyc0000
+$
+$ Output request flags identifying fields--------------------------
+$
+  N
+  WND ICE HS T02 T0M1 T01 FP DIR SPR DP PHS PTP PDIR
+$
+   dataini cyc0000 3600 datafim cyc0000
+
+       -40.058710     -21.339270  'ANCHIETA  '
+       -42.839820     -25.543770  'ANGRA_REIS'
+       -40.725300     -22.952390  'CAMPOS_GOY'
+       -39.953490     -21.238160  'CAPIXABA  '
+       -43.466320     -25.517720  'CARAGUATAT'
+       -40.425130     -22.648420  'FLUMINENSE'
+       -39.855760     -21.883130  'FRADE     '
+       -43.205990     -25.671880  'ILHABELA  '
+       -42.944210     -25.139920  'ITAGUAI   '
+       -46.528330     -26.465830  'ITAJAI    '
+       -42.878510     -25.202940  'MANGARATIB'
+       -42.753020     -25.447770  'MARICA    '
+       -39.936810     -22.495790  'NITEROI   '
+       -42.761330     -25.393500  'PARATY    '
+       -42.232870     -24.660290  'PIONEIRO  '
+       -36.988170     -11.370000  'PIRANEMA  '
+       -40.358370     -22.858300  'RIO_JANEIR'
+       -42.714170     -24.301000  'SANTOS    '
+       -43.262680     -25.798270  'SAO_PAULO '
+       -44.066850     -23.441850  'SAO_VICENT'
+       -42.781090     -25.490230  'SAQUAREMA '
+       -39.524800     -20.042080  'VITORIA   '
+       -40.144790     -22.159960  'MACAE     '
+       -40.683590     -22.759600  'P07       '
+       -40.546360     -22.672810  'P08       '
+       -40.527530     -22.573490  'P09       '
+       -40.816480     -22.760050  'P12       '
+       -40.604330     -22.678880  'P15       '
+       -40.028640     -22.428250  'P18       '
+       -40.054400     -22.392610  'P19       '
+       -40.088700     -22.358900  'P20       '
+       -39.916733     -22.109555  'P25       '
+       -40.028680     -22.468420  'P26       '
+       -39.967800     -22.132430  'P31       '
+       -40.242890     -22.347830  'P32       '
+       -40.023780     -22.374350  'P33       '
+       -40.067720     -22.439430  'P35       '
+       -40.092900     -22.485760  'P37       '
+       -40.118600     -22.560360  'P38       '
+       -40.067380     -22.546900  'P40       '
+       -40.259650     -22.550200  'P43       '
+       -40.193890     -22.345620  'P47       '
+       -40.239580     -22.663100  'P48       '
+       -39.827380     -22.085210  'P50       '
+       -40.093510     -22.634040  'P51       '
+       -39.736020     -21.906400  'P52       '
+       -39.959920     -22.423110  'P53       '
+       -39.824580     -21.968190  'P54       '
+       -39.739350     -21.993240  'P55       '
+       -39.989700     -22.623640  'P56       '
+       -40.047650     -21.239190  'P57       '
+       -39.997290     -21.214020  'P58       '
+       -41.061030     -23.516110  'P61       '
+       -39.785355     -21.939751  'P62       '
+       -41.064030     -23.513030  'P63       '
+       -40.677040     -22.701730  'P65       '
+       -42.820470     -25.601800  'P66       '
+       -42.692350     -25.328660  'P67       '
+       -42.858810     -25.656850  'P69       '
+       -42.514410     -24.648730  'P74       '
+       -42.509661     -24.787901  'P75       '
+       -42.505670     -24.687560  'P76       '
+       -42.411362     -24.635440  'P77       '
+       -44.382814     -24.353158  'PMXL1     '
+       -45.252814     -25.266939  'PMLZ1     '
+       -40.121752     -22.171237  'PRA1      '
+       -40.329949     -22.255553  'PPG1A     '
+       -40.468778     -22.466024  'PCH2      '
+       -40.693208     -22.708359  'PCE1      '
+       -39.253961     -19.564465  'PPER1     '
+       -38.812428     -13.489857  'PMNT1     '
+       -37.079564     -11.202328  'PGA7      '
+       -36.948474     -10.987107  'PCM9      '
+       -36.259543     -04.907096  'PAG1      '
+       -36.825708     -04.704665  'PPE1A     '
+       -42.755556     -24.926389  'BBUZIOS   '
+       -41.993889     -24.576111  'BLIBRA    '
+       -50.13          3.13       'OIAPOQUE  '
+       -49.02          0.08       'FOZ_AMAZON'
+       -29.35          0.91       'SPED_SPAUL'
+       -34.96          0.02       'PIRATA_1  '
+       -47.07         -0.07       'SALINOPOLI'
+       -43.77         -1.05       'SAO_LUIZ  '
+       -38.07         -3.07       'FORTALEZA '
+       -32.42         -3.85       'F_NORONHA '
+       -35.19         -5.09       'TOUROS    '
+       -34.9          -5.75       'NATAL     '
+       -34.58         -6.97       'CABEDELO  '
+       -30.49         -7.91       'PIRATA_2  '
+       -34.63         -8.05       'RECIFE    '
+       -34.56         -8.16       'PNBOIA_REC'
+       -34.85         -8.75       'TAMANDARE '
+       -35.4          -9.65       'MACEIO    '
+       -36.57         -10.9       'ARACAJU   '
+       -36.87         -10.86      'ARACAJU2  '
+       -38.45         -13.43      'SALVADOR  '
+       -32.61         -13.56      'PIRATA_3  '
+       -38.7          -14.78      'ILHEUS    '
+       -38.75         -16.45      'PORTO_SEGU'
+       -37.93         -15.99      'PNBOIA_P_S'
+       -38.7          -17.95      'ABROLHOS  '
+       -34.69         -18.92      'PIRATA_4  '
+       -39.83         -20.32      'VITORIA   '
+       -40.24         -21.08      'MARATAIZES'
+       -40.44         -22.44      'SAO_TOME  '
+       -41.80         -22.97      'CABO_FRIO '
+       -29.32         -20.5       'TRINDADE  '
+       -43.03         -23.08      'RIO_JANEIR'
+       -44.00         -23.77      'ILHAGRANDE'
+       -44.71         -24.27      'SAO_SEBAST'
+       -45.91         -24.38      'SANTOS    '
+       -46.34         -24.31      'PERUIBE   '
+       -47.08         -25.02      'IGUAPE    '
+       -47.40         -25.23      'CANANEIA  '
+       -44.93         -25.28      'PNBOIA_STS'
+       -47.87         -25.7       'ILHA_MEL  '
+       -48.12         -25.87      'GUARATUBA '
+       -48.2          -26.23      'S_FRAN_SUL'
+       -48.08         -26.92      'ITAJAI    '
+       -47.97         -27.55      'FLORIPA   '
+       -47.26         -27.4       'PNBOIA_SC '
+       -48.25         -28.03      'GAROPABA  '
+       -48.44         -28.64      'STA_MARTA '
+       -48.87         -28.85      'BAL_RINCAO'
+       -49.37         -29.35      'TORRES    '
+       -49.68         -30.01      'TRAMANDAI '
+       -49.88         -31.59      'PNBOIA_RG '
+       -50.35         -31.15      'MOSTARDAS '
+       -51.7          -32.18      'RIO_GRANDE'
+       -52.47         -33.81      'CHUI      '
+       -43.95         -23.28      'LHFC_W    '
+       -43.60         -23.23      'LHFC_E    '
+       -40.97         -20.97      'ITAOCA_ES '
+       -40.26         -21.49      'B_ITAOCA  '
+       -47.26         -27.41      'B_ITAJAISC'
+       -49.84         -31.56      'B_RGRANDE3'
+       -45.04         -25.44      'B_SANTOS_2'
+       -42.20         -23.63      'B_CBFRIO23'
+       -43.418614     -23.159878  'AD-BGW1   '
+       -43.354923     -23.242065  'AD-BGW2   '
+       -43.267943     -23.298939  'AD-BGW2   '
+       -43.167361     -23.325172  'AD-BGW3   '
+       -43.063477     -23.320182  'AD-BGC    '
+       -42.965854     -23.284161  'AD-BGE3   '
+       -42.885229     -23.218384  'AD-BGE2   '
+       -42.816237     -23.098718  'AD-BGE1   '
+       -44.546119     -23.707085  'AD-SIGW1  '
+       -44.444128     -23.762351  'AD-SIGW2  '
+       -44.257248     -23.813829  'AD-SIGW3  '
+       -43.925477     -23.782262  'AD-SIGC   '
+       -43.710306     -23.665773  'AD-SIGE3  '
+       -43.565685     -23.551158  'AD-SIGE2  '
+       -43.443759     -23.401896  'AD-SIGE1  '
+       -43.364700     -23.266400  'AD-SIGE0  '
+       -45.760828     -24.245753  'AD-SSIBW1 '
+       -45.629661     -24.317468  'AD-SSIBW2 '
+       -45.470070     -24.353949  'AD-SSIBW3 '
+       -45.228430     -24.334716  'AD-SSIBC  '
+       -45.009336     -24.224121  'AD-SSIBE3 '
+       -44.892748     -24.040749  'AD-SSIBE2 '
+       -44.849804     -23.851832  'AD-SSIBE1 '
+       -44.862409     -23.641373  'AD-SSIBE0 '
+        0.E3           0.E3       'STOPSTRING'
+$
+   dataini  cyc0000       0  datafim  cyc0000  $ Output along track
+$
+   dataini  cyc0000   43200  restart  cyc0000  $ Restart files
+$
+   dataini  cyc0000    3600  datafim  cyc0000  $ Boundary data
+$
+   dataini  cyc0000       0  datafim  cyc0000  $ Separated wave field data
+$
+   'STP'
+$
+$ -------------------------------------------------------------------- $
+$ End of input file                                                    $
+$ -------------------------------------------------------------------- $
