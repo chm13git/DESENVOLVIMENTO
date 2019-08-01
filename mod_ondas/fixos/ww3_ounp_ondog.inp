@@ -1,0 +1,22 @@
+$ WAVEWATCH III NETCDF Point output post-processing                            
+$ -------------------------------------------------------------------- $
+$
+ dataini cyc0000  3600  999
+$
+ -1
+$
+ ondograma.
+$
+ 10
+$
+ 4
+$
+ T 150
+$
+ 2
+$
+ 0
+$
+ 2  1  0
+$
+$ End of input file
