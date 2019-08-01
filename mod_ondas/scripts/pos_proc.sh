@@ -88,6 +88,10 @@ cd ${WORKDIR}
 #      gx_outf: saídas binárias do WW3 para .ctl e .grads          #
 # -----------------------------------------------------------------#
 
+echo ' --------------------------------------------------------------------------------- '
+echo '                gx_outf: saídas binárias do WW3 para .ctl e .grads                 '
+echo ' --------------------------------------------------------------------------------- '
+
 for grd in "${AREAS[@]}"; do
 
   echo ' '
@@ -122,6 +126,10 @@ done
 # -----------------------------------------------------------------#
 #         ww3_ounf: saídas binárias do WW3 para NETCDF             #
 # -----------------------------------------------------------------#
+
+echo ' --------------------------------------------------------------------------------- '
+echo '                   ww3_ounf: saídas binárias do WW3 para NETCDF                    '
+echo ' --------------------------------------------------------------------------------- '
 
 for grd in "${AREAS[@]}"; do
 
@@ -165,11 +173,11 @@ done
 #  ww3_ounp: pós-processamento da saída .points do WW3 para espectros e ondogramas (tab) #
 # ---------------------------------------------------------------------------------------#
 
-for grd in "${AREAS[@]}"; do
+echo ' --------------------------------------------------------------------------------- '
+echo '  ww3_ounp: pós-processamento da saída .points do WW3 para espectros e ondogramas  '
+echo ' --------------------------------------------------------------------------------- '
 
-  echo ' '
-  echo ' Linkando mod.def da área: ' ${grd}
-  echo ' '
+for grd in "${AREAS[@]}"; do
 
   ln -sf ${GRDDIR}/mod_def.${grd} ${WORKDIR}/mod_def.${grd}
   ln -sf ${OUTDIR}/out_pnt.t${HSIM}z.points ${WORKDIR}/out_pnt.ww3
@@ -179,16 +187,16 @@ for grd in "${AREAS[@]}"; do
   mv ${WORKDIR}/ww3_ounp_spec.inp ${WORKDIR}/ww3_ounp.inp
 
   echo ' '
-  echo ' Executando ww3_ounp espectro área: ' ${grd} ' '${AMD}${HSIM}
+  echo ' Executando ww3_ounp espectro da área: ' ${grd} ' '${AMD}${HSIM}
   echo ' '
 
   ww3_ounp
 
   echo ' '
-  echo ' Movendo as saídas em netcdf para a pasta Backup '
+  echo ' Movendo os espectros para a pasta Backup '
   echo ' '
 
-  cp ${WORKDIR}/espectro.'+datai+'T'+str(cyc)+'Z_spec.nc ${BCKDIR}/espectros/ww3${FORC}_${grd}_${AMD}${HSIM}.nc
+  cp ${WORKDIR}/espectro.${AMD}T${HSIM}Z_spec.nc ${BCKDIR}/espectros/spec_ww3${FORC}_${AMD}${HSIM}.nc
 
   for filename in ${WORKDIR}/*; do
     rm $filename
@@ -201,11 +209,20 @@ for grd in "${AREAS[@]}"; do
   sed s/cyc/${HSIM}/g temp_ww3ounp > ww3_ounp_ondog.inp
   mv ${WORKDIR}/ww3_ounp_ondog.inp ${WORKDIR}/ww3_ounp.inp
 
+  echo ' '
+  echo ' Executando ww3_ounp ondograma da área: ' ${grd} ' '${AMD}${HSIM}
+  echo ' '
+
+  ww3_ounp
+
+  echo ' '
+  echo ' Movendo os ondogramas em netcdf para a pasta Backup '
+  echo ' '
+
+  cp ${WORKDIR}/ondograma.${AMD}T${HSIM}Z_tab.nc ${BCKDIR}/espectros/ondog_ww3${FORC}_${AMD}${HSIM}.nc
+
+  for filename in ${WORKDIR}/*; do
+    rm $filename
+  done
 
 done
-
-
-
-
-
-
