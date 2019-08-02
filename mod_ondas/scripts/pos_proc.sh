@@ -98,8 +98,8 @@ for grd in "${AREAS[@]}"; do
   echo ' Linkando mod.def da área: ' ${grd}
   echo ' '
 
-  ln -sf ${GRDDIR}/mod_def.${grd} ${WORKDIR}/mod_def.${grd}
-  ln -sf ${OUTDIR}/out_grd.${grd} ${WORKDIR}/out_grd.ww3
+  ln -sf ${GRDDIR}/mod_def.${grd} ${WORKDIR}/mod_def.ww3
+  ln -sf ${OUTDIR}/out_grd.t${HSIM}z.${grd} ${WORKDIR}/out_grd.ww3
   cp ${FIXODIR}/gx_outf.inp ${WORKDIR}/gx_outf.inp
   sed s/dataini/${AMD}/g gx_outf.inp > temp_gxoutf
   sed s/cyc/${HSIM}/g temp_gxoutf > gx_outf.inp
@@ -113,9 +113,9 @@ for grd in "${AREAS[@]}"; do
   echo ' '
   echo ' Movendo as saídas em netcdf para a pasta Backup '
   echo ' '
-
-  cp ${WORKDIR}/ww3.ctl ${OUTDIR}/${grd}.t${HSIM}z.ctl
-  cp ${WORKDIR}/ww3.grads ${OUTDIR}/${grd}.t${HSIM}z.grads
+  GRD=` echo ${grd} | cut -f1 -d"5" `
+  cp ${WORKDIR}/ww3.ctl ${OUTDIR}/${GRD}.t${HSIM}z.ctl
+  cp ${WORKDIR}/ww3.grads ${OUTDIR}/${GRD}.t${HSIM}z.grads
 
   for filename in ${WORKDIR}/*; do
     rm $filename
@@ -137,8 +137,8 @@ for grd in "${AREAS[@]}"; do
   echo ' Linkando mod.def da área: ' ${grd}
   echo ' '
 
-  ln -sf ${GRDDIR}/mod_def.${grd} ${WORKDIR}/mod_def.${grd}
-  ln -sf ${OUTDIR}/out_grd.${grd} ${WORKDIR}/out_grd.ww3
+  ln -sf ${GRDDIR}/mod_def.${grd} ${WORKDIR}/mod_def.ww3
+  ln -sf ${OUTDIR}/out_grd.t${HSIM}z.${grd} ${WORKDIR}/out_grd.ww3
   cp ${FIXODIR}/ww3_ounf.inp ${WORKDIR}/ww3_ounf.inp
   sed s/dataini/${AMD}/g ww3_ounf.inp > temp_ww3ounf
   sed s/cyc/${HSIM}/g temp_ww3ounf > ww3_ounf.inp
@@ -156,12 +156,13 @@ for grd in "${AREAS[@]}"; do
   echo ' '
 
   if [ ${FORC} = 'cosmo' ]; then
-    cdo mergetime ${grd}${AMD}.nc ${grd}${dnext1}.nc ${grd}${dnext2}.nc ${grd}${dnext3}.nc ${grd}${dnext4}.nc ww3${FORC}_${grd}_${AMD}${HSIM}.nc
+    cdo -s mergetime ${grd}${AMD}.nc ${grd}${dnext1}.nc ${grd}${dnext2}.nc ${grd}${dnext3}.nc ${grd}${dnext4}.nc ww3${FORC}_${grd}_${AMD}${HSIM}.nc
   else
-    cdo mergetime ${grd}${AMD}.nc ${grd}${dnext1}.nc ${grd}${dnext2}.nc ${grd}${dnext3}.nc ${grd}${dnext4}.nc ${grd}${dnext5}.nc ww3${FORC}_${grd}_${AMD}${HSIM}.nc
+    cdo -s mergetime ${grd}${AMD}.nc ${grd}${dnext1}.nc ${grd}${dnext2}.nc ${grd}${dnext3}.nc ${grd}${dnext4}.nc ${grd}${dnext5}.nc ww3${FORC}_${grd}_${AMD}${HSIM}.nc
   fi
 
-  cp ${WORKDIR}/ww3${FORC}_${grd}_${AMD}${HSIM}.nc ${BCKDIR}/ww3${FORC}_${grd}_${AMD}${HSIM}.nc
+  GRD=` echo ${grd} | cut -f1 -d"5" `
+  cp ${WORKDIR}/ww3${FORC}_${grd}_${AMD}${HSIM}.nc ${BCKDIR}/ww3${FORC}_${GRD}_${AMD}${HSIM}.nc
 
   for filename in ${WORKDIR}/*; do
     rm $filename
@@ -177,52 +178,49 @@ echo ' -------------------------------------------------------------------------
 echo '  ww3_ounp: pós-processamento da saída .points do WW3 para espectros e ondogramas  '
 echo ' --------------------------------------------------------------------------------- '
 
-for grd in "${AREAS[@]}"; do
+ln -sf ${GRDDIR}/mod_def.points ${WORKDIR}/mod_def.ww3
+ln -sf ${OUTDIR}/out_pnt.t${HSIM}z.points ${WORKDIR}/out_pnt.ww3
+cp ${FIXODIR}/ww3_ounp_spec.inp ${WORKDIR}/ww3_ounp_spec.inp
+sed s/dataini/${AMD}/g ww3_ounp_spec.inp > temp_ww3ounp
+sed s/cyc/${HSIM}/g temp_ww3ounp > ww3_ounp_spec.inp
+mv ${WORKDIR}/ww3_ounp_spec.inp ${WORKDIR}/ww3_ounp.inp
 
-  ln -sf ${GRDDIR}/mod_def.${grd} ${WORKDIR}/mod_def.${grd}
-  ln -sf ${OUTDIR}/out_pnt.t${HSIM}z.points ${WORKDIR}/out_pnt.ww3
-  cp ${FIXODIR}/ww3_ounp_spec.inp ${WORKDIR}/ww3_ounp_spec.inp
-  sed s/dataini/${AMD}/g ww3_ounp_spec.inp > temp_ww3ounp
-  sed s/cyc/${HSIM}/g temp_ww3ounp > ww3_ounp_spec.inp
-  mv ${WORKDIR}/ww3_ounp_spec.inp ${WORKDIR}/ww3_ounp.inp
+echo ' '
+echo ' Executando ww3_ounp espectro da data '${AMD}${HSIM}
+echo ' '
 
-  echo ' '
-  echo ' Executando ww3_ounp espectro da área: ' ${grd} ' '${AMD}${HSIM}
-  echo ' '
+ww3_ounp
 
-  ww3_ounp
+echo ' '
+echo ' Movendo os espectros para a pasta Backup '
+echo ' '
 
-  echo ' '
-  echo ' Movendo os espectros para a pasta Backup '
-  echo ' '
+cdo -s mergetime spec.*Z_spec.nc spec_ww3${FORC}_${AMD}${HSIM}.nc
+cp ${WORKDIR}/spec_ww3${FORC}_${AMD}${HSIM}.nc ${BCKDIR}/specs/spec_ww3${FORC}_${AMD}${HSIM}.nc
 
-  cp ${WORKDIR}/espectro.${AMD}T${HSIM}Z_spec.nc ${BCKDIR}/espectros/spec_ww3${FORC}_${AMD}${HSIM}.nc
+for filename in ${WORKDIR}/*; do
+  rm $filename
+done
 
-  for filename in ${WORKDIR}/*; do
-    rm $filename
-  done
+ln -sf ${GRDDIR}/mod_def.points ${WORKDIR}/mod_def.ww3
+ln -sf ${OUTDIR}/out_pnt.t${HSIM}z.points ${WORKDIR}/out_pnt.ww3
+cp ${FIXODIR}/ww3_ounp_tab.inp ${WORKDIR}/ww3_ounp_tab.inp
+sed s/dataini/${AMD}/g ww3_ounp_tab.inp > temp_ww3ounp
+sed s/cyc/${HSIM}/g temp_ww3ounp > ww3_ounp_tab.inp
+mv ${WORKDIR}/ww3_ounp_tab.inp ${WORKDIR}/ww3_ounp.inp
 
-  ln -sf ${GRDDIR}/mod_def.${grd} ${WORKDIR}/mod_def.${grd}
-  ln -sf ${OUTDIR}/out_pnt.t${HSIM}z.points ${WORKDIR}/out_pnt.ww3
-  cp ${FIXODIR}/ww3_ounp_ondog.inp ${WORKDIR}/ww3_ounp_ondog.inp
-  sed s/dataini/${AMD}/g ww3_ounp_ondog.inp > temp_ww3ounp
-  sed s/cyc/${HSIM}/g temp_ww3ounp > ww3_ounp_ondog.inp
-  mv ${WORKDIR}/ww3_ounp_ondog.inp ${WORKDIR}/ww3_ounp.inp
+echo ' '
+echo ' Executando ww3_ounp tab da data '${AMD}${HSIM}
+echo ' '
 
-  echo ' '
-  echo ' Executando ww3_ounp ondograma da área: ' ${grd} ' '${AMD}${HSIM}
-  echo ' '
+ww3_ounp
 
-  ww3_ounp
+echo ' '
+echo ' Movendo os tabs em netcdf para a pasta Backup '
+echo ' '
+cdo -s mergetime tab.*Z_tab.nc tab_ww3${FORC}_${AMD}${HSIM}.nc
+cp ${WORKDIR}/tab_ww3${FORC}_${AMD}${HSIM}.nc ${BCKDIR}/tabs/tab_ww3${FORC}_${AMD}${HSIM}.nc
 
-  echo ' '
-  echo ' Movendo os ondogramas em netcdf para a pasta Backup '
-  echo ' '
-
-  cp ${WORKDIR}/ondograma.${AMD}T${HSIM}Z_tab.nc ${BCKDIR}/espectros/ondog_ww3${FORC}_${AMD}${HSIM}.nc
-
-  for filename in ${WORKDIR}/*; do
-    rm $filename
-  done
-
+for filename in ${WORKDIR}/*; do
+  rm $filename
 done
