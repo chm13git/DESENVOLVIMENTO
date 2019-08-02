@@ -1,0 +1,10 @@
+$ WAVEWATCH III Field preprocessor input file                          
+$ -------------------------------------------------------------------- $
+$
+ 'WND' 'LL'  T T
+$
+  longitude latitude
+$
+  var0_2_2_10maboveground var0_2_3_10maboveground 
+$
+  'wnd.nc'
