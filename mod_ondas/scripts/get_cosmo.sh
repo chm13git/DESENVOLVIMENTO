@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 ##################################################
 # Script que pegar o vento a 10 m do COSMO na    #
 # DPNS31 para a rodada WW3                       #
@@ -10,8 +10,10 @@
 
 # ---------------------
 # Definição diretórios
-
 source ~/mod_ondas/fixos/dir.sh
+
+# Carrega CDO e outras variáveis de ambiente
+source ~/.bashrc
 
 if [ $# -lt 1 ]
    then
