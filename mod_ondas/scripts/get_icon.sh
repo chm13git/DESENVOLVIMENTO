@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 ##################################################
 # Script que pegar o vento a 10 m do ICON na     #
 # DPNS24 para a rodada WW3                       #
@@ -10,7 +10,6 @@
 
 # ---------------------
 # Definição diretórios
-
 source ~/mod_ondas/fixos/dir.sh
 
 if [ $# -lt 1 ]
