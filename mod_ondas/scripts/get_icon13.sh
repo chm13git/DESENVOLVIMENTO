@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 ##################################################
 # Script que realiza o Download do vento a 10 m  #
 # do ICON para a rodada WW3                      #
@@ -21,9 +21,9 @@ WORKDIRICON13=${DIRICONdados13}/work
 # Informações para interpolação da grade triangular para grade regular
 # Download dos arquivos abaixo em https://opendata.dwd.de/weather/lib/cdo/
 DIRICONfiles13=${DIRICONdados13}/files
-TARGETICON13=${DIRICONfiles13}/target_grid_world_0135.txt
+TARGETICON13=${DIRICONfiles13}/target_grid_world_0125.txt
 GRIDICON13=${DIRICONfiles13}/icon_grid_0026_R03B07_G.nc
-WFILEICON13=${DIRICONfiles13}/weights_icogl2world_0135.nc
+WFILEICON13=${DIRICONfiles13}/weights_icogl2world_0125.nc
 
 if [ $# -lt 1 ]
    then
@@ -75,7 +75,7 @@ for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
         bunzip2 ${DIRICONdados13}/${iconfile}
 
       	# CHECAGEM DO DOWNLOAD
-      	Nvar=`/home/operador/bin/wgrib2 ${DIRICONdados13}/${iconfile_grb2} | wc -l`
+      	Nvar=`${p_wgrib2} ${DIRICONdados13}/${iconfile_grb2} | wc -l`
      if [ ${Nvar} -lt ${Nref} ];then
         Flag=1 
         
@@ -88,7 +88,7 @@ for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
              wget "${URL}/${VAR}/${iconfile}" -O "${DIRICONdados13}/${iconfile}"
 	     bunzip2 ${DIRICONdados13}/${iconfile}
                                     
-	     Nvar=`/home/operador/bin/wgrib2 ${DIRICONdados13}/${iconfile_grb2} | wc -l`
+	     Nvar=`${p_wgrib2} ${DIRICONdados13}/${iconfile_grb2} | wc -l`
              if [ ${Nvar} -lt ${Nref} ];then
              Flag=1
              else               
@@ -160,11 +160,23 @@ file=icon13.${AMD}${HSIM}.nc
    mv ${WORKDIRICON13}/wnd_cp.nc ${DIRICON13}/${file}
    #cdo -v -f grb2 -copy ${DIRICON13}/icon13.${AMD}${HSIM}.nc ${DIRICON13}/icon13.${AMD}${HSIM}.grb2
    # Remove arquivos desnecessários
-   if [ -f "${DIRICON13}/${file}" ]
-   then
-   rm -f ${DIRICONdados13}/*
-   rm -f ${WORKDIRICON13}/*
-   fi
+#   if [ -f "${DIRICON13}/${file}" ]
+#   then
+#   rm -f ${DIRICONdados13}/*
+#   rm -f ${WORKDIRICON13}/*
+#   fi
+
+if [ -f "${DIRICON13}/${file}" ]; then 
+  for file in "${DIRICON13}"/*
+  do
+    rm "$file"
+  done
+  for file in "${WORKDIRICON13}"/*
+  do
+    rm "$file"
+  done
+fi 
+
 #else 
 #   echo "Arquivo incompleto"
 #fi 
