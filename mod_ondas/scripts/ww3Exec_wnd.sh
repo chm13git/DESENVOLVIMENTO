@@ -19,7 +19,7 @@ if [ $# -lt 2 ]
    echo "                                              "
    echo "      ./ww3Exec_wnd.sh wnd hh yyyymmdd        "
    echo "                                              "
-   echo "    wnd = (gfs, icon, cosmo, gfs12, icon12)   "
+   echo "    wnd = (gfs, icon, cosmo, gfs12, icon13)   "
    echo "                                              "
    echo "    ex: ./ww3Exec_wnd.sh gfs 00 20190716      "
    echo "+--------------------------------------------+"
@@ -50,7 +50,7 @@ Drest=$(date -d "${AMD} +2 days" +%Y%m%d)
 
 if [ ${HSIM} == 00 ];then
  res=12
- rest1=${DATA}    
+ rest1=${AMD}    
  rest2=${Dnext}
  rest3=${Dnext}
  rest4=${Drest}
@@ -88,50 +88,73 @@ export MPI_MSG_RETRIES=400000
 export MPI_IB_RECV_MSGS=1024
 export MPI_IB_RECV_BUFS=256
 
-# ----------------------
-#  Definição das áreas
+# -----------------------------------------------------
+#  Definição das áreas e links das grades e restarts
 
-if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "icon12" ]; then
-   ice=ice
-   area1=glo25_${FORC}
-   area2=met5_${FORC}
-   area3=ant5_${FORC}
-   AREAS=(${area1} ${area2} ${area3})
+if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "icon13" ]; then
+  ice=ice
+  area1=glo25_${FORC}
+  area2=met5_${FORC}
+  area3=ant5_${FORC}
+  AREAS=(${area1} ${area2} ${area3})
+  for grd in "${AREAS[@]}"; do
+     echo ' '
+     echo ' Linkando mod.def da área: ' $grd
+     echo ' '
+     ln -sf ${GRDDIR}/mod_def.${grd} ${WORKDIR}/mod_def.${grd}
+     if [ -e ${RESTDIRo}/restart.${AMD}${HSIM}.${grd} ];then
+       echo ''
+       echo ' Linkando e restart da área: ' ${grd}
+       echo ''
+       ln -sf ${RESTDIRo}/restart.${AMD}${HSIM}.${grd} ${WORKDIR}/restart.$grd
+     else
+       ln -sf ${RESTDIR}/restart.${grd} ${WORKDIR}/restart.${grd}
+       echo ''
+       echo ' ATENÇÃO: Não há restart '${AMD} ${grd}', VOU UTILIZAR UM RESTART FRIO '
+       echo ''
+     fi
+  done 
 elif [ ${FORC} = "cosmo" ]; then
    area1=met5_${FORC}
    AREAS=${area1}
+   echo ' '
+   echo ' Linkando mod.def da área: ' ${area1}
+   echo ' '
+   ln -sf ${GRDDIR}/mod_def.${area1} ${WORKDIR}/mod_def.${area1}
+   if [ -e ${RESTDIRo}/restart.${AMD}${HSIM}.${area1} ];then
+     echo ''
+     echo ' Linkando e restart da área: ' ${area1}
+     echo ''
+     ln -sf ${RESTDIRo}/restart.${AMD}${HSIM}.${area1} ${WORKDIR}/restart.${area1}
+   else
+     ln -sf ${RESTDIR}/restart.${area1} ${WORKDIR}/restart.${area1}
+     echo ''
+     echo ' ATENÇÃO: Não há restart '${AMD} ${area1}', VOU UTILIZAR UM RESTART FRIO '
+     echo ''
+   fi
 fi
 
 # -------------------------------------------
 #  Linkando as informações para a pasta work
-
-for grd in "${AREAS[@]}"; do
-   echo ' '
-   echo ' Linkando mod.def da área: ' $grd
-   echo ' '
-   ln -sf ${GRDDIR}/mod_def.${grd} ${WORKDIR}/mod_def.${grd}
-   if [ -e ${RESTDIRo}/restart.${AMD}${HSIM}.${grd} ];then
-      echo ''
-      echo ' Linkando e restart da área: ' ${grd}
-      echo ''
-      ln -sf ${RESTDIRo}/restart.${AMD}${HSIM}.${grd} ${WORKDIR}/restart.$grd
-   else
-      ln -sf ${RESTDIR}/restart.${grd} ${WORKDIR}/restart.${grd}
-      echo ''
-      echo ' ATENÇÃO: Não há restart '${AMD} ${grd}', VOU UTILIZAR UM RESTART FRIO '
-      echo ''
-   fi
-done 
 
 echo ' '
 echo ' Linkando os mod.def do vento, points, ice e dados de entrada '
 echo ' '
 ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.${FORC}
 ln -sf ${GRDDIR}/mod_def.points  ${WORKDIR}/mod_def.points
-echo ''
-echo ' Linkando vento '${FORC}' '${AMD}' '${HSIM}
-echo ''
-ln -sf ${WNDDIR}/wind.${AMD}${HSIM}.${FORC} ${WORKDIR}/wind.${FORC}
+
+if [ -e ${WNDDIR}/wind.${AMD}${HSIM}.${FORC}]; then
+  echo ''
+  echo ' Linkando vento '${FORC}' '${AMD}' '${HSIM}
+  echo ''
+  ln -sf ${WNDDIR}/wind.${AMD}${HSIM}.${FORC} ${WORKDIR}/wind.${FORC}
+else
+  echo ''
+  echo ' Não há vento '${FORC}' '${AMD}' '${HSIM}
+  echo ' SAINDO... '
+  echo ''
+  exit
+fi  
 
 if [ ${FORC} != "cosmo" ]; then 
    num_days=6
@@ -161,17 +184,17 @@ else
       echo ''
       echo ' Linkando arquivos nest do WW3ICON para a rodada do WW3/'${FORC}
       echo ''
-   elif [ -e ${WW3DIR}/output/ww3icon12/${AMD}/nest.t${HSIM}z.met5_icon12 ]; then
-      ln -sf ${WW3DIR}/output/ww3icon12/${AMD}/nest.t${HSIM}z.met5_icon12 ${WORKDIR}/nest.met5
+   elif [ -e ${WW3DIR}/output/ww3icon13/${AMD}/nest.t${HSIM}z.met5_icon13 ]; then
+      ln -sf ${WW3DIR}/output/ww3icon13/${AMD}/nest.t${HSIM}z.met5_icon13 ${WORKDIR}/nest.met5
       echo ''
-      echo ' Linkando arquivos nest do WW3ICON12 para a rodada do WW3/'${FORC}
+      echo ' Linkando arquivos nest do WW3ICON13 para a rodada do WW3/'${FORC}
       echo ''
    fi
 fi
 
 cd ${WORKDIR}
 
-if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "icon12" ]; then 
+if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "icon13" ]; then 
    cp ${FIXODIR}/ww3_multi.inp ${WORKDIR}/ww3_multi.inp
    sed s/dataini/${AMD}/g ww3_multi.inp > temp_ww3multi
    sed s/datafim/${DATAf}/g temp_ww3multi > ww3_multi.inp
@@ -226,23 +249,23 @@ done
 if [ ${FORC} != "cosmo" ]; then 
    cp ${WORKDIR}/nest.met5_${FORC} ${OUTDIR}/nest.t${HSIM}z.met5_${FORC}
    cp ${WORKDIR}/nest.ant5_${FORC} ${OUTDIR}/nest.t${HSIM}z.ant5_${FORC}
-   cp ${WORKDIR}/log.mww3 ${LOGDIR}/log.t${HSIM}z.mww3
+   cp ${WORKDIR}/log.* ${OUTDIR}/
 fi
 
 cp ${WORKDIR}/out_pnt.points ${OUTDIR}/out_pnt.t${HSIM}z.points
 
 
-if [ ${FORC} = "gfs" ]; then
-   touch ${FLAGDIR}/WW3GFS_${AMD}${HSIM}_SAFO
-elif [ ${FORC} = "gfs12" ]; then
-   touch ${FLAGDIR}/WW3GFS12_${AMD}${HSIM}_SAFO
-elif [ ${FORC} = "icon" ]; then
-   touch ${FLAGDIR}/WW3ICON_${AMD}${HSIM}_SAFO
-elif [ ${FORC} = "icon12" ]; then
-   touch ${FLAGDIR}/WW3ICON12_${AMD}${HSIM}_SAFO
-elif [ ${FORC} = "cosmo" ]; then
-   touch ${FLAGDIR}/WW3COSMO_${AMD}${HSIM}_SAFO
-fi
+#if [ ${FORC} = "gfs" ]; then
+#   touch ${FLAGDIR}/WW3GFS_${AMD}${HSIM}_SAFO
+#elif [ ${FORC} = "gfs12" ]; then
+#   touch ${FLAGDIR}/WW3GFS12_${AMD}${HSIM}_SAFO
+#elif [ ${FORC} = "icon" ]; then
+#   touch ${FLAGDIR}/WW3ICON_${AMD}${HSIM}_SAFO
+#elif [ ${FORC} = "icon13" ]; then
+#   touch ${FLAGDIR}/WW3ICON13_${AMD}${HSIM}_SAFO
+#elif [ ${FORC} = "cosmo" ]; then
+#   touch ${FLAGDIR}/WW3COSMO_${AMD}${HSIM}_SAFO
+#fi
 
 for filename in ${WORKDIR}/*; do
  rm ${filename}
