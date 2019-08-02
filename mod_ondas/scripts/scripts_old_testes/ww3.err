@@ -1,0 +1,11 @@
+nohup: ignoring input and appending output to 'nohup.out'
+MPT: libxmpi.so 'HPE MPT 2.17  11/01/17 04:28:44'
+MPT: libmpi_mt.so  'HPE MPT 2.17  11/01/17 04:27:42'
+	MPT Environmental Settings
+MPT: MPI_VERBOSE (default: disabled) : enabled
+MPT: Using the InfiniBand RC interconnect on fabric 0x0
+MPT: Using the InfiniBand UD interconnect on fabric 0x0
+real 1657.20
+user 0.01
+sys 0.01
+./ww3run.sh: line 121: [: missing `]'

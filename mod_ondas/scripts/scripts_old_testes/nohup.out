@@ -1,0 +1,906 @@
+=====================================================
+ RODANDO WW3 Grades: glo25,met5,ant5 Forçante: gfs
+=====================================================
+
+glo25_gfs;met5;ant5
+
+glo25_gfs
+met5
+ant5
+=====================================================
+ RODANDO WW3 Grades: glo25,met5,ant5 Forçante: gfs
+=====================================================
+
+glo25_gfs;met5;ant5
+
+glo25_gfs
+met5
+ant5
+=====================================================
+ RODANDO WW3 Grades: glo25,met5,ant5 Forçante: gfs
+=====================================================
+
+glo25_gfs;met5;ant5
+
+glo25_gfs
+met5
+ant5
+
+                    *** WAVEWATCH III Multi-grid shell ***    
+               =================================================
+
+ ========== STARTING MWW3 INITIALIZATION (WMINIT) =============================
+
+  Opening input file ww3_multi.inp (unit number  8)
+  Opening output file log.mww3 (unit number  9)
+
+  Comment character : '$'
+
+  Number of grids          :  3
+  Input data grids         :  2
+  Single point output file : YES/--
+
+  Output server type       :  1
+  Single point output proc : YES/--
+       Unified point output [points]
+          Initializing grids ...
+
+  Input grid information : 
+  nr extension  lev.   cur.   wind   ice    data
+ -------------------------------------------------
+   1 gfs        ---    ---     X     ---    - - -
+   2 ice        ---    ---    ---     X     - - -
+ -------------------------------------------------
+
+  Grid for point output : 
+  nr extension  
+ ---------------
+     points    
+ ---------------
+
+  Wave grid information : 
+  nr extension  lev.   cur.   wind   ice    data   move1 rnk grp dmp
+ --------------------------------------------------------------------
+   1 glo25_gfs  ---    ---    gfs    ice    - - -  no     1   1   -
+   2 met5       ---    ---    gfs    ---    - - -  no     2   2   y
+   3 ant5       ---    ---    gfs    ice    - - -  no     3   3   y
+ --------------------------------------------------------------------
+
+  Group information : 
+  nr   grids (part of comm.)
+ --------------------------------------------------------------------
+   1    1 (0.0000-1.0000)
+   2    2 (0.0000-1.0000)
+   3    3 (0.0000-1.0000)
+ --------------------------------------------------------------------
+
+
+  Time interval : 
+ --------------------------------------------------
+       Starting time : 2017/08/08 00:00:00 UTC
+       Ending time   : 2017/08/13 00:00:00 UTC
+
+
+  Model settings : 
+ --------------------------------------------------
+       Masking computation in nesting : ---/NO
+       Masking output in nesting      : ---/NO
+
+
+  Output requests : (ALL GRIDS) 
+ ==================================================
+
+       Type 1 : Fields of mean wave parameters
+      -----------------------------------------
+            From     : 2017/08/08 00:00:00 UTC
+            To       : 2017/08/13 00:00:00 UTC
+            Interval :             1:00:00
+
+            Fields   : Wind speed          
+                       Ice concentration   
+                       Wave height         
+                       Mean wave period(+2)
+                       Mean wave period(-1)
+                       Mean wave period(+1)
+                       Peak frequency      
+                       Mean wave dir. a1b1 
+                       Mean dir. spr. a1b1 
+                       Peak direction      
+                       Part. wave height   
+                       Part. peak period   
+                       Part. mean direction
+
+       Type 2 : Point output                  
+      -----------------------------------------
+            From     : 2017/08/08 00:00:00 UTC
+            To       : 2017/08/13 00:00:00 UTC
+            Interval :             1:00:00
+
+            Point  1 :  -0.431400E+02 -0.228900E+02  B_GUANABA1   
+                   2 :  -0.473900E+02 -0.285100E+02  B_SCATARIN   
+                   3 :  -0.498100E+02 -0.315200E+02  B_R_GRANDE   
+                   4 :  -0.379400E+02 -0.160000E+02  B_P_SEGURO   
+                   5 :  -0.431500E+02 -0.230700E+02  B_GUANABA2   
+                   6 :  -0.451400E+02 -0.257000E+02  B_SANTOS_1   
+                   7 :  -0.495600E+02 -0.322700E+02  B_RGRANDE2   
+                   8 :  -0.403400E+02 -0.203200E+02  B_VITORIA    
+                   9 :  -0.450400E+02 -0.254400E+02  B_SANTOS_2   
+                  10 :  -0.422000E+02 -0.236300E+02  B_CBFRIO23   
+                  11 :  -0.384300E+02 -0.321000E+01  B_FORTALE1   
+                  12 :  -0.384400E+02 -0.321000E+01  B_FORTALE2   
+                  13 :  -0.472800E+02 -0.274100E+02  B_SCATARI2   
+                  14 :  -0.498700E+02 -0.315700E+02  B_RGRANDE3   
+                  15 :  -0.450400E+02 -0.254400E+02  B_SANTOS_3   
+                  16 :  -0.431300E+02 -0.228900E+02  B_NITEROI    
+
+       Type 4 : Restart files                 
+      -----------------------------------------
+            From     : 2017/08/08 00:00:00 UTC
+            To       : 2017/08/10 00:00:00 UTC
+            Interval :            12:00:00
+
+
+       Type 5 : Nesting data                  
+      -----------------------------------------
+            From     : 2017/08/08 00:00:00 UTC
+            To       : 2017/08/13 00:00:00 UTC
+            Interval :             1:00:00
+
+
+
+  Assigning resources : 
+ --------------------------------------------------
+       No (other) dedicated output processes.
+
+       grid           comp.      grd    pnt    trk    rst    bpt    prt
+      -------------------------------------------------------------------
+       glo25_gfs   00001-00202  00201  00200  -----  00202  00199  -----
+       met5        00001-00202  00201  00200  -----  00202  00199  -----
+       ant5        00001-00202  00201  00200  -----  00202  00199  -----
+      -------------------------------------------------------------------
+         Unified point output at 00200
+ 
+
+
+  Initializations :
+ --------------------------------------------------
+       Model number  1 [glo25_gfs]
+          Initializing wave model ...
+          Initializing model input ...
+            water levels : file not needed
+            currents     : file not needed
+            winds        : file not needed
+            ice fields   : file not needed
+       Model number  2 [met5]
+          Initializing wave model ...
+          Initializing model input ...
+            water levels : file not needed
+            currents     : file not needed
+            winds        : file not needed
+            ice fields   : file not needed
+       Model number  3 [ant5]
+          Initializing wave model ...
+          Initializing model input ...
+            water levels : file not needed
+            currents     : file not needed
+            winds        : file not needed
+            ice fields   : file not needed
+       Input data grid  1 [gfs]
+          Initializing grids ...
+            water levels : file not needed
+            currents     : file not needed
+            winds        : file OK
+            ice fields   : file not needed
+       Input data grid  2 [ice]
+          Initializing grids ...
+            water levels : file not needed
+            currents     : file not needed
+            winds        : file not needed
+            ice fields   : file OK
+
+  Computing relation to higher ranked grids
+
+  Generating map with distances to boundary.
+Starting MAPBDI 1st loop.
+    processing column   250 out of   631
+    processing column   500 out of   631
+Starting MAPBDI 2nd loop.
+    bnd. point    25 out of   631
+    bnd. point    50 out of   631
+    bnd. point    75 out of   631
+    bnd. point   100 out of   631
+    bnd. point   125 out of   631
+    bnd. point   150 out of   631
+    bnd. point   175 out of   631
+    bnd. point   200 out of   631
+    bnd. point   225 out of   631
+    bnd. point   250 out of   631
+    bnd. point   275 out of   631
+    bnd. point   300 out of   631
+    bnd. point   325 out of   631
+    bnd. point   350 out of   631
+    bnd. point   375 out of   631
+    bnd. point   400 out of   631
+    bnd. point   425 out of   631
+    bnd. point   450 out of   631
+    bnd. point   475 out of   631
+    bnd. point   500 out of   631
+    bnd. point   525 out of   631
+    bnd. point   550 out of   631
+    bnd. point   575 out of   631
+    bnd. point   600 out of   631
+    bnd. point   625 out of   631
+Finished MAPBDI 2nd loop.
+  Finished generating map with distances to boundary.
+
+  Generating map with distances to boundary.
+Starting MAPBDI 1st loop.
+    processing column   250 out of   457
+Starting MAPBDI 2nd loop.
+    bnd. point    25 out of   457
+    bnd. point    50 out of   457
+    bnd. point    75 out of   457
+    bnd. point   100 out of   457
+    bnd. point   125 out of   457
+    bnd. point   150 out of   457
+    bnd. point   175 out of   457
+    bnd. point   200 out of   457
+    bnd. point   225 out of   457
+    bnd. point   250 out of   457
+    bnd. point   275 out of   457
+    bnd. point   300 out of   457
+    bnd. point   325 out of   457
+    bnd. point   350 out of   457
+    bnd. point   375 out of   457
+    bnd. point   400 out of   457
+    bnd. point   425 out of   457
+    bnd. point   450 out of   457
+Finished MAPBDI 2nd loop.
+  Finished generating map with distances to boundary.
+
+
+  Finished computing relation to higher ranked grids
+
+
+  Additional group information
+
+  Lower rank grid dependence : 
+  nr   grids (part of comm.)
+ --------------------------------------------------------------------
+   1   No dependencies
+   2    1
+   3    1  2
+ --------------------------------------------------------------------
+
+  No same rank grid dependencies
+
+  Higher rank grid dependence : 
+  nr   grids (part of comm.)
+ --------------------------------------------------------------------
+   1    2  3
+   2    3
+   3   No dependencies
+ --------------------------------------------------------------------
+
+  Running the model :
+ --------------------------------------------------
+
+ ========== END OF MWW3 INITIALIZATION (WMINIT) ===============================
+
+ ========== STARTING WAVE MODEL (WMWAVE) ======================================
+
+  MWW3 calculating for 2017/08/08 00:00:00 UTC at 16:54:18  status [ 0- 0]
+ 
+  Updating input for grid  1 at 2017/08/08 00:00:00 UTC
+     Updating winds        
+        First updating gfs          
+     Updating ice fields   
+        First updating ice          
+ 
+  Updating input for grid  2 at 2017/08/08 00:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/08 00:00:00 UTC
+     Updating winds        
+     Updating ice fields   
+ 
+  Updating input for grid  1 at 2017/08/08 00:00:00 UTC
+     Updating ice fields   
+        First updating ice          
+ 
+  Updating input for grid  3 at 2017/08/08 00:00:00 UTC
+     Updating ice fields   
+ 
+  MWW3 calculating for 2017/08/08 01:00:00 UTC at 16:54:25  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 02:00:00 UTC at 16:54:53  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 03:00:00 UTC at 16:55:14  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/08 03:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/08 03:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/08 03:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/08 04:00:00 UTC at 16:55:32  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 05:00:00 UTC at 16:55:47  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 06:00:00 UTC at 16:56:01  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/08 06:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/08 06:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/08 06:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/08 07:00:00 UTC at 16:56:15  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 08:00:00 UTC at 16:56:27  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 09:00:00 UTC at 16:56:39  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/08 09:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/08 09:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/08 09:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/08 10:00:00 UTC at 16:56:52  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 11:00:00 UTC at 16:57:03  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 12:00:00 UTC at 16:57:15  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/08 12:00:00 UTC
+     Updating winds        
+        First updating gfs          
+     Updating ice fields   
+        First updating ice          
+ 
+  Updating input for grid  2 at 2017/08/08 12:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/08 12:00:00 UTC
+     Updating winds        
+     Updating ice fields   
+ 
+  MWW3 calculating for 2017/08/08 13:00:00 UTC at 16:57:40  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 14:00:00 UTC at 16:57:51  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 15:00:00 UTC at 16:58:03  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/08 15:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/08 15:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/08 15:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/08 16:00:00 UTC at 16:58:14  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 17:00:00 UTC at 16:58:25  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 18:00:00 UTC at 16:58:37  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/08 18:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/08 18:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/08 18:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/08 19:00:00 UTC at 16:58:48  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 20:00:00 UTC at 16:58:59  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 21:00:00 UTC at 16:59:09  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/08 21:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/08 21:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/08 21:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/08 22:00:00 UTC at 16:59:20  status [ 1- 5]
+  MWW3 calculating for 2017/08/08 23:00:00 UTC at 16:59:31  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 00:00:00 UTC at 16:59:41  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/09 00:00:00 UTC
+     Updating winds        
+        First updating gfs          
+     Updating ice fields   
+        First updating ice          
+ 
+  Updating input for grid  2 at 2017/08/09 00:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/09 00:00:00 UTC
+     Updating winds        
+     Updating ice fields   
+ 
+  MWW3 calculating for 2017/08/09 01:00:00 UTC at 17:00:04  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 02:00:00 UTC at 17:00:14  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 03:00:00 UTC at 17:00:25  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/09 03:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/09 03:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/09 03:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/09 04:00:00 UTC at 17:00:36  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 05:00:00 UTC at 17:00:46  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 06:00:00 UTC at 17:00:57  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/09 06:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/09 06:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/09 06:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/09 07:00:00 UTC at 17:01:08  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 08:00:00 UTC at 17:01:19  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 09:00:00 UTC at 17:01:29  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/09 09:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/09 09:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/09 09:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/09 10:00:00 UTC at 17:01:40  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 11:00:00 UTC at 17:01:50  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 12:00:00 UTC at 17:02:01  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/09 12:00:00 UTC
+     Updating winds        
+        First updating gfs          
+     Updating ice fields   
+        First updating ice          
+ 
+  Updating input for grid  2 at 2017/08/09 12:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/09 12:00:00 UTC
+     Updating winds        
+     Updating ice fields   
+ 
+  MWW3 calculating for 2017/08/09 13:00:00 UTC at 17:02:22  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 14:00:00 UTC at 17:02:33  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 15:00:00 UTC at 17:02:43  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/09 15:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/09 15:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/09 15:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/09 16:00:00 UTC at 17:02:53  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 17:00:00 UTC at 17:03:04  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 18:00:00 UTC at 17:03:14  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/09 18:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/09 18:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/09 18:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/09 19:00:00 UTC at 17:03:25  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 20:00:00 UTC at 17:03:35  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 21:00:00 UTC at 17:03:45  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/09 21:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/09 21:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/09 21:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/09 22:00:00 UTC at 17:03:55  status [ 1- 5]
+  MWW3 calculating for 2017/08/09 23:00:00 UTC at 17:04:06  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 00:00:00 UTC at 17:04:16  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/10 00:00:00 UTC
+     Updating winds        
+        First updating gfs          
+     Updating ice fields   
+        First updating ice          
+ 
+  Updating input for grid  2 at 2017/08/10 00:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/10 00:00:00 UTC
+     Updating winds        
+     Updating ice fields   
+ 
+  MWW3 calculating for 2017/08/10 01:00:00 UTC at 17:04:42  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 02:00:00 UTC at 17:04:52  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 03:00:00 UTC at 17:05:02  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/10 03:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/10 03:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/10 03:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/10 04:00:00 UTC at 17:05:13  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 05:00:00 UTC at 17:05:22  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 06:00:00 UTC at 17:05:33  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/10 06:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/10 06:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/10 06:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/10 07:00:00 UTC at 17:05:43  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 08:00:00 UTC at 17:05:53  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 09:00:00 UTC at 17:06:03  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/10 09:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/10 09:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/10 09:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/10 10:00:00 UTC at 17:06:13  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 11:00:00 UTC at 17:06:23  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 12:00:00 UTC at 17:06:33  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/10 12:00:00 UTC
+     Updating winds        
+        First updating gfs          
+     Updating ice fields   
+        First updating ice          
+ 
+  Updating input for grid  2 at 2017/08/10 12:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/10 12:00:00 UTC
+     Updating winds        
+     Updating ice fields   
+ 
+  MWW3 calculating for 2017/08/10 13:00:00 UTC at 17:06:42  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 14:00:00 UTC at 17:06:52  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 15:00:00 UTC at 17:07:02  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/10 15:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/10 15:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/10 15:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/10 16:00:00 UTC at 17:07:12  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 17:00:00 UTC at 17:07:22  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 18:00:00 UTC at 17:07:32  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/10 18:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/10 18:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/10 18:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/10 19:00:00 UTC at 17:07:42  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 20:00:00 UTC at 17:07:52  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 21:00:00 UTC at 17:08:01  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/10 21:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/10 21:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/10 21:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/10 22:00:00 UTC at 17:08:11  status [ 1- 5]
+  MWW3 calculating for 2017/08/10 23:00:00 UTC at 17:08:21  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 00:00:00 UTC at 17:08:31  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/11 00:00:00 UTC
+     Updating winds        
+        First updating gfs          
+     Updating ice fields   
+        First updating ice          
+ 
+  Updating input for grid  2 at 2017/08/11 00:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/11 00:00:00 UTC
+     Updating winds        
+     Updating ice fields   
+ 
+  MWW3 calculating for 2017/08/11 01:00:00 UTC at 17:08:41  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 02:00:00 UTC at 17:08:50  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 03:00:00 UTC at 17:09:00  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/11 03:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/11 03:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/11 03:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/11 04:00:00 UTC at 17:09:10  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 05:00:00 UTC at 17:09:19  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 06:00:00 UTC at 17:09:29  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/11 06:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/11 06:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/11 06:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/11 07:00:00 UTC at 17:09:39  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 08:00:00 UTC at 17:09:51  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 09:00:00 UTC at 17:10:06  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/11 09:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/11 09:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/11 09:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/11 10:00:00 UTC at 17:10:21  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 11:00:00 UTC at 17:10:35  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 12:00:00 UTC at 17:10:50  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/11 12:00:00 UTC
+     Updating winds        
+        First updating gfs          
+     Updating ice fields   
+        First updating ice          
+ 
+  Updating input for grid  2 at 2017/08/11 12:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/11 12:00:00 UTC
+     Updating winds        
+     Updating ice fields   
+ 
+  MWW3 calculating for 2017/08/11 13:00:00 UTC at 17:11:05  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 14:00:00 UTC at 17:11:20  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 15:00:00 UTC at 17:11:35  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/11 15:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/11 15:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/11 15:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/11 16:00:00 UTC at 17:11:50  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 17:00:00 UTC at 17:12:05  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 18:00:00 UTC at 17:12:20  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/11 18:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/11 18:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/11 18:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/11 19:00:00 UTC at 17:12:35  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 20:00:00 UTC at 17:12:50  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 21:00:00 UTC at 17:13:05  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/11 21:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/11 21:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/11 21:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/11 22:00:00 UTC at 17:13:19  status [ 1- 5]
+  MWW3 calculating for 2017/08/11 23:00:00 UTC at 17:13:33  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 00:00:00 UTC at 17:13:48  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/12 00:00:00 UTC
+     Updating winds        
+        First updating gfs          
+     Updating ice fields   
+        First updating ice          
+ 
+  Updating input for grid  2 at 2017/08/12 00:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/12 00:00:00 UTC
+     Updating winds        
+     Updating ice fields   
+ 
+  MWW3 calculating for 2017/08/12 01:00:00 UTC at 17:14:04  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 02:00:00 UTC at 17:14:19  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 03:00:00 UTC at 17:14:33  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/12 03:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/12 03:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/12 03:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/12 04:00:00 UTC at 17:14:48  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 05:00:00 UTC at 17:15:03  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 06:00:00 UTC at 17:15:18  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/12 06:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/12 06:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/12 06:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/12 07:00:00 UTC at 17:15:33  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 08:00:00 UTC at 17:15:48  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 09:00:00 UTC at 17:16:03  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/12 09:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/12 09:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/12 09:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/12 10:00:00 UTC at 17:16:18  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 11:00:00 UTC at 17:16:33  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 12:00:00 UTC at 17:16:47  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/12 12:00:00 UTC
+     Updating winds        
+        First updating gfs          
+     Updating ice fields   
+        First updating ice          
+ 
+  Updating input for grid  2 at 2017/08/12 12:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/12 12:00:00 UTC
+     Updating winds        
+     Updating ice fields   
+ 
+  MWW3 calculating for 2017/08/12 13:00:00 UTC at 17:17:02  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 14:00:00 UTC at 17:17:18  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 15:00:00 UTC at 17:17:33  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/12 15:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/12 15:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/12 15:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/12 16:00:00 UTC at 17:17:48  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 17:00:00 UTC at 17:18:03  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 18:00:00 UTC at 17:18:18  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/12 18:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/12 18:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/12 18:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/12 19:00:00 UTC at 17:18:34  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 20:00:00 UTC at 17:18:49  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 21:00:00 UTC at 17:19:04  status [ 1- 5]
+ 
+  Updating input for grid  1 at 2017/08/12 21:00:00 UTC
+     Updating winds        
+        First updating gfs          
+ 
+  Updating input for grid  2 at 2017/08/12 21:00:00 UTC
+     Updating winds        
+ 
+  Updating input for grid  3 at 2017/08/12 21:00:00 UTC
+     Updating winds        
+ 
+  MWW3 calculating for 2017/08/12 22:00:00 UTC at 17:19:19  status [ 1- 5]
+  MWW3 calculating for 2017/08/12 23:00:00 UTC at 17:19:35  status [ 1- 5]
+  MWW3 calculating for 2017/08/13 00:00:00 UTC at 17:19:50  status [ 1- 5]
+  MWW3 reached the end of the computation loop at 17:20:02
+
+ ========== END OF WAVE MODEL (WMWAVE) ========================================
+
+ ========== STARTING MWW3 FINALIZATION (WMFINL) ===============================
+
+  Initialization time :    109.91 s
+  Elapsed time        :   1653.46 s
+
+ ========== END OF MWW3 INITIALIZATION (WMFINL) ===============================
+
+
+
+  End of program 
+ ========================================
+          WAVEWATCH III Multi-grid shell 
+

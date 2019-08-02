@@ -1,0 +1,76 @@
+ 
+ Fazendo restarts GLO MET e ANT 
+ ww3_strt.inp: Fetch-limited JONSWAP
+ 
+
+ Restart  glo25_gfs
+
+
+                  *** WAVEWATCH III  Initial conditions ***   
+               ===============================================
+
+  Comment character is '$'
+
+  Grid name : GLO 25m                       
+
+
+  Initial field ITYPE = 3
+ --------------------------------------------------
+       Fetch-limited JONSWAP spectra based on local 
+       wind speed (fetch related to grid increment).
+
+       Writing restart file  ... 
+
+
+  End of program 
+ =========================================
+         WAVEWATCH III Initial conditions 
+
+
+ Restart  met5
+
+
+                  *** WAVEWATCH III  Initial conditions ***   
+               ===============================================
+
+  Comment character is '$'
+
+  Grid name : MET 5m                        
+
+
+  Initial field ITYPE = 3
+ --------------------------------------------------
+       Fetch-limited JONSWAP spectra based on local 
+       wind speed (fetch related to grid increment).
+
+       Writing restart file  ... 
+
+
+  End of program 
+ =========================================
+         WAVEWATCH III Initial conditions 
+
+
+ Restart  ant5
+
+
+                  *** WAVEWATCH III  Initial conditions ***   
+               ===============================================
+
+  Comment character is '$'
+
+  Grid name : ANT 5m                        
+
+
+  Initial field ITYPE = 3
+ --------------------------------------------------
+       Fetch-limited JONSWAP spectra based on local 
+       wind speed (fetch related to grid increment).
+
+       Writing restart file  ... 
+
+
+  End of program 
+ =========================================
+         WAVEWATCH III Initial conditions 
+
