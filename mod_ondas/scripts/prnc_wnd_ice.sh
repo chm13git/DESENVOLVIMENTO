@@ -21,7 +21,7 @@ if [ $# -lt 2 ]
    echo "                                              "
    echo " ./prnc_wnd_ice.sh (Vwnd ou ice) hh yyyymmdd  "
    echo "                                              "
-   echo "   Vwnd = (gfs, icon, cosmo, gfs12, icon12)   "
+   echo "   Vwnd = (gfs, icon, cosmo, gfs12, icon13)   "
    echo "                                              "
    echo "    ex: ./prnc_wnd_ice.sh gfs 00 20190716     "
    echo "+--------------------------------------------+"
@@ -48,7 +48,7 @@ WORKDIR=${WW3DIR}/work
 GRDDIR=${WW3DIR}/grids
 FIXODIR=${WW3DIR}/fixos
 
-# -----------------------
+# ---------------------
 #  Realização do prnc
 
 if [ ${FORC} = "ice" ]; then    # TESTADO e CORRETO
@@ -62,51 +62,7 @@ if [ ${FORC} = "ice" ]; then    # TESTADO e CORRETO
    cd ${WORKDIR}
    ww3_prnc
    mv ${WORKDIR}/ice.ww3 ${FORCDIR}/${FORC}.${AMD}.${FORC}
-elif [ ${FORC} = "gfs" ]; then    # TESTADO e CORRETO
-   FORCDIR=${WW3DIR}/input/vento/${FORC}
-   ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.ww3
-   ln -sf ${FORCDIR}/${FORC}.${AMD}${HSIM}.nc ${WORKDIR}/wnd.nc
-   ln -sf ${FIXODIR}/ww3_prnc.inp.${FORC} ${WORKDIR}/ww3_prnc.inp
-   echo " "
-   echo " Executando o prnc "${FORC} ${AMD}${HSIM}
-   echo " "
-   cd ${WORKDIR}
-   ww3_prnc
-   mv ${WORKDIR}/wind.ww3 ${FORCDIR}/wind.${AMD}${HSIM}.${FORC}
-elif [ ${FORC} = "gfs12" ]; then    # TESTADO e CORRETO
-   FORCDIR=${WW3DIR}/input/vento/${FORC}
-   ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.ww3
-   ln -sf ${FORCDIR}/gfs.${AMD}${HSIM}.nc ${WORKDIR}/wnd.nc
-   ln -sf ${FIXODIR}/ww3_prnc.inp.${FORC} ${WORKDIR}/ww3_prnc.inp
-   echo " "
-   echo " Executando o prnc "${FORC} ${AMD}${HSIM}
-   echo " "
-   cd ${WORKDIR}
-   ww3_prnc
-   mv ${WORKDIR}/wind.ww3 ${FORCDIR}/wind.${AMD}${HSIM}.${FORC}
-elif [ ${FORC} = "icon" ]; then  # TESTADO e CORRETO
-   FORCDIR=${WW3DIR}/input/vento/${FORC}
-   ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.ww3
-   ln -sf ${FORCDIR}/${FORC}.${AMD}${HSIM}.nc ${WORKDIR}/wnd.nc
-   ln -sf ${FIXODIR}/ww3_prnc.inp.${FORC} ${WORKDIR}/ww3_prnc.inp
-   echo " "
-   echo " Executando o prnc "${FORC} ${AMD}${HSIM}
-   echo " "
-   cd ${WORKDIR}
-   ww3_prnc
-   mv ${WORKDIR}/wind.ww3 ${FORCDIR}/wind.${AMD}${HSIM}.${FORC}
-elif [ ${FORC} = "icon12" ]; then  # TESTADO e TIME INCORRETO.. Bruna consertando a variável de tempo
-   FORCDIR=${WW3DIR}/input/vento/${FORC}
-   ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.ww3
-   ln -sf ${FORCDIR}/${FORC}.${AMD}${HSIM}.nc ${WORKDIR}/wnd.nc
-   ln -sf ${FIXODIR}/ww3_prnc.inp.${FORC} ${WORKDIR}/ww3_prnc.inp
-   echo " "
-   echo " Executando o prnc "${FORC} ${AMD}${HSIM}
-   echo " "
-   cd ${WORKDIR}
-   ww3_prnc
-   mv ${WORKDIR}/wind.ww3 ${FORCDIR}/wind.${AMD}${HSIM}.${FORC}
-elif [ ${FORC} = "cosmo" ]; then  # TESTADO e CORRETO
+else
    FORCDIR=${WW3DIR}/input/vento/${FORC}
    ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.ww3
    ln -sf ${FORCDIR}/${FORC}.${AMD}${HSIM}.nc ${WORKDIR}/wnd.nc
