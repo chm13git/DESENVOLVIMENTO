@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 ##################################################
 # Script que realiza o Download do vento a 10 m  #
 # do GFS 12 km, horário, para a rodada WW3       #
@@ -17,7 +17,6 @@ DIRWND=${WW3DIR}/input/vento
 DIRGFS12=${DIRWND}/gfs12
 DIRGFSdados12=${DIRGFS12}/dados
 WORKDIRGFS12=${DIRGFSdados12}/work
-
 
 if [ $# -lt 1 ]
    then
