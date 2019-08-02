@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 ##################################################
 # Script que realiza o Download do vento a 10 m  #
 # do GFS para a rodada WW3                       #
