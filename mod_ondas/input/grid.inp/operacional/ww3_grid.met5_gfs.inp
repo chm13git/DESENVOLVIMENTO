@@ -1,0 +1,32 @@
+$ -------------------------------------------------------------------- $
+$ WAVEWATCH III Grid preprocessor input file                           $
+$ -------------------------------------------------------------------- $
+$
+  'MET 5m'
+$
+   1.1  0.04118  25  36  0.
+   F T T T F T
+   1800.    270.   300.    10.                     
+$
+  &SIN4 BETAMAX = 1.5 /
+  &MISC FLAGTR = 2 /
+  &MISC CICE0 = 0.25, CICEN = 0.75 /
+$
+END OF NAMELISTS
+$
+'RECT'  T  'NONE'
+631 	 757 
+5.00 	  5.00 	 60.00 
+289.0000 	 -49.0000 	  1.00
+$ Bottom Bathymetry 
+-0.10   2.50  40  0.001000  1  1 '(....)'  NAME  'arqs/AtlMETA5m.depth_ascii' 
+$ Sub-grid information 
+50  0.010000  1  1  '(....)'  NAME  'arqs/AtlMETA5m.obstr_lev1'  
+$ Mask Information 
+60  1  1  '(....)'  NAME  'arqs/AtlMETA5m.mask'  
+$
+      0.  0.  0.  0.   0
+$
+$ -------------------------------------------------------------------- $
+$ End of input file                                                    $
+$ -------------------------------------------------------------------- $
