@@ -48,51 +48,62 @@ Flag=0
 Abort=300
 nt=0
 
-for HH in `seq -f "%03g" ${HSTART} 3 ${HSTOP}`;do
+GFSww3Op=/data2/operador/mod_ondas/ww3_418/input/vento/gfs
+
+if [ -e ${GFSww3Op}/gfs.${AMD}${HSIM}.nc ]; then
+
+  cp ${GFSww3Op}/gfs.${AMD}${HSIM}.nc ${DIRGFS}/gfs.${AMD}${HSIM}.nc
+  exit 1
+
+else
+  for HH in `seq -f "%03g" ${HSTART} 3 ${HSTOP}`;do
 	
-      URL="https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?file=${GFSARQ}${HH}&\
+    URL="https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?file=${GFSARQ}${HH}&\
 lev_10_m_above_ground=on&var_UGRD=on&var_VGRD=on&leftlon=0&rightlon=360&toplat=90&bottomlat=-90&dir=%2Fgfs.${AMD}%2F${HSIM}"
 
-	wget wget "${URL}" -O "${DIRGFSdados}/gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH}"
+    wget wget "${URL}" -O "${DIRGFSdados}/gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH}"
 
-      # CHECAGEM DO DOWNLOAD
-      Nvar=`${p_wgrib2} ${DIRGFSdados}/gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH} | wc -l`
+    # CHECAGEM DO DOWNLOAD
+    Nvar=`${p_wgrib2} ${DIRGFSdados}/gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH} | wc -l`
 
-      if [ ${Nvar} -lt ${Nref} ];then
+    if [ ${Nvar} -lt ${Nref} ];then
 
-         Flag=1 
+       Flag=1 
 
-         while [ "${Flag}" = "1" ] || [${Abort} -gt ${nt}]; do
+       while [ "${Flag}" = "1" ] || [${Abort} -gt ${nt}]; do
 
-            sleep 60
-            echo " "
-            echo " Tentando o Download novamente do gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH}"
-            echo " "
-
-            URL="https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?file=${GFSARQ}${HH}&\
+         sleep 60
+         echo " "
+         echo " Tentando o Download novamente do gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH}"
+         echo " "
+         URL="https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?file=${GFSARQ}${HH}&\
 lev_10_m_above_ground=on&var_UGRD=on&var_VGRD=on&leftlon=0&rightlon=360&toplat=90&bottomlat=-90&dir=%2Fgfs.${AMD}%2F${HSIM}"
 
-            wget wget "${URL}" -O "${DIRGFSdados}/gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH}"
-            Nvar=`${p_wgrib2} ${DIRGFSdados}/gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH} | wc -l`
+         wget wget "${URL}" -O "${DIRGFSdados}/gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH}"
+         Nvar=`${p_wgrib2} ${DIRGFSdados}/gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH} | wc -l`
             
-            if [ ${Nvar} -lt ${Nref} ];then
-               Flag=1
-               echo " "
-               echo " Nova tentativa de Download do dado gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH}  OK"
-               echo " "
-            else               
-               Flag=0
-            fi
+         if [ ${Nvar} -lt ${Nref} ];then
+           Flag=1
+           echo " "
+           echo " Nova tentativa de Download do dado gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH}  OK"
+           echo " "
+         else               
+           Flag=0
+         fi
 
-            nt=$((nt+1))
+         nt=$((nt+1))
 
-         done         
-      else
-         echo " "
-         echo " Dado gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH}  OK"
-         echo " "
-      fi
-done
+       done         
+    else
+
+      echo " "
+      echo " Dado gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH}  OK"
+      echo " "
+
+    fi
+
+  done
+fi
 
 for HH in `seq -f "%03g" ${HSTART} 3 ${HSTOP}`;do
    ARQ=gfs.${AMD}${HSIM}.pgrb2.0p25.f${HH}
