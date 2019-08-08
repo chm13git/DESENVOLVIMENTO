@@ -191,7 +191,7 @@ $
 $
    dataini  cyc0000       0  datafim  cyc0000
 $
-   dataini  cyc0000   43200  restart  cyc0000
+   dataini  cyc0000   21600  restart  cyc0000
 $
    dataini  cyc0000    3600  datafim  cyc0000
 $
