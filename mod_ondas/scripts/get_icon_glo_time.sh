@@ -100,7 +100,13 @@ for VAR in $VARS; do
         time_in="$(date --date "${YEAR}${MONTH}${DAY} ${CC}:00:00" +%s)"
         cp wnd.nc wnd_out.nc
         ~/anaconda3/bin/ncap2 -O -v -s "time=${time_in}+time*60" wnd_out.nc wnd2.nc 
-        ~/anaconda3/bin/ncks -A -h -M -m -C -v time wnd2.nc wnd_out.nc        
+        ~/anaconda3/bin/ncks -A -h -M -m -C -v time wnd2.nc wnd_out.nc  
+        ~/anaconda3/bin/ncatted -O -a ,time,d,, wnd_out.nc # deleta atributos time
+        # inclui atributos nas variáveis time, 10u e 10v
+        ~/anaconda3/bin/ncatted -O -a units,time,o,c,'seconds since 1970-01-01 00:00:00.0 0:00' wnd_out.nc 
+        ~/anaconda3/bin/ncatted -O -a calendar,time,o,c,'standard' wnd_out.nc 
+        ~/anaconda3/bin/ncatted -O -a _FillValue,10u,a,f,"9.999e+20" wnd_out.nc -o wnd_out.nc 
+        ~/anaconda3/bin/ncatted -O -a _FillValue,10v,a,f,"9.999e+20" wnd_out.nc -o wnd_out.nc      
  
         # Otimiza arquivo
         nccopy -d 7 wnd_out.nc wnd_cp.nc 
