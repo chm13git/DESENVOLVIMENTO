@@ -96,31 +96,14 @@ for VAR in $VARS; do
    	#cdo mergetime icon_global_icosahedral_single-level_${YEAR}${MONTH}${DAY}${CC}_*_${VV}_reg.nc ${file} 
         cdo mergetime icon_global_icosahedral_single-level_${YEAR}${MONTH}${DAY}${CC}_*_${VV}_reg.nc wnd.nc
         nccopy -d 7 wnd.nc wnd_cp.nc 
-#        minsize1=905750549
-#        minsize2=52057170                 
-#        size=$(wc -c <"wnd_cp.nc")
-       
-#        if [ $CC = '00' ] || [ $CC = '12' ] & [ $size -ge $minsize1 ] 
-#        then
+
         mv ${VDIR}/wnd_cp.nc ${MDIR}/${file}
         # Remove arquivos desnecessários
         if [ -f "${MDIR}/${file}" ]
         then
         rm -f ${VDIR}/*
-#        elif [ $CC = '06' ] || [ $CC = '18' ] & [ $size -ge $minsize2 ]
-#        then 
-#        mv ${VDIR}/wnd_cp.nc ${MDIR}/${file}
-        # Remove arquivos desnecessários
-#        rm -f ${VDIR}/*
         fi 	
               
-	# # --- Limpa arquivos e diretorios desnecessários ---
-        #if [ -f "$file" ]
-	#then
-	#rm -f icon_global_icosahedral_single-level_*
-	#mv ${file} ${MDIR}
-	#fi
-
 done 
         rmdir -p ${CDIR}/*
  	
