@@ -11,6 +11,7 @@
 # Definição diretórios raiz e do wavewatch
 source ~/mod_ondas/fixos/dir.sh
 source ~/wavewatch/setww3v607.sh
+source ~/.bashrc
 
 if [ $# -lt 2 ]
    then
@@ -93,7 +94,7 @@ export MPI_IB_RECV_BUFS=256
 
 if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "icon13" ]; then
   ice=ice
-  area1=glo25_${FORC}
+  area1=glo_${FORC}
   area2=met5_${FORC}
   area3=ant5_${FORC}
   AREAS=(${area1} ${area2} ${area3})
@@ -120,14 +121,14 @@ elif [ ${FORC} = "cosmo" ]; then
    echo ' '
    echo ' Linkando mod.def da área: ' ${area1}
    echo ' '
-   ln -sf ${GRDDIR}/mod_def.${area1} ${WORKDIR}/mod_def.${area1}
+   ln -sf ${GRDDIR}/mod_def.${area1} ${WORKDIR}/mod_def.ww3
    if [ -e ${RESTDIRo}/restart.${AMD}${HSIM}.${area1} ];then
      echo ''
      echo ' Linkando e restart da área: ' ${area1}
      echo ''
-     ln -sf ${RESTDIRo}/restart.${AMD}${HSIM}.${area1} ${WORKDIR}/restart.${area1}
+     ln -sf ${RESTDIRo}/restart.${AMD}${HSIM}.${area1} ${WORKDIR}/restart.ww3
    else
-     ln -sf ${RESTDIR}/restart.${area1} ${WORKDIR}/restart.${area1}
+     ln -sf ${RESTDIR}/restart.${area1} ${WORKDIR}/restart.ww3
      echo ''
      echo ' ATENÇÃO: Não há restart '${AMD} ${area1}', VOU UTILIZAR UM RESTART FRIO '
      echo ''
@@ -140,14 +141,19 @@ fi
 echo ' '
 echo ' Linkando os mod.def do vento, points, ice e dados de entrada '
 echo ' '
-ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.${FORC}
-ln -sf ${GRDDIR}/mod_def.points  ${WORKDIR}/mod_def.points
 
-if [ -e ${WNDDIR}/wind.${AMD}${HSIM}.${FORC}]; then
-  echo ''
-  echo ' Linkando vento '${FORC}' '${AMD}' '${HSIM}
-  echo ''
-  ln -sf ${WNDDIR}/wind.${AMD}${HSIM}.${FORC} ${WORKDIR}/wind.${FORC}
+if [ -e ${WNDDIR}/wind.${AMD}${HSIM}.${FORC} ]; then
+  if [ ${FORC} = "cosmo" ]; then 
+    echo ''
+    echo ' Linkando vento '${FORC}' '${AMD}' '${HSIM}
+    echo ''
+    ln -sf ${WNDDIR}/wind.${AMD}${HSIM}.${FORC} ${WORKDIR}/wind.ww3
+  else
+    echo ''
+    echo ' Linkando vento '${FORC}' '${AMD}' '${HSIM}
+    echo ''
+    ln -sf ${WNDDIR}/wind.${AMD}${HSIM}.${FORC} ${WORKDIR}/wind.${FORC}
+  fi
 else
   echo ''
   echo ' Não há vento '${FORC}' '${AMD}' '${HSIM}
@@ -156,40 +162,44 @@ else
   exit
 fi  
 
-if [ ${FORC} != "cosmo" ]; then 
-   num_days=6
-   for i in `seq 1 $num_days`; do 
-      ddd=$(date -d "${AMD} -${i} days" +%Y%m%d)
-      if [ -e ${GELODIR}/ice.${ddd}.ice ]; then
-         ln -sf ${GELODIR}/ice.${ddd}.ice ${WORKDIR}/ice.ice
-         ln -sf ${GRDDIR}/mod_def.ice ${WORKDIR}/mod_def.ice
-         echo ''
-         echo ' Linkando gelo para a data: '${ddd}
-         echo ''
-         break
-      elif [ $i == 6 ]; then
-         echo ''
-         echo ' Sem input de gelo, saindo.. '
-         echo ''
-         exit 1
-      else
-         echo ''
-         echo ' Não há gelo para a data: '${ddd}
-         echo ''
-      fi
-   done
+if [ ${FORC} = "cosmo" ]; then 
+  ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.ww3
+  ln -sf ${GRDDIR}/mod_def.points  ${WORKDIR}/mod_def.points
+  if [ -e ${WW3DIR}/output/ww3icon/${AMD}/nest.t${HSIM}z.met5_icon ]; then
+     ln -sf ${WW3DIR}/output/ww3icon/${AMD}/nest.t${HSIM}z.met5_icon ${WORKDIR}/nest.ww3
+     echo ''
+     echo ' Linkando arquivos nest do WW3ICON para a rodada do WW3/'${FORC}
+     echo ''
+  elif [ -e ${WW3DIR}/output/ww3icon13/${AMD}/nest.t${HSIM}z.met5_icon13 ]; then
+     ln -sf ${WW3DIR}/output/ww3icon13/${AMD}/nest.t${HSIM}z.met5_icon13 ${WORKDIR}/nest.ww3
+     echo ''
+     echo ' Linkando arquivos nest do WW3ICON13 para a rodada do WW3/'${FORC}
+     echo ''
+  fi
 else
-   if [ -e ${WW3DIR}/output/ww3icon/${AMD}/nest.t${HSIM}z.met5_icon]; then
-      ln -sf ${WW3DIR}/output/ww3icon/${AMD}/nest.t${HSIM}z.met5_icon ${WORKDIR}/nest.met5
-      echo ''
-      echo ' Linkando arquivos nest do WW3ICON para a rodada do WW3/'${FORC}
-      echo ''
-   elif [ -e ${WW3DIR}/output/ww3icon13/${AMD}/nest.t${HSIM}z.met5_icon13 ]; then
-      ln -sf ${WW3DIR}/output/ww3icon13/${AMD}/nest.t${HSIM}z.met5_icon13 ${WORKDIR}/nest.met5
-      echo ''
-      echo ' Linkando arquivos nest do WW3ICON13 para a rodada do WW3/'${FORC}
-      echo ''
-   fi
+  ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.${FORC}
+  ln -sf ${GRDDIR}/mod_def.points  ${WORKDIR}/mod_def.points
+  num_days=6
+  for i in `seq 1 $num_days`; do 
+     ddd=$(date -d "${AMD} -${i} days" +%Y%m%d)
+     if [ -e ${GELODIR}/ice.${ddd}.ice ]; then
+        ln -sf ${GELODIR}/ice.${ddd}.ice ${WORKDIR}/ice.ice
+        ln -sf ${GRDDIR}/mod_def.ice ${WORKDIR}/mod_def.ice
+        echo ''
+        echo ' Linkando gelo para a data: '${ddd}
+        echo ''
+        break
+     elif [ $i == 6 ]; then
+        echo ''
+        echo ' Sem input de gelo, saindo.. '
+        echo ''
+        exit 1
+     else
+        echo ''
+        echo ' Não há gelo para a data: '${ddd}
+        echo ''
+     fi
+  done
 fi
 
 cd ${WORKDIR}
@@ -228,44 +238,62 @@ echo ''
 echo ' Copiando os arquivos de output e restarts da rodada do WW3/'${FORC}' data: '${AMD}${HSIM}
 echo ''
 
-if [ -e ${OUTDIR}]; then
- break
+if [ -e ${OUTDIR} ]; then
+ echo ' Já existe o diretório outdir '
 else
  mkdir ${OUTDIR}
 fi
 
 for grd in "${AREAS[@]}"; do
-   echo ''
-   echo ' Copiando restarts e outputs do WW3/'${FORC}' data: '${AMD}${HSIM}
-   echo ''
-   cp ${WORKDIR}/restart001.${grd} ${RESTDIRo}/restart.${rest1}${HSIM}.${grd}
-   cp ${WORKDIR}/restart002.${grd} ${RESTDIRo}/restart.${rest2}${HSIM}.${grd}
-   cp ${WORKDIR}/restart003.${grd} ${RESTDIRo}/restart.${rest3}${HSIM}.${grd}
-   cp ${WORKDIR}/restart004.${grd} ${RESTDIRo}/restart.${rest4}${HSIM}.${grd}
-   cp ${WORKDIR}/out_grd.${grd} ${OUTDIR}/out_grd.t${HSIM}z.${grd}
-   cp ${WORKDIR}/log.${grd} ${LOGDIR}/log.t${HSIM}z.${grd}
+  if [ ${FORC} = "cosmo" ]; then
+    echo ''
+    echo ' Copiando restarts e outputs do WW3/'${FORC}' data: '${AMD}${HSIM}
+    echo ''
+    cp ${WORKDIR}/restart001.ww3 ${RESTDIRo}/restart.${rest1}${HSIM}.${grd}
+    cp ${WORKDIR}/restart002.ww3 ${RESTDIRo}/restart.${rest2}${HSIM}.${grd}
+    cp ${WORKDIR}/restart003.ww3 ${RESTDIRo}/restart.${rest3}${HSIM}.${grd}
+    cp ${WORKDIR}/restart004.ww3 ${RESTDIRo}/restart.${rest4}${HSIM}.${grd}
+    cp ${WORKDIR}/out_grd.ww3 ${OUTDIR}/out_grd.t${HSIM}z.${grd}
+    cp ${WORKDIR}/log.ww3 ${LOGDIR}/log.t${HSIM}z.${grd}
+    cp ${WORKDIR}/out_pnt.ww3 ${OUTDIR}/out_pnt.t${HSIM}z.points
+  elif [ ${FORC} = "icon13" ] && [ ${grd} = "ant5_icon13" ] || [ ${grd} = "met5_icon13" ]; then
+    if [ ${grd} = "ant5_icon13" ]; then
+      grd_aux=ant5_icon1
+      cp ${WORKDIR}/restart001.${grd_aux} ${RESTDIRo}/restart.${rest1}${HSIM}.${grd}
+      cp ${WORKDIR}/restart002.${grd_aux} ${RESTDIRo}/restart.${rest2}${HSIM}.${grd}
+      cp ${WORKDIR}/restart003.${grd_aux} ${RESTDIRo}/restart.${rest3}${HSIM}.${grd}
+      cp ${WORKDIR}/restart004.${grd_aux} ${RESTDIRo}/restart.${rest4}${HSIM}.${grd}
+    elif [ ${grd} = "met5_icon13" ]; then
+      grd_aux=met5_icon1
+      cp ${WORKDIR}/restart001.${grd_aux} ${RESTDIRo}/restart.${rest1}${HSIM}.${grd}
+      cp ${WORKDIR}/restart002.${grd_aux} ${RESTDIRo}/restart.${rest2}${HSIM}.${grd}
+      cp ${WORKDIR}/restart003.${grd_aux} ${RESTDIRo}/restart.${rest3}${HSIM}.${grd}
+      cp ${WORKDIR}/restart004.${grd_aux} ${RESTDIRo}/restart.${rest4}${HSIM}.${grd}    
+    fi    
+    echo ''
+    echo ' Copiando restarts e outputs do WW3/'${FORC}' grade'${grd}' data: '${AMD}${HSIM}
+    echo ''
+    cp ${WORKDIR}/out_grd.${grd} ${OUTDIR}/out_grd.t${HSIM}z.${grd}
+    cp ${WORKDIR}/log.${grd} ${LOGDIR}/log.t${HSIM}z.${grd}
+  else
+    echo ''
+    echo ' Copiando restarts e outputs do WW3/'${FORC}' grade'${grd}' data: '${AMD}${HSIM}
+    echo ''
+    cp ${WORKDIR}/restart001.${grd} ${RESTDIRo}/restart.${rest1}${HSIM}.${grd}
+    cp ${WORKDIR}/restart002.${grd} ${RESTDIRo}/restart.${rest2}${HSIM}.${grd}
+    cp ${WORKDIR}/restart003.${grd} ${RESTDIRo}/restart.${rest3}${HSIM}.${grd}
+    cp ${WORKDIR}/restart004.${grd} ${RESTDIRo}/restart.${rest4}${HSIM}.${grd}
+    cp ${WORKDIR}/out_grd.${grd} ${OUTDIR}/out_grd.t${HSIM}z.${grd}
+    cp ${WORKDIR}/log.${grd} ${LOGDIR}/log.t${HSIM}z.${grd}
+  fi
 done
 
 if [ ${FORC} != "cosmo" ]; then 
-   cp ${WORKDIR}/nest.met5_${FORC} ${OUTDIR}/nest.t${HSIM}z.met5_${FORC}
-   cp ${WORKDIR}/nest.ant5_${FORC} ${OUTDIR}/nest.t${HSIM}z.ant5_${FORC}
-   cp ${WORKDIR}/log.* ${OUTDIR}/
+  cp ${WORKDIR}/nest.met5_${FORC} ${OUTDIR}/nest.t${HSIM}z.met5_${FORC}
+  cp ${WORKDIR}/nest.ant5_${FORC} ${OUTDIR}/nest.t${HSIM}z.ant5_${FORC}
+  cp ${WORKDIR}/log.* ${OUTDIR}/
+  cp ${WORKDIR}/out_pnt.points ${OUTDIR}/out_pnt.t${HSIM}z.points
 fi
-
-cp ${WORKDIR}/out_pnt.points ${OUTDIR}/out_pnt.t${HSIM}z.points
-
-
-#if [ ${FORC} = "gfs" ]; then
-#   touch ${FLAGDIR}/WW3GFS_${AMD}${HSIM}_SAFO
-#elif [ ${FORC} = "gfs12" ]; then
-#   touch ${FLAGDIR}/WW3GFS12_${AMD}${HSIM}_SAFO
-#elif [ ${FORC} = "icon" ]; then
-#   touch ${FLAGDIR}/WW3ICON_${AMD}${HSIM}_SAFO
-#elif [ ${FORC} = "icon13" ]; then
-#   touch ${FLAGDIR}/WW3ICON13_${AMD}${HSIM}_SAFO
-#elif [ ${FORC} = "cosmo" ]; then
-#   touch ${FLAGDIR}/WW3COSMO_${AMD}${HSIM}_SAFO
-#fi
 
 for filename in ${WORKDIR}/*; do
  rm ${filename}
