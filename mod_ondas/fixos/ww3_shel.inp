@@ -2,24 +2,16 @@ $ -------------------------------------------------------------------- $
 $ WAVEWATCH III shel input file                                        $
 $ -------------------------------------------------------------------- $
 $
-   F F     $ Ice parameter 1
-   F F     $ Ice parameter 2
-   F F     $ Ice parameter 3
-   F F     $ Ice parameter 4
-   F F     $ Ice parameter 5
-   F F     $ Mud parameter 1
-   F F     $ Mud parameter 2
-   F F     $ Mud parameter 3
    F F     $ Water levels
    F F     $ Currents
-   T T     $ Winds
+   T F     $ Winds
    F       $ Ice concentrations
    F       $ Assimilation data : Mean parameters
    F       $ Assimilation data : 1-D spectra
    F       $ Assimilation data : 2-D spectra
 $
    dataini cyc0000  $ Starting time in yyyymmdd hhmmss format
-   datafim cyc000   $ Ending time in yyyymmdd hhmmss format
+   datafim cyc0000  $ Ending time in yyyymmdd hhmmss format
 $
 $ Define output server mode. This is used only in the parallel version
 $ of the model. To keep the input file consistent, it is always needed.
@@ -35,7 +27,7 @@ $             2 : Last process is reserved for all output, and does no
 $                 computing.
 $             3 : Multiple dedicated output processes.
 $
-   2
+   1
 $
 $  OUPUT: first time in yyyymmdd hhmmss format, output interval (s), 
 $  and last time in yyyymmdd hhmmss format (all integers).
@@ -215,7 +207,7 @@ $
 $
    dataini  cyc0000       0  datafim  cyc0000  $ Output along track
 $
-   dataini  cyc0000   43200  restart  cyc0000  $ Restart files
+   dataini  cyc0000   21600  restart  cyc0000  $ Restart files
 $
    dataini  cyc0000    3600  datafim  cyc0000  $ Boundary data
 $
