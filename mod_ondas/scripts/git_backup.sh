@@ -34,3 +34,14 @@ for inp in ${FIXODIR}/*; do
   git push origin master
 done
 
+GRDINPDIR=${WW3DIR}/input/grid.inp/operacional/
+
+for inp in ${GRDINPDIR}/*.inp; do
+  git add ${inp}
+  echo ''
+  echo ' Enviando arquivo inp '${inp}' para o GitHub '
+  echo ''
+  git commit -m " Inserção ww3_grid.inp "
+  git push origin master
+done
+
