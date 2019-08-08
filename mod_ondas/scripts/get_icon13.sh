@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 ##################################################
 # Script que realiza o Download do vento a 10 m  #
 # do ICON para a rodada WW3                      #
@@ -18,6 +18,7 @@ DIRWND=${WW3DIR}/input/vento
 DIRICON13=${DIRWND}/icon13
 DIRICONdados13=${DIRICON13}/dados
 WORKDIRICON13=${DIRICONdados13}/work
+
 # Informações para interpolação da grade triangular para grade regular
 # Download dos arquivos abaixo em https://opendata.dwd.de/weather/lib/cdo/
 DIRICONfiles13=${DIRICONdados13}/files
@@ -39,11 +40,13 @@ if [ $# -lt 1 ]
 fi
 
 HSIM=$1  
-HSTART=0
-HSTOP=78
+HSTART1=0
+HSTOP1=78
+HSTART2=81
+HSTOP2=120
 
 if [ $# -eq 1 ]; then
-   AMD=`cat ~/datas/datacorrente${HSIM}`
+   AMD=`cat ~/datas/datacorrente00`
 elif [ $# -eq 2 ]; then
    AMD=$2
 fi
@@ -56,7 +59,7 @@ nt=0
 VARS='u_10m v_10m'
 URL="https://opendata.dwd.de/weather/nwp/icon/grib/${HSIM}"
 
-for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
+for HH in `seq -s " " -f "%03g" ${HSTART1} 1 ${HSTOP1};seq -s " " -f "%03g" ${HSTART2} 3 ${HSTOP2}`;do
 
       for VAR in $VARS; do
         	
@@ -75,7 +78,7 @@ for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
         bunzip2 ${DIRICONdados13}/${iconfile}
 
       	# CHECAGEM DO DOWNLOAD
-      	Nvar=`${p_wgrib2} ${DIRICONdados13}/${iconfile_grb2} | wc -l`
+      	Nvar=`/home/operador/bin/wgrib2 ${DIRICONdados13}/${iconfile_grb2} | wc -l`
      if [ ${Nvar} -lt ${Nref} ];then
         Flag=1 
         
@@ -88,7 +91,7 @@ for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
              wget "${URL}/${VAR}/${iconfile}" -O "${DIRICONdados13}/${iconfile}"
 	     bunzip2 ${DIRICONdados13}/${iconfile}
                                     
-	     Nvar=`${p_wgrib2} ${DIRICONdados13}/${iconfile_grb2} | wc -l`
+	     Nvar=`/home/operador/bin/wgrib2 ${DIRICONdados13}/${iconfile_grb2} | wc -l`
              if [ ${Nvar} -lt ${Nref} ];then
              Flag=1
              else               
@@ -125,7 +128,7 @@ yinc=0.135
 
 # Interpola todos os arquivos do diretório ---
 for in_file in `ls -1 ${DIRICONdados13}/*.grib2`; do
-    out_file="${in_file/.grib2/_reg.nc}"
+   out_file="${in_file/.grib2/_reg.nc}"
     echo $in_file $out_file
     cdo -f nc remap,${TARGETICON13},${WFILEICON13} ${in_file} ${out_file}
 done
@@ -134,7 +137,7 @@ for VAR in $VARS; do
 
     if [ $VAR = 'u_10m' ]
     then
-    VV='U_10M'
+   VV='U_10M'
     elif [ $VAR = 'v_10m' ]
     then
     VV='V_10M'
@@ -149,34 +152,40 @@ done
     
 cdo merge ${WORKDIRICON13}/*_reg.nc ${WORKDIRICON13}/wnd.nc
 
-# otimização arquivo
-nccopy -d 7 ${WORKDIRICON13}/wnd.nc ${WORKDIRICON13}/wnd_cp.nc
-#minsize=1353694160
-#size=$(wc -c <"${WORKDIRICON13}/wnd_cp.nc")
-file=icon13.${AMD}${HSIM}.nc    
+# Converte variável time de minutos para 'seconds since 1970-01-01'
+time_in="$(date --date "${AMD} ${HSIM}:00:00" +%s)"
+cp ${WORKDIRICON13}/wnd.nc ${WORKDIRICON13}/wnd_out.nc
+#~/anaconda3/bin/ncks -h -M -m -O -C -v time,lon,lat,10u,10v ${WORKDIRICON13}/wnd.nc ${WORKDIRICON13}/wnd_out.nc
+~/anaconda3/bin/ncap2 -O -v -s "time=${time_in}+time*60" ${WORKDIRICON13}/wnd_out.nc ${WORKDIRICON13}/wnd2.nc 
+~/anaconda3/bin/ncks -A -h -M -m -C -v time ${WORKDIRICON13}/wnd2.nc ${WORKDIRICON13}/wnd_out.nc
+~/anaconda3/bin/ncatted -O -a ,time,d,, ${WORKDIRICON13}/wnd_out.nc # deleta atributos time
+# inclui atributos nas variáveis time, 10u e 10v
+~/anaconda3/bin/ncatted -O -a units,time,o,c,'seconds since 1970-01-01 00:00:00.0 0:00' ${WORKDIRICON13}/wnd_out.nc 
+~/anaconda3/bin/ncatted -O -a calendar,time,o,c,'standard' ${WORKDIRICON13}/wnd_out.nc 
+~/anaconda3/bin/ncatted -O -a _FillValue,10u,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc -o ${WORKDIRICON13}/wnd_out.nc 
+~/anaconda3/bin/ncatted -O -a _FillValue,10v,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc -o ${WORKDIRICON13}/wnd_out.nc
+~/anaconda3/bin/ncatted -O -a missing_value,10u,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc -o ${WORKDIRICON13}/wnd_out.nc 
+~/anaconda3/bin/ncatted -O -a missing_value,10v,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc -o ${WORKDIRICON13}/wnd_out.nc
 
-#if [ $size -ge $minsize ] 
-#   then
-   mv ${WORKDIRICON13}/wnd_cp.nc ${DIRICON13}/${file}
-   #cdo -v -f grb2 -copy ${DIRICON13}/icon13.${AMD}${HSIM}.nc ${DIRICON13}/icon13.${AMD}${HSIM}.grb2
-   # Remove arquivos desnecessários
-#   if [ -f "${DIRICON13}/${file}" ]
-#   then
-#   rm -f ${DIRICONdados13}/*
-#   rm -f ${WORKDIRICON13}/*
-#   fi
+# Otimiza arquivo
+nccopy -d 7 ${WORKDIRICON13}/wnd_out.nc ${WORKDIRICON13}/wnd_cp.nc
+file_nc=icon13.${AMD}${HSIM}.nc   
+#file_grb2=icon13.${AMD}${HSIM}.grb2 
+mv ${WORKDIRICON13}/wnd_cp.nc ${DIRICON13}/${file_nc}
+#cdo -v -f grb2 -copy ${DIRICON13}/icon13.${AMD}${HSIM}.nc ${DIRICON13}/${file_grb2}
 
-if [ -f "${DIRICON13}/${file}" ]; then 
-  for file in "${DIRICON13}"/*
-  do
-    rm "$file"
-  done
-  for file in "${WORKDIRICON13}"/*
-  do
-    rm "$file"
-  done
-fi 
+# Remove arquivos desnecessários
 
-#else 
-#   echo "Arquivo incompleto"
-#fi 
+if [ -f "${DIRICON13}/${file_nc}" ]
+then
+
+for filename in ${DIRICONdados13}/*; do
+ rm $filename
+done
+
+for filename in ${WORKDIRICON13}/*; do
+ rm $filename
+done
+
+fi
+
