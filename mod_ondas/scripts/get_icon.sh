@@ -44,13 +44,25 @@ ICONDATA=/mnt/nfs/dpns24/icondata/wind${HSIM}
 ICONARQz=icon_reg_to_client_bsm1_${AMD}${HSIM}.grib2.bz2
 ICONARQ=icon_reg_to_client_bsm1_${AMD}${HSIM}.grib2
 
-# Copiando arquivo para o diretório do work
-cp ${ICONDATA}/${ICONARQz} ${WORKDIR}
-# Descompactando o arquivo no work
-${p_bunzip2} -f ${WORKDIR}/${ICONARQz}
-# Transformando o arquivo em netcdf
-${p_wgrib2} ${WORKDIR}/${ICONARQ} -netcdf ${WORKDIR}/icon.${AMD}${HSIM}.nc
-mv ${WORKDIR}/icon.${AMD}${HSIM}.nc ${DIRICON}
+ICONww3Op=/data2/operador/mod_ondas/ww3_418/input/vento/icon
+
+if [ -e ${ICONww3Op}/icon.${AMD}${HSIM}.nc ]; then
+  echo ''
+  echo ' Copiando vento do ww3op v4.18 '
+  echo ''
+  cp ${ICONww3Op}/icon.${AMD}${HSIM}.nc ${DIRICON}/icon.${AMD}${HSIM}.nc
+else
+  echo ''
+  echo ' Pegando o vento do ICON na DPNS24 '
+  echo ''
+  # Copiando arquivo para o diretório do work
+  cp ${ICONDATA}/${ICONARQz} ${WORKDIR}
+  # Descompactando o arquivo no work
+  ${p_bunzip2} -f ${WORKDIR}/${ICONARQz}
+  # Transformando o arquivo em netcdf
+  ${p_wgrib2} ${WORKDIR}/${ICONARQ} -netcdf ${WORKDIR}/icon.${AMD}${HSIM}.nc
+  mv ${WORKDIR}/icon.${AMD}${HSIM}.nc ${DIRICON}
+fi
 
 # Limpando o diretorio work
 for file in "${WORKDIR}"/*
