@@ -51,7 +51,7 @@ FIXODIR=${WW3DIR}/fixos
 # ---------------------
 #  Realização do prnc
 
-if [ ${FORC} = "ice" ]; then    # TESTADO e CORRETO
+if [ ${FORC} = "ice" ]; then 
    FORCDIR=${WW3DIR}/input/gelo
    ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.ww3
    ln -sf ${FORCDIR}/seaice.${AMD}.nc ${WORKDIR}/ice.nc
@@ -64,7 +64,11 @@ if [ ${FORC} = "ice" ]; then    # TESTADO e CORRETO
    mv ${WORKDIR}/ice.ww3 ${FORCDIR}/${FORC}.${AMD}.${FORC}
 else
    FORCDIR=${WW3DIR}/input/vento/${FORC}
-   ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.ww3
+   if [ ${FORC} = "cosmo" ]; then
+     ln -sf ${GRDDIR}/mod_def.met5_${FORC} ${WORKDIR}/mod_def.ww3
+   else
+     ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.ww3
+   fi
    ln -sf ${FORCDIR}/${FORC}.${AMD}${HSIM}.nc ${WORKDIR}/wnd.nc
    ln -sf ${FIXODIR}/ww3_prnc.inp.${FORC} ${WORKDIR}/ww3_prnc.inp
    echo " "
@@ -72,7 +76,7 @@ else
    echo " "
    cd ${WORKDIR}
    ww3_prnc
-   mv ${WORKDIR}/wind.ww3 ${FORCDIR}/wind.${AMD}${HSIM}.${FORC}
+   cp ${WORKDIR}/wind.ww3 ${FORCDIR}/wind.${AMD}${HSIM}.${FORC}
 fi
 
 
