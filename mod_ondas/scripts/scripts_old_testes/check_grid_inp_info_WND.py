@@ -56,12 +56,12 @@ if (vento == 'gfs') or (vento == 'icon'):
    print(' Numero total de pontos = '+str(pts))
    print('')
 elif (vento == 'gfs12') or (vento == 'icon13'):
-   dados = PATHWND+vento+'/' 
+   dados = '/data1/ww3desenv/home/mod_ondas/input/vento/'+vento+'/' 
 
    if (vento == 'gfs12'):
-      nc_f=dados+'gfs.'+datahh+'.nc'
+      nc_f=dados+'gfs12.'+datahh+'.nc'
    else:
-      nc_f=dados+'icon.'+datahh+'.nc'
+      nc_f=dados+'icon13.'+datahh+'.nc'
 
    nc_fid=Dataset(nc_f, 'r')
    

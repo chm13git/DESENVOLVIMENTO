@@ -24,10 +24,10 @@ dat=$2
 # ----------------------------------------
 # Extraindo as variaveis de interesse
 
-if [ ${wnd} == 'gfs12'] || [ ${wnd} == 'icon12'];then
+if [ ${wnd} == 'gfs12'] || [ ${wnd} == 'icon13'];then
 
-   dados=/data1/operador/mod_ondas/ww3_418/input/vento/${wnd}/
-   nc_f=${dados}${vento}.dat.nc
+   dados=${WW3DIR}/input/vento/${wnd}/
+   nc_f=${dados}${vento}.${dat}.nc
    #ncdump -h ${nc_f} # Lista variáveis 
    #ncks -v UGRD_10maboveground -d lon,145.7292 -d lat,-40.9972 infile.nc outfile.nc # extrai pto específico
    
@@ -50,7 +50,7 @@ if [ ${wnd} == 'gfs12'] || [ ${wnd} == 'icon12'];then
    print(' Numero total de pontos = '+str(pts))
    print('')
 else:
-   dados = '/data1/operador/mod_ondas/ww3_418/input/vento/'+vento+'/' 
+   dados=${WW3DIR}/input/vento/${wnd}/ 
    nc_f=dados+vento+'.'+datahh+'.nc'
    nc_fid=Dataset(nc_f, 'r')
    X=nc_fid.variables['x'][:]; Y=nc_fid.variables['y'][:]
