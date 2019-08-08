@@ -103,19 +103,23 @@ done
 # otimização arquivo
 
 nccopy -d 7 ${WORKDIRGFS12}/wnd.nc ${WORKDIRGFS12}/wnd_cp.nc
-#size=$(wc -c <"${WORKDIRGFS12}/wnd_cp.nc")
-#minsize=2004427846
 file=gfs12.${AMD}${HSIM}.nc
 
-#if [ $size -ge $minsize ] 
-#   then
-   mv ${WORKDIRGFS12}/wnd_cp.nc ${DIRGFS12}/${file}
-   #mv ${WORKDIRGFS12}/wnd.grb2 ${DIRGFS12}/gfs12.${AMD}${HSIM}.grb2
-   # Remove arquivos desnecessários
-   if [ -f "${DIRGFS12}/${file}" ]
-   then
-   rm -f ${DIRGFSdados12}/*
-   rm -f ${WORKDIRGFS12}/*
-#else 
-#   echo "Arquivo incompleto"
-   fi
+mv ${WORKDIRGFS12}/wnd_cp.nc ${DIRGFS12}/${file}
+#mv ${WORKDIRGFS12}/wnd.grb2 ${DIRGFS12}/gfs12.${AMD}${HSIM}.grb2
+
+# Remove arquivos desnecessários
+
+if [ -f "${DIRGFS12}/${file_nc}" ]
+then
+
+for filename in ${DIRGFSdados12}/*; do
+ rm $filename
+done
+
+for filename in ${WORKDIRGFS12}/*; do
+ rm $filename
+done
+
+fi
+
