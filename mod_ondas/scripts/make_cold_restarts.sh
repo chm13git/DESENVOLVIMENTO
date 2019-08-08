@@ -45,7 +45,7 @@ cd ${WORKDIR}
 
 if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "icon13" ]; then
    ice=ice
-   area1=glo25_${FORC}
+   area1=glo_${FORC}
    area2=met5_${FORC}
    area3=ant5_${FORC}
    AREAS=(${area1} ${area2} ${area3})
