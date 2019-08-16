@@ -49,7 +49,7 @@ fi
 Dnext=$(date -d "${AMD} +1 days" +%Y%m%d)
 Drest=$(date -d "${AMD} +2 days" +%Y%m%d)
 
-if [ ${HSIM} == 00 ];then
+if [ ${HSIM} = 00 ];then
  res=12
  rest1=${AMD}    
  rest2=${Dnext}
@@ -73,7 +73,7 @@ GRDDIR=${WW3DIR}/grids
 FIXODIR=${WW3DIR}/fixos
 OUTDIR=${WW3DIR}/output/ww3${FORC}/${AMD}
 RESTDIR=${WW3DIR}/restart
-RESTDIRo=${WW3DIR}/restart/ww3${FORC}/
+RESTDIRo=${WW3DIR}/restart/ww3${FORC}
 LOGDIR=${WW3DIR}/logs
 FLAGDIR=${WW3DIR}/flags
 
@@ -163,7 +163,7 @@ else
 fi  
 
 if [ ${FORC} = "cosmo" ]; then 
-  ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.ww3
+  ln -sf ${GRDDIR}/mod_def.met5_${FORC} ${WORKDIR}/mod_def.ww3
   ln -sf ${GRDDIR}/mod_def.points  ${WORKDIR}/mod_def.points
   if [ -e ${WW3DIR}/output/ww3icon/${AMD}/nest.t${HSIM}z.met5_icon ]; then
      ln -sf ${WW3DIR}/output/ww3icon/${AMD}/nest.t${HSIM}z.met5_icon ${WORKDIR}/nest.ww3
@@ -249,39 +249,39 @@ for grd in "${AREAS[@]}"; do
     echo ''
     echo ' Copiando restarts e outputs do WW3/'${FORC}' data: '${AMD}${HSIM}
     echo ''
-    cp ${WORKDIR}/restart001.ww3 ${RESTDIRo}/restart.${rest1}${HSIM}.${grd}
+    cp ${WORKDIR}/restart001.ww3 ${RESTDIRo}/restart.${rest1}${res}.${grd}
     cp ${WORKDIR}/restart002.ww3 ${RESTDIRo}/restart.${rest2}${HSIM}.${grd}
-    cp ${WORKDIR}/restart003.ww3 ${RESTDIRo}/restart.${rest3}${HSIM}.${grd}
+    cp ${WORKDIR}/restart003.ww3 ${RESTDIRo}/restart.${rest3}${res}.${grd}
     cp ${WORKDIR}/restart004.ww3 ${RESTDIRo}/restart.${rest4}${HSIM}.${grd}
     cp ${WORKDIR}/out_grd.ww3 ${OUTDIR}/out_grd.t${HSIM}z.${grd}
     cp ${WORKDIR}/log.ww3 ${LOGDIR}/log.t${HSIM}z.${grd}
     cp ${WORKDIR}/out_pnt.ww3 ${OUTDIR}/out_pnt.t${HSIM}z.points
-  elif [ ${FORC} = "icon13" ] && [ ${grd} = "ant5_icon13" ] || [ ${grd} = "met5_icon13" ]; then
+  elif [ ${FORC} = "icon13" ] && [ ${grd} = "ant5_icon13" ] ||  [ ${FORC} = "icon13" ] && [ ${grd} = "met5_icon13" ]; then
     if [ ${grd} = "ant5_icon13" ]; then
       grd_aux=ant5_icon1
-      cp ${WORKDIR}/restart001.${grd_aux} ${RESTDIRo}/restart.${rest1}${HSIM}.${grd}
+      cp ${WORKDIR}/restart001.${grd_aux} ${RESTDIRo}/restart.${rest1}${res}.${grd}
       cp ${WORKDIR}/restart002.${grd_aux} ${RESTDIRo}/restart.${rest2}${HSIM}.${grd}
-      cp ${WORKDIR}/restart003.${grd_aux} ${RESTDIRo}/restart.${rest3}${HSIM}.${grd}
+      cp ${WORKDIR}/restart003.${grd_aux} ${RESTDIRo}/restart.${rest3}${res}.${grd}
       cp ${WORKDIR}/restart004.${grd_aux} ${RESTDIRo}/restart.${rest4}${HSIM}.${grd}
     elif [ ${grd} = "met5_icon13" ]; then
       grd_aux=met5_icon1
-      cp ${WORKDIR}/restart001.${grd_aux} ${RESTDIRo}/restart.${rest1}${HSIM}.${grd}
+      cp ${WORKDIR}/restart001.${grd_aux} ${RESTDIRo}/restart.${rest1}${res}.${grd}
       cp ${WORKDIR}/restart002.${grd_aux} ${RESTDIRo}/restart.${rest2}${HSIM}.${grd}
-      cp ${WORKDIR}/restart003.${grd_aux} ${RESTDIRo}/restart.${rest3}${HSIM}.${grd}
+      cp ${WORKDIR}/restart003.${grd_aux} ${RESTDIRo}/restart.${rest3}${res}.${grd}
       cp ${WORKDIR}/restart004.${grd_aux} ${RESTDIRo}/restart.${rest4}${HSIM}.${grd}    
     fi    
     echo ''
-    echo ' Copiando restarts e outputs do WW3/'${FORC}' grade'${grd}' data: '${AMD}${HSIM}
+    echo ' Copiando restarts e outputs do WW3/'${FORC}' grade '${grd}' data: '${AMD}${HSIM}
     echo ''
     cp ${WORKDIR}/out_grd.${grd} ${OUTDIR}/out_grd.t${HSIM}z.${grd}
     cp ${WORKDIR}/log.${grd} ${LOGDIR}/log.t${HSIM}z.${grd}
   else
     echo ''
-    echo ' Copiando restarts e outputs do WW3/'${FORC}' grade'${grd}' data: '${AMD}${HSIM}
+    echo ' Copiando restarts e outputs do WW3/'${FORC}' grade '${grd}' data: '${AMD}${HSIM}
     echo ''
-    cp ${WORKDIR}/restart001.${grd} ${RESTDIRo}/restart.${rest1}${HSIM}.${grd}
+    cp ${WORKDIR}/restart001.${grd} ${RESTDIRo}/restart.${rest1}${res}.${grd}
     cp ${WORKDIR}/restart002.${grd} ${RESTDIRo}/restart.${rest2}${HSIM}.${grd}
-    cp ${WORKDIR}/restart003.${grd} ${RESTDIRo}/restart.${rest3}${HSIM}.${grd}
+    cp ${WORKDIR}/restart003.${grd} ${RESTDIRo}/restart.${rest3}${res}.${grd}
     cp ${WORKDIR}/restart004.${grd} ${RESTDIRo}/restart.${rest4}${HSIM}.${grd}
     cp ${WORKDIR}/out_grd.${grd} ${OUTDIR}/out_grd.t${HSIM}z.${grd}
     cp ${WORKDIR}/log.${grd} ${LOGDIR}/log.t${HSIM}z.${grd}
