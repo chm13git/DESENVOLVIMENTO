@@ -43,14 +43,14 @@ WORKDIR=${DIRCOSMO}/dados/work
 COSMODATAgrb=${COSMODATA}/vento${HSIM}
 
 # Copiando arquivo para o diretório do work
-tt=1
+tt=100
 for arq in `ls ${COSMODATAgrb}/lfff0???0000 | sort -V`;do
    ${p_wgrib2} ${arq} -if ":var discipline=0 master_table=11 parmcat=2 parm=2:" -set_var UGRD -fi -if ":var discipline=0 master_table=11 parmcat=2 parm=3:" -set_var VGRD -fi -grib ${WORKDIR}/lfff_${tt}.mod
    ${p_wgrib2} ${WORKDIR}/lfff_${tt}.mod -netcdf ${WORKDIR}/wnd.${tt}.nc
    tt=$((tt + 1))
 done
 
-cdo mergetime ${WORKDIR}/wnd.*.nc ${WORKDIR}/cosmo.${AMD}${HSIM}.nc
+${p_ncrcat} ${WORKDIR}/wnd.*.nc ${WORKDIR}/cosmo.${AMD}${HSIM}.nc
 
 mv ${WORKDIR}/cosmo.${AMD}${HSIM}.nc ${DIRCOSMO}
 
