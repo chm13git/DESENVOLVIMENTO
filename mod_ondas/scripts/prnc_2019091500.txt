@@ -1,0 +1,8551 @@
+ Rodada 20190815 00
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ Executando o prnc icon13 2019081500
+ 
+
+                 *** WAVEWATCH III  Input pre-processing ***  
+               ===============================================
+
+  Grid name : ICON GLO                      
+
+  Comment character is '$'
+
+
+  Description of inputs
+ --------------------------------------------------
+       Input type        : winds         
+       Format type       : long.-lat. grid     
+          Field conserves velocity.
+
+           File name         : wnd.nc                                                                          
+           Dimension along x : lon
+           Dimension along y : lat
+           Field component 1 : 10u
+           Field component 2 : 10v
+
+       Input grid dim.   :     2879    1441
+       Longitude range   : -180.00  179.75 (deg)
+       Latitude range    :  -90.00   90.00 (deg)
+
+
+  Preprocessing data
+ --------------------------------------------------
+       Interpolation factors ..... 
+          (longitude-latitude grid)
+
+           Data file :
+          ---------------------------------------
+           Input grid dim.   :     2879    1441
+
+       Opening output data file .....
+
+
+  Processing data
+ --------------------------------------------------
+           Time : 2019/08/15 00:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 01:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 02:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 03:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 04:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 05:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 06:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 07:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 08:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 09:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 10:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 11:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 12:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 13:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 14:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 15:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 16:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 17:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 18:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 19:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 20:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 21:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 22:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 23:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 00:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 01:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 02:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 03:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 04:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 05:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 06:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 07:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 08:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 09:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 10:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 11:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 12:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 13:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 14:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 15:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 16:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 17:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 18:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 19:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 20:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 21:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 22:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 23:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 00:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 01:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 02:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 03:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 04:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 05:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 06:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 07:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 08:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 09:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 10:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 11:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 12:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 13:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 14:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 15:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 16:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 17:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 18:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 19:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 20:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 21:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 22:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 23:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 00:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 01:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 02:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 03:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 04:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 05:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 06:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 09:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 12:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 15:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 18:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 21:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/19 00:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/19 03:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/19 06:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/19 09:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/19 12:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/19 15:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/19 18:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/19 21:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/20 00:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+
+
+  End of program 
+ =========================================
+         WAVEWATCH III Input preprocessing 
+
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Pegando e interpolando o vento cosmo Data e HH: 2019081500
+ 
+1:0:d=2019081500:UGRD:10 m above ground:anl:
+2:1799766:d=2019081500:VGRD:10 m above ground:anl:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:anl:
+2:1799766:d=2019081500:VGRD:10 m above ground:anl:
+1:0:d=2019081500:UGRD:10 m above ground:1 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:1 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:1 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:2 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:2 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:2 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:3 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:3 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:3 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:4 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:4 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:4 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:5 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:5 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:5 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:6 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:6 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:6 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:7 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:7 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:7 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:8 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:8 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:8 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:9 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:9 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:9 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:10 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:10 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:10 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:11 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:11 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:11 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:12 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:12 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:12 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:13 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:13 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:13 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:14 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:14 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:14 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:15 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:15 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:15 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:16 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:16 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:16 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:17 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:17 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:17 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:18 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:18 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:18 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:18 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:19 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:19 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:19 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:19 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:20 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:20 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:20 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:20 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:21 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:21 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:21 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:21 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:22 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:22 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:22 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:22 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:23 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:23 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:23 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:23 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:24 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:24 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:24 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:24 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:25 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:25 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:25 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:25 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:26 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:26 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:26 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:26 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:27 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:27 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:27 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:27 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:28 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:28 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:28 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:28 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:29 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:29 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:29 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:29 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:30 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:30 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:30 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:30 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:31 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:31 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:31 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:31 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:32 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:32 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:32 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:32 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:33 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:33 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:33 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:33 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:34 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:34 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:34 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:34 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:35 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:35 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:35 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:35 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:36 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:36 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:36 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:36 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:37 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:37 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:37 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:37 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:38 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:38 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:38 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:38 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:39 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:39 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:39 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:39 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:40 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:40 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:40 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:40 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:41 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:41 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:41 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:41 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:42 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:42 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:42 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:42 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:43 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:43 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:43 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:43 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:44 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:44 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:44 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:44 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:45 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:45 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:45 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:45 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:46 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:46 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:46 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:46 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:47 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:47 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:47 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:47 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:48 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:48 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:48 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:48 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:49 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:49 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:49 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:49 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:50 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:50 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:50 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:50 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:51 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:51 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:51 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:51 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:52 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:52 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:52 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:52 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:53 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:53 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:53 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:53 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:54 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:54 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:54 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:54 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:55 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:55 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:55 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:55 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:56 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:56 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:56 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:56 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:57 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:57 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:57 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:57 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:58 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:58 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:58 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:58 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:59 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:59 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:59 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:59 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:60 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:60 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:60 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:60 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:61 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:61 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:61 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:61 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:62 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:62 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:62 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:62 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:63 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:63 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:63 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:63 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:64 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:64 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:64 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:64 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:65 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:65 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:65 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:65 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:66 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:66 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:66 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:66 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:67 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:67 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:67 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:67 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:68 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:68 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:68 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:68 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:69 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:69 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:69 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:69 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:70 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:70 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:70 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:70 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:71 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:71 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:71 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:71 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:72 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:72 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:72 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:72 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:73 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:73 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:73 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:73 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:74 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:74 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:74 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:74 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:75 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:75 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:75 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:75 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:76 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:76 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:76 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:76 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:77 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:77 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:77 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:77 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:78 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:78 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:78 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:78 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:79 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:79 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:79 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:79 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:80 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:80 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:80 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:80 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:81 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:81 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:81 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:81 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:82 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:82 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:82 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:82 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:83 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:83 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:83 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:83 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:84 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:84 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:84 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:84 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:85 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:85 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:85 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:85 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:86 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:86 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:86 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:86 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:87 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:87 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:87 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:87 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:88 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:88 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:88 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:88 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:89 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:89 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:89 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:89 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:90 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:90 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:90 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:90 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:91 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:91 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:91 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:91 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:92 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:92 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:92 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:92 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:93 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:93 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:93 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:93 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:94 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:94 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:94 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:94 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:95 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:95 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:95 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:95 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:96 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:96 hour fcst:
+netcdf: doesn't support yet grid_template 1
+1:0:d=2019081500:UGRD:10 m above ground:96 hour fcst:
+2:1799766:d=2019081500:VGRD:10 m above ground:96 hour fcst:
+ 
+ Executando o prnc cosmo 2019081500
+ 
+
+                 *** WAVEWATCH III  Input pre-processing ***  
+               ===============================================
+
+  Grid name : MET 5m                        
+
+  Comment character is '$'
+
+
+  Description of inputs
+ --------------------------------------------------
+       Input type        : winds         
+       Format type       : long.-lat. grid     
+          Field conserves velocity.
+
+           File name         : wnd.nc                                                                          
+           Dimension along x : x
+           Dimension along y : y
+           Field component 1 : UGRD_10maboveground
+           Field component 2 : VGRD_10maboveground
+
+ *** WAVEWATCH III WARNING IN W3PRNC : 
+     calendar ATTRIBUTE NOT DEFINED
+     IT MUST RESPECT STANDARD OR GREGORIAN CALENDAR
+
+       Input grid dim.   :      866    1039
+       Longitude range   :  -72.00  -17.94 (deg)
+       Latitude range    :  -49.90   14.98 (deg)
+
+
+  Preprocessing data
+ --------------------------------------------------
+       Interpolation factors ..... 
+          (longitude-latitude grid)
+
+           Data file :
+          ---------------------------------------
+           Input grid dim.   :      866    1039
+
+       Opening output data file .....
+
+
+  Processing data
+ --------------------------------------------------
+           Time : 2019/08/15 00:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 01:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 02:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 03:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 04:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 05:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 06:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 07:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 08:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 09:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 10:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 11:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 12:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 13:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 14:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 15:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 16:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 17:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 18:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 19:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 20:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 21:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 22:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/15 23:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 00:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 01:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 02:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 03:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 04:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 05:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 06:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 07:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 08:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 09:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 10:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 11:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 12:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 13:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 14:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 15:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 16:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 17:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 18:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 19:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 20:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 21:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 22:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/16 23:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 00:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 01:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 02:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 03:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 04:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 05:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 06:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 07:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 08:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 09:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 10:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 11:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 12:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 13:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 14:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 15:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 16:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 17:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 18:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 19:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 20:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 21:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 22:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/17 23:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 00:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 01:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 02:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 03:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 04:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 05:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 06:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 07:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 08:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 09:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 10:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 11:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 12:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 13:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 14:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 15:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 16:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 17:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 18:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 19:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 20:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 21:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 22:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/18 23:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+           Time : 2019/08/19 00:00:00 UTC
+                  reading ....
+                  interpolating ....
+                  writing ....
+
+
+  End of program 
+ =========================================
+         WAVEWATCH III Input preprocessing 
+
+ 
+ Aguardando Forçante de Vento chegar... sleep: 0
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 1
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 2
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 3
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 4
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 5
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 6
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 7
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 8
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 9
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 10
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 11
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 12
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 13
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 14
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 15
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 16
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 17
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 18
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 19
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 20
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 21
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 22
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 23
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 24
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 25
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 26
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 27
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 28
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 29
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 30
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 31
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 32
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 33
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 34
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 35
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 36
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 37
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 38
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 39
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 40
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 41
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 42
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 43
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 44
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 45
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 46
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 47
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 48
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 49
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 50
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 51
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 52
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 53
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 54
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 55
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 56
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 57
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 58
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 59
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 60
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 61
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 62
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 63
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 64
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 65
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 66
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 67
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 68
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 69
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 70
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 71
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 72
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 73
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 74
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 75
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 76
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 77
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 78
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 79
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 80
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 81
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 82
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 83
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 84
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 85
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 86
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 87
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 88
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 89
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 90
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 91
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 92
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 93
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 94
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 95
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 96
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 97
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 98
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 99
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 100
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 101
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 102
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 103
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 104
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 105
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 106
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 107
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 108
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 109
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 110
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 111
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 112
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 113
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 114
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 115
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 116
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 117
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 118
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 119
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 120
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 121
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 122
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 123
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 124
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 125
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 126
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 127
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 128
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 129
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 130
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 131
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 132
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 133
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 134
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 135
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 136
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 137
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 138
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 139
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 140
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 141
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 142
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 143
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 144
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 145
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 146
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 147
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 148
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 149
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 150
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 151
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 152
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 153
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 154
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 155
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 156
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 157
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 158
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 159
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 160
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 161
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 162
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 163
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 164
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 165
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 166
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 167
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 168
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 169
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 170
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 171
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 172
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 173
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 174
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 175
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 176
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 177
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 178
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 179
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 180
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 181
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 182
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 183
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 184
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 185
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 186
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 187
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 188
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 189
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 190
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 191
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 192
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 193
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 194
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 195
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 196
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 197
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 198
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 199
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 200
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 201
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 202
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 203
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 204
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 205
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 206
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 207
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 208
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 209
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 210
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 211
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 212
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 213
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 214
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 215
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 216
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 217
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 218
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 219
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 220
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 221
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 222
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 223
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 224
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 225
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 226
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 227
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 228
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 229
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 230
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 231
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 232
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 233
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 234
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 235
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 236
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 237
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 238
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 239
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 240
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 241
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 242
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 243
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 244
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 245
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 246
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 247
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 248
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 249
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 250
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 251
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 252
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 253
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 254
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 255
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 256
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 257
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 258
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 259
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 260
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 261
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 262
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 263
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 264
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 265
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 266
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 267
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 268
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 269
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 270
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 271
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 272
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 273
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 274
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 275
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 276
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 277
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 278
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 279
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 280
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 281
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 282
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 283
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 284
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 285
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 286
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 287
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 288
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 289
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 290
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 291
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 292
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 293
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 294
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 295
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 296
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 297
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 298
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 299
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 300
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 301
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 302
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 303
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 304
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 305
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 306
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 307
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 308
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 309
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 310
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 311
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 312
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 313
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 314
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 315
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 316
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 317
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 318
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 319
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 320
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 321
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 322
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 323
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 324
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 325
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 326
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 327
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 328
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 329
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 330
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 331
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 332
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 333
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 334
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 335
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 336
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 337
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 338
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 339
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 340
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 341
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 342
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 343
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 344
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 345
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 346
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 347
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 348
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 349
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 350
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 351
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 352
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 353
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 354
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 355
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 356
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 357
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 358
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 359
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 360
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 361
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 362
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 363
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 364
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 365
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 366
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 367
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 368
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 369
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 370
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 371
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 372
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 373
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 374
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 375
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 376
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 377
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 378
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 379
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 380
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 381
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 382
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 383
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 384
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 385
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 386
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 387
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 388
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 389
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 390
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 391
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 392
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 393
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 394
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 395
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 396
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 397
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 398
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 399
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 400
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 401
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 402
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 403
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 404
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 405
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 406
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 407
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 408
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 409
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 410
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 411
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 412
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 413
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 414
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 415
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 416
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 417
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 418
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 419
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 420
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 421
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 422
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 423
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 424
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 425
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 426
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 427
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 428
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 429
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 430
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 431
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 432
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 433
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 434
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 435
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 436
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 437
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 438
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 439
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 440
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 441
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 442
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 443
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 444
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 445
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 446
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 447
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 448
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 449
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 450
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 451
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 452
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 453
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 454
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 455
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 456
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 457
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 458
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 459
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 460
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 461
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 462
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 463
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 464
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 465
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 466
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 467
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 468
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 469
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 470
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 471
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 472
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 473
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 474
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 475
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 476
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 477
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 478
+ 
+ 
+ FORÇANTE: icon
+ 
+ 
+ FORÇANTE: gfs
+ 
+ 
+ FORÇANTE: icon13
+ 
+ 
+ FORÇANTE: cosmo
+ 
+ 
+ Aguardando Forçante de Vento chegar... sleep: 479
+ 
