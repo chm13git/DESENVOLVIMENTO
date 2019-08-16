@@ -13,7 +13,7 @@ $
   'area2' 'no' 'no' 'wnd'  'no' 'no' 'no' 'no'  2  1  0.00 1.00  T
   'area3' 'no' 'no' 'wnd' 'ice' 'no' 'no' 'no'  3  1  0.00 1.00  T
 $
-   dataini cyc0000 datafim cyc0000
+   dataini cyc0000  datafim cyc0000
 $
   F F
 $
@@ -162,7 +162,7 @@ $
        -49.84         -31.56      'B_RGRANDE3'
        -45.04         -25.44      'B_SANTOS_2'
        -42.20         -23.63      'B_CBFRIO23'
-       -43.418614     -23.165987  'AD-BGW1   '
+       -43.418614     -23.159878  'AD-BGW1   '
        -43.354923     -23.242065  'AD-BGW2   '
        -43.267943     -23.298939  'AD-BGW2   '
        -43.167361     -23.325172  'AD-BGW3   '
@@ -186,12 +186,11 @@ $
        -44.892748     -24.040749  'AD-SSIBE2 '
        -44.849804     -23.851832  'AD-SSIBE1 '
        -44.862409     -23.641373  'AD-SSIBE0 '
-       -44.862409     -23.641373  'AD-SSIBE0 '
         0.E3           0.E3       'STOPSTRING'
 $
    dataini  cyc0000       0  datafim  cyc0000
 $
-   dataini  cyc0000   21600  restart  cyc0000
+   dataini  cyc0000   43200  restart  cyc0000
 $
    dataini  cyc0000    3600  datafim  cyc0000
 $
