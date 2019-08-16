@@ -4,13 +4,14 @@
 # do GFS 12 km, horário, para a rodada WW3       #
 #                                                #
 # JUN2019                                        #  
-# Autoras: 1T(RM2-T) Andressa D'Agostini         #
-#          Bruna Reis                            #
+# Autoras: Bruna Reis                            #
+#          1T(RM2-T) Andressa D'Agostini         #     
+#                                                #   
 ##################################################
 # Carrega CDO
 source ~/.bashrc
 
-# Definição diretórios
+# Carrega diretórios e funções
 source ~/mod_ondas/fixos/dir.sh
 
 DIRWND=${WW3DIR}/input/vento
@@ -52,7 +53,7 @@ for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
       wget "${URL}" -O "${DIRGFSdados12}/gfs.t${HSIM}z.sfluxgrbf${HH}.grib2"
 
       # CHECAGEM DO DOWNLOAD
-      Nvar=`/home/operador/bin/wgrib2 ${DIRGFSdados12}/gfs.t${HSIM}z.sfluxgrbf${HH}.grib2 | wc -l`
+      Nvar=`${p_wgrib2} ${DIRGFSdados12}/gfs.t${HSIM}z.sfluxgrbf${HH}.grib2 | wc -l`
 
       if [ ${Nvar} -lt ${Nref} ];then
 
@@ -66,7 +67,7 @@ for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
             echo " "
 
             wget "${URL}" -O "${DIRGFSdados12}/gfs.t${HSIM}z.sfluxgrbf${HH}.grib2"
-	    Nvar=`/home/operador/bin/wgrib2 ${DIRGFSdados12}/gfs.t${HSIM}z.sfluxgrbf${HH}.grib2 | wc -l`
+	    Nvar=`${p_wgrib2} ${DIRGFSdados12}/gfs.t${HSIM}z.sfluxgrbf${HH}.grib2 | wc -l`
             
             if [ ${Nvar} -lt ${Nref} ];then
                Flag=1
@@ -89,8 +90,8 @@ done
 
 for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
    ARQ=gfs.t${HSIM}z.sfluxgrbf${HH}.grib2
-   /home/operador/bin/wgrib2  ${DIRGFSdados12}/${ARQ}  | grep "UGRD:10 m above ground" | /home/operador/bin/wgrib2 -i ${DIRGFSdados12}/${ARQ} -append -grib ${WORKDIRGFS12}/u${HH}.grib2
-   /home/operador/bin/wgrib2  ${DIRGFSdados12}/${ARQ}  | grep "VGRD:10 m above ground" | /home/operador/bin/wgrib2 -i ${DIRGFSdados12}/${ARQ} -append -grib ${WORKDIRGFS12}/v${HH}.grib2
+   ${p_wgrib2}  ${DIRGFSdados12}/${ARQ}  | grep "UGRD:10 m above ground" | ${p_wgrib2} -i ${DIRGFSdados12}/${ARQ} -append -grib ${WORKDIRGFS12}/u${HH}.grib2
+   ${p_wgrib2}  ${DIRGFSdados12}/${ARQ}  | grep "VGRD:10 m above ground" | ${p_wgrib2} -i ${DIRGFSdados12}/${ARQ} -append -grib ${WORKDIRGFS12}/v${HH}.grib2
 done
 
 for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
@@ -98,14 +99,14 @@ for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
    cat ${WORKDIRGFS12}/v${HH}.grib2  >> ${WORKDIRGFS12}/wnd.grb2 
 done
 
-/home/operador/bin/wgrib2 ${WORKDIRGFS12}/wnd.grb2 -netcdf ${WORKDIRGFS12}/wnd.nc
+${p_wgrib2} ${WORKDIRGFS12}/wnd.grb2 -netcdf ${WORKDIRGFS12}/wnd.nc
 
 # otimização arquivo
 
-nccopy -d 7 ${WORKDIRGFS12}/wnd.nc ${WORKDIRGFS12}/wnd_cp.nc
-file=gfs12.${AMD}${HSIM}.nc
+${p_nccopy} -d 7 ${WORKDIRGFS12}/wnd.nc ${WORKDIRGFS12}/wnd_cp.nc
+file_nc=gfs12.${AMD}${HSIM}.nc
 
-mv ${WORKDIRGFS12}/wnd_cp.nc ${DIRGFS12}/${file}
+mv ${WORKDIRGFS12}/wnd_cp.nc ${DIRGFS12}/${file_nc}
 #mv ${WORKDIRGFS12}/wnd.grb2 ${DIRGFS12}/gfs12.${AMD}${HSIM}.grb2
 
 # Remove arquivos desnecessários
