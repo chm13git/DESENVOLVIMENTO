@@ -88,40 +88,40 @@ cd ${WORKDIR}
 #      gx_outf: saídas binárias do WW3 para .ctl e .grads          #
 # -----------------------------------------------------------------#
 
-echo ' --------------------------------------------------------------------------------- '
-echo '                gx_outf: saídas binárias do WW3 para .ctl e .grads                 '
-echo ' --------------------------------------------------------------------------------- '
+#echo ' --------------------------------------------------------------------------------- '
+#echo '                gx_outf: saídas binárias do WW3 para .ctl e .grads                 '
+#echo ' --------------------------------------------------------------------------------- '
 
-for grd in "${AREAS[@]}"; do
+#for grd in "${AREAS[@]}"; do
 
-  echo ' '
-  echo ' Linkando mod.def da área: ' ${grd}
-  echo ' '
+#  echo ' '
+#  echo ' Linkando mod.def da área: ' ${grd}
+#  echo ' '
 
-  ln -sf ${GRDDIR}/mod_def.${grd} ${WORKDIR}/mod_def.ww3
-  ln -sf ${OUTDIR}/out_grd.t${HSIM}z.${grd} ${WORKDIR}/out_grd.ww3
-  cp ${FIXODIR}/gx_outf.inp ${WORKDIR}/gx_outf.inp
-  sed s/dataini/${AMD}/g gx_outf.inp > temp_gxoutf
-  sed s/cyc/${HSIM}/g temp_gxoutf > gx_outf.inp
+#  ln -sf ${GRDDIR}/mod_def.${grd} ${WORKDIR}/mod_def.ww3
+#  ln -sf ${OUTDIR}/out_grd.t${HSIM}z.${grd} ${WORKDIR}/out_grd.ww3
+#  cp ${FIXODIR}/gx_outf.inp ${WORKDIR}/gx_outf.inp
+#  sed s/dataini/${AMD}/g gx_outf.inp > temp_gxoutf
+#  sed s/cyc/${HSIM}/g temp_gxoutf > gx_outf.inp
 
-  echo ' '
-  echo ' Executando ww3_ounf área: ' ${grd} ' '${AMD}${HSIM}
-  echo ' '
+#  echo ' '
+#  echo ' Executando ww3_ounf área: ' ${grd} ' '${AMD}${HSIM}
+#  echo ' '
 
-  gx_outf
+#  gx_outf
 
-  echo ' '
-  echo ' Movendo as saídas em netcdf para a pasta Backup '
-  echo ' '
-  GRD=` echo ${grd} | cut -f1 -d"5" `
-  cp ${WORKDIR}/ww3.ctl ${OUTDIR}/${GRD}.t${HSIM}z.ctl
-  cp ${WORKDIR}/ww3.grads ${OUTDIR}/${GRD}.t${HSIM}z.grads
+#  echo ' '
+#  echo ' Movendo as saídas em netcdf para a pasta Backup '
+#  echo ' '
+#  GRD=` echo ${grd} | cut -f1 -d"5" `
+#  cp ${WORKDIR}/ww3.ctl ${OUTDIR}/${GRD}.t${HSIM}z.ctl
+#  cp ${WORKDIR}/ww3.grads ${OUTDIR}/${GRD}.t${HSIM}z.grads
 
-  for filename in ${WORKDIR}/*; do
-    rm $filename
-  done
+#  for filename in ${WORKDIR}/*; do
+#    rm $filename
+#  done
 
-done
+#done
 
 # -----------------------------------------------------------------#
 #         ww3_ounf: saídas binárias do WW3 para NETCDF             #
@@ -174,53 +174,54 @@ done
 #  ww3_ounp: pós-processamento da saída .points do WW3 para espectros e ondogramas (tab) #
 # ---------------------------------------------------------------------------------------#
 
-echo ' --------------------------------------------------------------------------------- '
-echo '  ww3_ounp: pós-processamento da saída .points do WW3 para espectros e ondogramas  '
-echo ' --------------------------------------------------------------------------------- '
+#echo ' --------------------------------------------------------------------------------- '
+#echo '  ww3_ounp: pós-processamento da saída .points do WW3 para espectros e ondogramas  '
+#echo ' --------------------------------------------------------------------------------- '
 
-ln -sf ${GRDDIR}/mod_def.points ${WORKDIR}/mod_def.ww3
-ln -sf ${OUTDIR}/out_pnt.t${HSIM}z.points ${WORKDIR}/out_pnt.ww3
-cp ${FIXODIR}/ww3_ounp_spec.inp ${WORKDIR}/ww3_ounp_spec.inp
-sed s/dataini/${AMD}/g ww3_ounp_spec.inp > temp_ww3ounp
-sed s/cyc/${HSIM}/g temp_ww3ounp > ww3_ounp_spec.inp
-mv ${WORKDIR}/ww3_ounp_spec.inp ${WORKDIR}/ww3_ounp.inp
+#ln -sf ${GRDDIR}/mod_def.points ${WORKDIR}/mod_def.ww3
+#ln -sf ${OUTDIR}/out_pnt.t${HSIM}z.points ${WORKDIR}/out_pnt.ww3
+#cp ${FIXODIR}/ww3_ounp_spec.inp ${WORKDIR}/ww3_ounp_spec.inp
+#sed s/dataini/${AMD}/g ww3_ounp_spec.inp > temp_ww3ounp
+#sed s/cyc/${HSIM}/g temp_ww3ounp > ww3_ounp_spec.inp
+#mv ${WORKDIR}/ww3_ounp_spec.inp ${WORKDIR}/ww3_ounp.inp
 
-echo ' '
-echo ' Executando ww3_ounp espectro da data '${AMD}${HSIM}
-echo ' '
+#echo ' '
+#echo ' Executando ww3_ounp espectro da data '${AMD}${HSIM}
+#echo ' '
 
-ww3_ounp
+#ww3_ounp
 
-echo ' '
-echo ' Movendo os espectros para a pasta Backup '
-echo ' '
+#echo ' '
+#echo ' Movendo os espectros para a pasta Backup '
+#echo ' '
 
-cdo -s mergetime spec.*Z_spec.nc spec_ww3${FORC}_${AMD}${HSIM}.nc
-cp ${WORKDIR}/spec_ww3${FORC}_${AMD}${HSIM}.nc ${BCKDIR}/specs/spec_ww3${FORC}_${AMD}${HSIM}.nc
+#cdo -s mergetime spec.*Z_spec.nc spec_ww3${FORC}_${AMD}${HSIM}.nc
+#cp ${WORKDIR}/spec_ww3${FORC}_${AMD}${HSIM}.nc ${BCKDIR}/specs/spec_ww3${FORC}_${AMD}${HSIM}.nc
 
-for filename in ${WORKDIR}/*; do
-  rm $filename
-done
+#for filename in ${WORKDIR}/*; do
+#  rm $filename
+#done
 
-ln -sf ${GRDDIR}/mod_def.points ${WORKDIR}/mod_def.ww3
-ln -sf ${OUTDIR}/out_pnt.t${HSIM}z.points ${WORKDIR}/out_pnt.ww3
-cp ${FIXODIR}/ww3_ounp_tab.inp ${WORKDIR}/ww3_ounp_tab.inp
-sed s/dataini/${AMD}/g ww3_ounp_tab.inp > temp_ww3ounp
-sed s/cyc/${HSIM}/g temp_ww3ounp > ww3_ounp_tab.inp
-mv ${WORKDIR}/ww3_ounp_tab.inp ${WORKDIR}/ww3_ounp.inp
+#ln -sf ${GRDDIR}/mod_def.points ${WORKDIR}/mod_def.ww3
+#ln -sf ${OUTDIR}/out_pnt.t${HSIM}z.points ${WORKDIR}/out_pnt.ww3
+#cp ${FIXODIR}/ww3_ounp_tab.inp ${WORKDIR}/ww3_ounp_tab.inp
+#sed s/dataini/${AMD}/g ww3_ounp_tab.inp > temp_ww3ounp
+#sed s/cyc/${HSIM}/g temp_ww3ounp > ww3_ounp_tab.inp
+#mv ${WORKDIR}/ww3_ounp_tab.inp ${WORKDIR}/ww3_ounp.inp
 
-echo ' '
-echo ' Executando ww3_ounp tab da data '${AMD}${HSIM}
-echo ' '
+#echo ' '
+#echo ' Executando ww3_ounp tab da data '${AMD}${HSIM}
+#echo ' '
 
-ww3_ounp
+#ww3_ounp
 
-echo ' '
-echo ' Movendo os tabs em netcdf para a pasta Backup '
-echo ' '
-cdo -s mergetime tab.*Z_tab.nc tab_ww3${FORC}_${AMD}${HSIM}.nc
-cp ${WORKDIR}/tab_ww3${FORC}_${AMD}${HSIM}.nc ${BCKDIR}/tabs/tab_ww3${FORC}_${AMD}${HSIM}.nc
+#echo ' '
+#echo ' Movendo os tabs em netcdf para a pasta Backup '
+#echo ' '
+#cdo -s mergetime tab.*Z_tab.nc tab_ww3${FORC}_${AMD}${HSIM}.nc
+#cp ${WORKDIR}/tab_ww3${FORC}_${AMD}${HSIM}.nc ${BCKDIR}/tabs/tab_ww3${FORC}_${AMD}${HSIM}.nc
 
-for filename in ${WORKDIR}/*; do
-  rm $filename
-done
+#for filename in ${WORKDIR}/*; do
+#  rm $filename
+#done
+mv ${OUTDIR}/out_pnt.t${HSIM}z.points ${BCKDIR}/ww3${FORC}_${AMD}${HSIM}.points
