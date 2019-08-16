@@ -11,7 +11,7 @@
 # Carrega CDO
 source ~/.bashrc
 
-# Carrega caminhos dos diretórios
+# Carrega diretórios e funções
 source ~/mod_ondas/fixos/dir.sh
 
 DIRWND=${WW3DIR}/input/vento
@@ -78,7 +78,7 @@ for HH in `seq -s " " -f "%03g" ${HSTART1} 1 ${HSTOP1};seq -s " " -f "%03g" ${HS
         bunzip2 ${DIRICONdados13}/${iconfile}
 
       	# CHECAGEM DO DOWNLOAD
-      	Nvar=`/home/operador/bin/wgrib2 ${DIRICONdados13}/${iconfile_grb2} | wc -l`
+      	Nvar=`${p_wgrib2} ${DIRICONdados13}/${iconfile_grb2} | wc -l`
      if [ ${Nvar} -lt ${Nref} ];then
         Flag=1 
         
@@ -91,7 +91,7 @@ for HH in `seq -s " " -f "%03g" ${HSTART1} 1 ${HSTOP1};seq -s " " -f "%03g" ${HS
              wget "${URL}/${VAR}/${iconfile}" -O "${DIRICONdados13}/${iconfile}"
 	     bunzip2 ${DIRICONdados13}/${iconfile}
                                     
-	     Nvar=`/home/operador/bin/wgrib2 ${DIRICONdados13}/${iconfile_grb2} | wc -l`
+	     Nvar=`${p_wgrib2} ${DIRICONdados13}/${iconfile_grb2} | wc -l`
              if [ ${Nvar} -lt ${Nref} ];then
              Flag=1
              else               
@@ -155,20 +155,20 @@ cdo merge ${WORKDIRICON13}/*_reg.nc ${WORKDIRICON13}/wnd.nc
 # Converte variável time de minutos para 'seconds since 1970-01-01'
 time_in="$(date --date "${AMD} ${HSIM}:00:00" +%s)"
 cp ${WORKDIRICON13}/wnd.nc ${WORKDIRICON13}/wnd_out.nc
-#~/anaconda3/bin/ncks -h -M -m -O -C -v time,lon,lat,10u,10v ${WORKDIRICON13}/wnd.nc ${WORKDIRICON13}/wnd_out.nc
-~/anaconda3/bin/ncap2 -O -v -s "time=${time_in}+time*60" ${WORKDIRICON13}/wnd_out.nc ${WORKDIRICON13}/wnd2.nc 
-~/anaconda3/bin/ncks -A -h -M -m -C -v time ${WORKDIRICON13}/wnd2.nc ${WORKDIRICON13}/wnd_out.nc
-~/anaconda3/bin/ncatted -O -a ,time,d,, ${WORKDIRICON13}/wnd_out.nc # deleta atributos time
+#${p_ncks} -h -M -m -O -C -v time,lon,lat,10u,10v ${WORKDIRICON13}/wnd.nc ${WORKDIRICON13}/wnd_out.nc
+${p_ncap2} -O -v -s "time=${time_in}+time*60" ${WORKDIRICON13}/wnd_out.nc ${WORKDIRICON13}/wnd2.nc 
+${p_ncks} -A -h -M -m -C -v time ${WORKDIRICON13}/wnd2.nc ${WORKDIRICON13}/wnd_out.nc
+${p_ncatted} -O -a ,time,d,, ${WORKDIRICON13}/wnd_out.nc # deleta atributos time
 # inclui atributos nas variáveis time, 10u e 10v
-~/anaconda3/bin/ncatted -O -a units,time,o,c,'seconds since 1970-01-01 00:00:00.0 0:00' ${WORKDIRICON13}/wnd_out.nc 
-~/anaconda3/bin/ncatted -O -a calendar,time,o,c,'standard' ${WORKDIRICON13}/wnd_out.nc 
-~/anaconda3/bin/ncatted -O -a _FillValue,10u,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc -o ${WORKDIRICON13}/wnd_out.nc 
-~/anaconda3/bin/ncatted -O -a _FillValue,10v,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc -o ${WORKDIRICON13}/wnd_out.nc
-~/anaconda3/bin/ncatted -O -a missing_value,10u,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc -o ${WORKDIRICON13}/wnd_out.nc 
-~/anaconda3/bin/ncatted -O -a missing_value,10v,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc -o ${WORKDIRICON13}/wnd_out.nc
+${p_ncatted} -O -a units,time,o,c,'seconds since 1970-01-01 00:00:00.0 0:00' ${WORKDIRICON13}/wnd_out.nc 
+${p_ncatted} -O -a calendar,time,o,c,'standard' ${WORKDIRICON13}/wnd_out.nc 
+${p_ncatted} -O -a _FillValue,10u,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc -o ${WORKDIRICON13}/wnd_out.nc 
+${p_ncatted} -O -a _FillValue,10v,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc -o ${WORKDIRICON13}/wnd_out.nc
+${p_ncatted} -O -a missing_value,10u,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc -o ${WORKDIRICON13}/wnd_out.nc 
+${p_ncatted} -O -a missing_value,10v,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc -o ${WORKDIRICON13}/wnd_out.nc
 
 # Otimiza arquivo
-nccopy -d 7 ${WORKDIRICON13}/wnd_out.nc ${WORKDIRICON13}/wnd_cp.nc
+${p_nccopy} -d 7 ${WORKDIRICON13}/wnd_out.nc ${WORKDIRICON13}/wnd_cp.nc
 file_nc=icon13.${AMD}${HSIM}.nc   
 #file_grb2=icon13.${AMD}${HSIM}.grb2 
 mv ${WORKDIRICON13}/wnd_cp.nc ${DIRICON13}/${file_nc}
