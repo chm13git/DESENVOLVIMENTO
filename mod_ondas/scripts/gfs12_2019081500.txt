@@ -1,0 +1,746 @@
+ 
+ Dado gfs.t00z.sfluxgrbf000.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf001.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf002.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf003.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf004.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf005.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf006.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf007.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf008.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf009.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf010.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf011.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf012.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf013.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf014.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf015.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf016.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf017.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf018.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf019.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf020.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf021.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf022.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf023.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf024.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf025.grib2 OK
+ 
+ 
+ Tentando o Download novamente do gfs.t00z.sfluxgrbf026.grib2
+ 
+ 
+ Nova tentativa de Download do dado gfs.t00z.sfluxgrbf026.grib2  OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf027.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf028.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf029.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf030.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf031.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf032.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf033.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf034.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf035.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf036.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf037.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf038.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf039.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf040.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf041.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf042.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf043.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf044.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf045.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf046.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf047.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf048.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf049.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf050.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf051.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf052.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf053.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf054.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf055.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf056.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf057.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf058.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf059.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf060.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf061.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf062.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf063.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf064.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf065.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf066.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf067.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf068.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf069.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf070.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf071.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf072.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf073.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf074.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf075.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf076.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf077.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf078.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf079.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf080.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf081.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf082.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf083.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf084.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf085.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf086.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf087.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf088.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf089.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf090.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf091.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf092.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf093.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf094.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf095.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf096.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf097.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf098.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf099.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf100.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf101.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf102.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf103.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf104.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf105.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf106.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf107.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf108.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf109.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf110.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf111.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf112.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf113.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf114.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf115.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf116.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf117.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf118.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf119.grib2 OK
+ 
+ 
+ Dado gfs.t00z.sfluxgrbf120.grib2 OK
+ 
+39:69528314:d=2019081500:UGRD:10 m above ground:26 hour fcst:
+40:73468047:d=2019081500:VGRD:10 m above ground:26 hour fcst:
+39:69174857:d=2019081500:UGRD:10 m above ground:27 hour fcst:
+40:73115081:d=2019081500:VGRD:10 m above ground:27 hour fcst:
+39:69163341:d=2019081500:UGRD:10 m above ground:28 hour fcst:
+40:72896526:d=2019081500:VGRD:10 m above ground:28 hour fcst:
+39:69346354:d=2019081500:UGRD:10 m above ground:29 hour fcst:
+40:73123566:d=2019081500:VGRD:10 m above ground:29 hour fcst:
+39:69246240:d=2019081500:UGRD:10 m above ground:30 hour fcst:
+40:73028504:d=2019081500:VGRD:10 m above ground:30 hour fcst:
+39:69738567:d=2019081500:UGRD:10 m above ground:31 hour fcst:
+40:73524841:d=2019081500:VGRD:10 m above ground:31 hour fcst:
+39:69336658:d=2019081500:UGRD:10 m above ground:32 hour fcst:
+40:73129442:d=2019081500:VGRD:10 m above ground:32 hour fcst:
+39:69551667:d=2019081500:UGRD:10 m above ground:33 hour fcst:
+40:73518072:d=2019081500:VGRD:10 m above ground:33 hour fcst:
+39:69340272:d=2019081500:UGRD:10 m above ground:34 hour fcst:
+40:73145096:d=2019081500:VGRD:10 m above ground:34 hour fcst:
+39:69779540:d=2019081500:UGRD:10 m above ground:35 hour fcst:
+40:73586671:d=2019081500:VGRD:10 m above ground:35 hour fcst:
+39:69916569:d=2019081500:UGRD:10 m above ground:36 hour fcst:
+40:73725303:d=2019081500:VGRD:10 m above ground:36 hour fcst:
+39:69552557:d=2019081500:UGRD:10 m above ground:37 hour fcst:
+40:73530247:d=2019081500:VGRD:10 m above ground:37 hour fcst:
+39:69712862:d=2019081500:UGRD:10 m above ground:38 hour fcst:
+40:73525307:d=2019081500:VGRD:10 m above ground:38 hour fcst:
+39:69738400:d=2019081500:UGRD:10 m above ground:39 hour fcst:
+40:73778071:d=2019081500:VGRD:10 m above ground:39 hour fcst:
+39:69723395:d=2019081500:UGRD:10 m above ground:40 hour fcst:
+40:73762049:d=2019081500:VGRD:10 m above ground:40 hour fcst:
+39:69468637:d=2019081500:UGRD:10 m above ground:41 hour fcst:
+40:73280572:d=2019081500:VGRD:10 m above ground:41 hour fcst:
+39:69423482:d=2019081500:UGRD:10 m above ground:42 hour fcst:
+40:73235132:d=2019081500:VGRD:10 m above ground:42 hour fcst:
+39:69347417:d=2019081500:UGRD:10 m above ground:43 hour fcst:
+40:73157699:d=2019081500:VGRD:10 m above ground:43 hour fcst:
+39:69280977:d=2019081500:UGRD:10 m above ground:44 hour fcst:
+40:73088363:d=2019081500:VGRD:10 m above ground:44 hour fcst:
+39:69152912:d=2019081500:UGRD:10 m above ground:45 hour fcst:
+40:72956122:d=2019081500:VGRD:10 m above ground:45 hour fcst:
+39:69278675:d=2019081500:UGRD:10 m above ground:46 hour fcst:
+40:73301229:d=2019081500:VGRD:10 m above ground:46 hour fcst:
+39:68978069:d=2019081500:UGRD:10 m above ground:47 hour fcst:
+40:72769886:d=2019081500:VGRD:10 m above ground:47 hour fcst:
+39:69119439:d=2019081500:UGRD:10 m above ground:48 hour fcst:
+40:72904864:d=2019081500:VGRD:10 m above ground:48 hour fcst:
+39:69270893:d=2019081500:UGRD:10 m above ground:49 hour fcst:
+40:73052463:d=2019081500:VGRD:10 m above ground:49 hour fcst:
+39:69179054:d=2019081500:UGRD:10 m above ground:50 hour fcst:
+40:72958975:d=2019081500:VGRD:10 m above ground:50 hour fcst:
+39:69311793:d=2019081500:UGRD:10 m above ground:51 hour fcst:
+40:73093578:d=2019081500:VGRD:10 m above ground:51 hour fcst:
+39:69067571:d=2019081500:UGRD:10 m above ground:52 hour fcst:
+40:73016559:d=2019081500:VGRD:10 m above ground:52 hour fcst:
+39:68935466:d=2019081500:UGRD:10 m above ground:53 hour fcst:
+40:72720207:d=2019081500:VGRD:10 m above ground:53 hour fcst:
+39:69709849:d=2019081500:UGRD:10 m above ground:54 hour fcst:
+40:73497494:d=2019081500:VGRD:10 m above ground:54 hour fcst:
+39:69660849:d=2019081500:UGRD:10 m above ground:55 hour fcst:
+40:73452915:d=2019081500:VGRD:10 m above ground:55 hour fcst:
+39:69837905:d=2019081500:UGRD:10 m above ground:56 hour fcst:
+40:73635373:d=2019081500:VGRD:10 m above ground:56 hour fcst:
+39:70147801:d=2019081500:UGRD:10 m above ground:57 hour fcst:
+40:73948982:d=2019081500:VGRD:10 m above ground:57 hour fcst:
+39:69782311:d=2019081500:UGRD:10 m above ground:58 hour fcst:
+40:73587346:d=2019081500:VGRD:10 m above ground:58 hour fcst:
+39:69586309:d=2019081500:UGRD:10 m above ground:59 hour fcst:
+40:73351951:d=2019081500:VGRD:10 m above ground:59 hour fcst:
+39:69525397:d=2019081500:UGRD:10 m above ground:60 hour fcst:
+40:73335147:d=2019081500:VGRD:10 m above ground:60 hour fcst:
+39:69837201:d=2019081500:UGRD:10 m above ground:61 hour fcst:
+40:73813564:d=2019081500:VGRD:10 m above ground:61 hour fcst:
+39:69638731:d=2019081500:UGRD:10 m above ground:62 hour fcst:
+40:73451057:d=2019081500:VGRD:10 m above ground:62 hour fcst:
+39:69630898:d=2019081500:UGRD:10 m above ground:63 hour fcst:
+40:73441961:d=2019081500:VGRD:10 m above ground:63 hour fcst:
+39:69591455:d=2019081500:UGRD:10 m above ground:64 hour fcst:
+40:73402165:d=2019081500:VGRD:10 m above ground:64 hour fcst:
+39:69727291:d=2019081500:UGRD:10 m above ground:65 hour fcst:
+40:73536633:d=2019081500:VGRD:10 m above ground:65 hour fcst:
+39:69730280:d=2019081500:UGRD:10 m above ground:66 hour fcst:
+40:73705657:d=2019081500:VGRD:10 m above ground:66 hour fcst:
+39:69424105:d=2019081500:UGRD:10 m above ground:67 hour fcst:
+40:73398533:d=2019081500:VGRD:10 m above ground:67 hour fcst:
+39:69457714:d=2019081500:UGRD:10 m above ground:68 hour fcst:
+40:73262989:d=2019081500:VGRD:10 m above ground:68 hour fcst:
+39:69233948:d=2019081500:UGRD:10 m above ground:69 hour fcst:
+40:73038381:d=2019081500:VGRD:10 m above ground:69 hour fcst:
+39:69351019:d=2019081500:UGRD:10 m above ground:70 hour fcst:
+40:73148878:d=2019081500:VGRD:10 m above ground:70 hour fcst:
+39:69179338:d=2019081500:UGRD:10 m above ground:71 hour fcst:
+40:73137787:d=2019081500:VGRD:10 m above ground:71 hour fcst:
+39:69428579:d=2019081500:UGRD:10 m above ground:72 hour fcst:
+40:73214944:d=2019081500:VGRD:10 m above ground:72 hour fcst:
+39:69275889:d=2019081500:UGRD:10 m above ground:73 hour fcst:
+40:73059040:d=2019081500:VGRD:10 m above ground:73 hour fcst:
+39:69055982:d=2019081500:UGRD:10 m above ground:74 hour fcst:
+40:72836951:d=2019081500:VGRD:10 m above ground:74 hour fcst:
+39:69108584:d=2019081500:UGRD:10 m above ground:75 hour fcst:
+40:73053195:d=2019081500:VGRD:10 m above ground:75 hour fcst:
+39:69336205:d=2019081500:UGRD:10 m above ground:76 hour fcst:
+40:73115989:d=2019081500:VGRD:10 m above ground:76 hour fcst:
+39:69232583:d=2019081500:UGRD:10 m above ground:77 hour fcst:
+40:73013779:d=2019081500:VGRD:10 m above ground:77 hour fcst:
+39:69315230:d=2019081500:UGRD:10 m above ground:78 hour fcst:
+40:73265508:d=2019081500:VGRD:10 m above ground:78 hour fcst:
+39:69847121:d=2019081500:UGRD:10 m above ground:79 hour fcst:
+40:73635130:d=2019081500:VGRD:10 m above ground:79 hour fcst:
+39:70233472:d=2019081500:UGRD:10 m above ground:80 hour fcst:
+40:74026187:d=2019081500:VGRD:10 m above ground:80 hour fcst:
+39:69766062:d=2019081500:UGRD:10 m above ground:81 hour fcst:
+40:73520872:d=2019081500:VGRD:10 m above ground:81 hour fcst:
+39:69751866:d=2019081500:UGRD:10 m above ground:82 hour fcst:
+40:73552085:d=2019081500:VGRD:10 m above ground:82 hour fcst:
+39:69764467:d=2019081500:UGRD:10 m above ground:83 hour fcst:
+40:73526491:d=2019081500:VGRD:10 m above ground:83 hour fcst:
+39:69801703:d=2019081500:UGRD:10 m above ground:84 hour fcst:
+40:73608564:d=2019081500:VGRD:10 m above ground:84 hour fcst:
+39:69695489:d=2019081500:UGRD:10 m above ground:85 hour fcst:
+40:73506484:d=2019081500:VGRD:10 m above ground:85 hour fcst:
+39:69664356:d=2019081500:UGRD:10 m above ground:86 hour fcst:
+40:73479414:d=2019081500:VGRD:10 m above ground:86 hour fcst:
+39:69797792:d=2019081500:UGRD:10 m above ground:87 hour fcst:
+40:73613439:d=2019081500:VGRD:10 m above ground:87 hour fcst:
+39:69869472:d=2019081500:UGRD:10 m above ground:88 hour fcst:
+40:73852552:d=2019081500:VGRD:10 m above ground:88 hour fcst:
+39:69581524:d=2019081500:UGRD:10 m above ground:89 hour fcst:
+40:73399020:d=2019081500:VGRD:10 m above ground:89 hour fcst:
+39:69742511:d=2019081500:UGRD:10 m above ground:90 hour fcst:
+40:73561062:d=2019081500:VGRD:10 m above ground:90 hour fcst:
+39:69547416:d=2019081500:UGRD:10 m above ground:91 hour fcst:
+40:73530369:d=2019081500:VGRD:10 m above ground:91 hour fcst:
+39:69626969:d=2019081500:UGRD:10 m above ground:92 hour fcst:
+40:73443798:d=2019081500:VGRD:10 m above ground:92 hour fcst:
+39:69518628:d=2019081500:UGRD:10 m above ground:93 hour fcst:
+40:73333463:d=2019081500:VGRD:10 m above ground:93 hour fcst:
+39:69283677:d=2019081500:UGRD:10 m above ground:94 hour fcst:
+40:73053607:d=2019081500:VGRD:10 m above ground:94 hour fcst:
+39:69371012:d=2019081500:UGRD:10 m above ground:95 hour fcst:
+40:73174605:d=2019081500:VGRD:10 m above ground:95 hour fcst:
+39:69362576:d=2019081500:UGRD:10 m above ground:96 hour fcst:
+40:73161024:d=2019081500:VGRD:10 m above ground:96 hour fcst:
+39:69441321:d=2019081500:UGRD:10 m above ground:97 hour fcst:
+40:73237374:d=2019081500:VGRD:10 m above ground:97 hour fcst:
+39:69193315:d=2019081500:UGRD:10 m above ground:98 hour fcst:
+40:73152872:d=2019081500:VGRD:10 m above ground:98 hour fcst:
+39:69285371:d=2019081500:UGRD:10 m above ground:99 hour fcst:
+40:73081652:d=2019081500:VGRD:10 m above ground:99 hour fcst:
+39:69361753:d=2019081500:UGRD:10 m above ground:100 hour fcst:
+40:73322924:d=2019081500:VGRD:10 m above ground:100 hour fcst:
+39:69580406:d=2019081500:UGRD:10 m above ground:101 hour fcst:
+40:73378743:d=2019081500:VGRD:10 m above ground:101 hour fcst:
+39:69654086:d=2019081500:UGRD:10 m above ground:102 hour fcst:
+40:73452357:d=2019081500:VGRD:10 m above ground:102 hour fcst:
+39:69961712:d=2019081500:UGRD:10 m above ground:103 hour fcst:
+40:73762673:d=2019081500:VGRD:10 m above ground:103 hour fcst:
+39:69904045:d=2019081500:UGRD:10 m above ground:104 hour fcst:
+40:73706146:d=2019081500:VGRD:10 m above ground:104 hour fcst:
+39:69950414:d=2019081500:UGRD:10 m above ground:105 hour fcst:
+40:73757778:d=2019081500:VGRD:10 m above ground:105 hour fcst:
+39:69876360:d=2019081500:UGRD:10 m above ground:106 hour fcst:
+40:73685405:d=2019081500:VGRD:10 m above ground:106 hour fcst:
+39:69957718:d=2019081500:UGRD:10 m above ground:107 hour fcst:
+40:73932389:d=2019081500:VGRD:10 m above ground:107 hour fcst:
+39:69948067:d=2019081500:UGRD:10 m above ground:108 hour fcst:
+40:73760651:d=2019081500:VGRD:10 m above ground:108 hour fcst:
+39:70315029:d=2019081500:UGRD:10 m above ground:109 hour fcst:
+40:74130166:d=2019081500:VGRD:10 m above ground:109 hour fcst:
+39:70135452:d=2019081500:UGRD:10 m above ground:110 hour fcst:
+40:73951787:d=2019081500:VGRD:10 m above ground:110 hour fcst:
+39:69909175:d=2019081500:UGRD:10 m above ground:111 hour fcst:
+40:73727516:d=2019081500:VGRD:10 m above ground:111 hour fcst:
+39:69882429:d=2019081500:UGRD:10 m above ground:112 hour fcst:
+40:73702992:d=2019081500:VGRD:10 m above ground:112 hour fcst:
+39:69757176:d=2019081500:UGRD:10 m above ground:113 hour fcst:
+40:73579627:d=2019081500:VGRD:10 m above ground:113 hour fcst:
+39:69737784:d=2019081500:UGRD:10 m above ground:114 hour fcst:
+40:73560469:d=2019081500:VGRD:10 m above ground:114 hour fcst:
+39:69847203:d=2019081500:UGRD:10 m above ground:115 hour fcst:
+40:73671037:d=2019081500:VGRD:10 m above ground:115 hour fcst:
+39:69753178:d=2019081500:UGRD:10 m above ground:116 hour fcst:
+40:73577693:d=2019081500:VGRD:10 m above ground:116 hour fcst:
+39:69671369:d=2019081500:UGRD:10 m above ground:117 hour fcst:
+40:73492456:d=2019081500:VGRD:10 m above ground:117 hour fcst:
+39:69479662:d=2019081500:UGRD:10 m above ground:118 hour fcst:
+40:73299252:d=2019081500:VGRD:10 m above ground:118 hour fcst:
+39:69537916:d=2019081500:UGRD:10 m above ground:119 hour fcst:
+40:73519239:d=2019081500:VGRD:10 m above ground:119 hour fcst:
+39:69518265:d=2019081500:UGRD:10 m above ground:120 hour fcst:
+40:73496399:d=2019081500:VGRD:10 m above ground:120 hour fcst:
+1:0:d=2019081500:UGRD:10 m above ground:26 hour fcst:
+2:3939733:d=2019081500:VGRD:10 m above ground:26 hour fcst:
+3:7583822:d=2019081500:UGRD:10 m above ground:27 hour fcst:
+4:11524046:d=2019081500:VGRD:10 m above ground:27 hour fcst:
+5:15169911:d=2019081500:UGRD:10 m above ground:28 hour fcst:
+6:18903096:d=2019081500:VGRD:10 m above ground:28 hour fcst:
+7:22549284:d=2019081500:UGRD:10 m above ground:29 hour fcst:
+8:26326496:d=2019081500:VGRD:10 m above ground:29 hour fcst:
+9:29974409:d=2019081500:UGRD:10 m above ground:30 hour fcst:
+10:33756673:d=2019081500:VGRD:10 m above ground:30 hour fcst:
+11:37406455:d=2019081500:UGRD:10 m above ground:31 hour fcst:
+12:41192729:d=2019081500:VGRD:10 m above ground:31 hour fcst:
+13:45010938:d=2019081500:UGRD:10 m above ground:32 hour fcst:
+14:48803722:d=2019081500:VGRD:10 m above ground:32 hour fcst:
+15:52459490:d=2019081500:UGRD:10 m above ground:33 hour fcst:
+16:56425895:d=2019081500:VGRD:10 m above ground:33 hour fcst:
+17:60087400:d=2019081500:UGRD:10 m above ground:34 hour fcst:
+18:63892224:d=2019081500:VGRD:10 m above ground:34 hour fcst:
+19:67721559:d=2019081500:UGRD:10 m above ground:35 hour fcst:
+20:71528690:d=2019081500:VGRD:10 m above ground:35 hour fcst:
+21:75361388:d=2019081500:UGRD:10 m above ground:36 hour fcst:
+22:79170122:d=2019081500:VGRD:10 m above ground:36 hour fcst:
+23:82842479:d=2019081500:UGRD:10 m above ground:37 hour fcst:
+24:86820169:d=2019081500:VGRD:10 m above ground:37 hour fcst:
+25:90496330:d=2019081500:UGRD:10 m above ground:38 hour fcst:
+26:94308775:d=2019081500:VGRD:10 m above ground:38 hour fcst:
+27:98154404:d=2019081500:UGRD:10 m above ground:39 hour fcst:
+28:102194075:d=2019081500:VGRD:10 m above ground:39 hour fcst:
+29:105875237:d=2019081500:UGRD:10 m above ground:40 hour fcst:
+30:109913891:d=2019081500:VGRD:10 m above ground:40 hour fcst:
+31:113595313:d=2019081500:UGRD:10 m above ground:41 hour fcst:
+32:117407248:d=2019081500:VGRD:10 m above ground:41 hour fcst:
+33:121311884:d=2019081500:UGRD:10 m above ground:42 hour fcst:
+34:125123534:d=2019081500:VGRD:10 m above ground:42 hour fcst:
+35:128804951:d=2019081500:UGRD:10 m above ground:43 hour fcst:
+36:132615233:d=2019081500:VGRD:10 m above ground:43 hour fcst:
+37:136293901:d=2019081500:UGRD:10 m above ground:44 hour fcst:
+38:140101287:d=2019081500:VGRD:10 m above ground:44 hour fcst:
+39:143778670:d=2019081500:UGRD:10 m above ground:45 hour fcst:
+40:147581880:d=2019081500:VGRD:10 m above ground:45 hour fcst:
+41:151253995:d=2019081500:UGRD:10 m above ground:46 hour fcst:
+42:155276549:d=2019081500:VGRD:10 m above ground:46 hour fcst:
+43:158944409:d=2019081500:UGRD:10 m above ground:47 hour fcst:
+44:162736226:d=2019081500:VGRD:10 m above ground:47 hour fcst:
+45:166623710:d=2019081500:UGRD:10 m above ground:48 hour fcst:
+46:170409135:d=2019081500:VGRD:10 m above ground:48 hour fcst:
+47:174067873:d=2019081500:UGRD:10 m above ground:49 hour fcst:
+48:177849443:d=2019081500:VGRD:10 m above ground:49 hour fcst:
+49:181504686:d=2019081500:UGRD:10 m above ground:50 hour fcst:
+50:185284607:d=2019081500:VGRD:10 m above ground:50 hour fcst:
+51:189103673:d=2019081500:UGRD:10 m above ground:51 hour fcst:
+52:192885458:d=2019081500:VGRD:10 m above ground:51 hour fcst:
+53:196537779:d=2019081500:UGRD:10 m above ground:52 hour fcst:
+54:200486767:d=2019081500:VGRD:10 m above ground:52 hour fcst:
+55:204140284:d=2019081500:UGRD:10 m above ground:53 hour fcst:
+56:207925025:d=2019081500:VGRD:10 m above ground:53 hour fcst:
+57:211580089:d=2019081500:UGRD:10 m above ground:54 hour fcst:
+58:215367734:d=2019081500:VGRD:10 m above ground:54 hour fcst:
+59:219026149:d=2019081500:UGRD:10 m above ground:55 hour fcst:
+60:222818215:d=2019081500:VGRD:10 m above ground:55 hour fcst:
+61:226479260:d=2019081500:UGRD:10 m above ground:56 hour fcst:
+62:230276728:d=2019081500:VGRD:10 m above ground:56 hour fcst:
+63:233940884:d=2019081500:UGRD:10 m above ground:57 hour fcst:
+64:237742065:d=2019081500:VGRD:10 m above ground:57 hour fcst:
+65:241408847:d=2019081500:UGRD:10 m above ground:58 hour fcst:
+66:245213882:d=2019081500:VGRD:10 m above ground:58 hour fcst:
+67:249048235:d=2019081500:UGRD:10 m above ground:59 hour fcst:
+68:252813877:d=2019081500:VGRD:10 m above ground:59 hour fcst:
+69:256486907:d=2019081500:UGRD:10 m above ground:60 hour fcst:
+70:260296657:d=2019081500:VGRD:10 m above ground:60 hour fcst:
+71:263974357:d=2019081500:UGRD:10 m above ground:61 hour fcst:
+72:267950720:d=2019081500:VGRD:10 m above ground:61 hour fcst:
+73:271797837:d=2019081500:UGRD:10 m above ground:62 hour fcst:
+74:275610163:d=2019081500:VGRD:10 m above ground:62 hour fcst:
+75:279295477:d=2019081500:UGRD:10 m above ground:63 hour fcst:
+76:283106540:d=2019081500:VGRD:10 m above ground:63 hour fcst:
+77:286959257:d=2019081500:UGRD:10 m above ground:64 hour fcst:
+78:290769967:d=2019081500:VGRD:10 m above ground:64 hour fcst:
+79:294459771:d=2019081500:UGRD:10 m above ground:65 hour fcst:
+80:298269113:d=2019081500:VGRD:10 m above ground:65 hour fcst:
+81:301957532:d=2019081500:UGRD:10 m above ground:66 hour fcst:
+82:305932909:d=2019081500:VGRD:10 m above ground:66 hour fcst:
+83:309622571:d=2019081500:UGRD:10 m above ground:67 hour fcst:
+84:313596999:d=2019081500:VGRD:10 m above ground:67 hour fcst:
+85:317449515:d=2019081500:UGRD:10 m above ground:68 hour fcst:
+86:321254790:d=2019081500:VGRD:10 m above ground:68 hour fcst:
+87:325105943:d=2019081500:UGRD:10 m above ground:69 hour fcst:
+88:328910376:d=2019081500:VGRD:10 m above ground:69 hour fcst:
+89:332596315:d=2019081500:UGRD:10 m above ground:70 hour fcst:
+90:336394174:d=2019081500:VGRD:10 m above ground:70 hour fcst:
+91:340075822:d=2019081500:UGRD:10 m above ground:71 hour fcst:
+92:344034271:d=2019081500:VGRD:10 m above ground:71 hour fcst:
+93:347712780:d=2019081500:UGRD:10 m above ground:72 hour fcst:
+94:351499145:d=2019081500:VGRD:10 m above ground:72 hour fcst:
+95:355173373:d=2019081500:UGRD:10 m above ground:73 hour fcst:
+96:358956524:d=2019081500:VGRD:10 m above ground:73 hour fcst:
+97:362627212:d=2019081500:UGRD:10 m above ground:74 hour fcst:
+98:366408181:d=2019081500:VGRD:10 m above ground:74 hour fcst:
+99:370078054:d=2019081500:UGRD:10 m above ground:75 hour fcst:
+100:374022665:d=2019081500:VGRD:10 m above ground:75 hour fcst:
+101:377854555:d=2019081500:UGRD:10 m above ground:76 hour fcst:
+102:381634339:d=2019081500:VGRD:10 m above ground:76 hour fcst:
+103:385466017:d=2019081500:UGRD:10 m above ground:77 hour fcst:
+104:389247213:d=2019081500:VGRD:10 m above ground:77 hour fcst:
+105:392915998:d=2019081500:UGRD:10 m above ground:78 hour fcst:
+106:396866276:d=2019081500:VGRD:10 m above ground:78 hour fcst:
+107:400535980:d=2019081500:UGRD:10 m above ground:79 hour fcst:
+108:404323989:d=2019081500:VGRD:10 m above ground:79 hour fcst:
+109:407994941:d=2019081500:UGRD:10 m above ground:80 hour fcst:
+110:411787656:d=2019081500:VGRD:10 m above ground:80 hour fcst:
+111:415461190:d=2019081500:UGRD:10 m above ground:81 hour fcst:
+112:419216000:d=2019081500:VGRD:10 m above ground:81 hour fcst:
+113:422893605:d=2019081500:UGRD:10 m above ground:82 hour fcst:
+114:426693824:d=2019081500:VGRD:10 m above ground:82 hour fcst:
+115:430373499:d=2019081500:UGRD:10 m above ground:83 hour fcst:
+116:434135523:d=2019081500:VGRD:10 m above ground:83 hour fcst:
+117:437818245:d=2019081500:UGRD:10 m above ground:84 hour fcst:
+118:441625106:d=2019081500:VGRD:10 m above ground:84 hour fcst:
+119:445310930:d=2019081500:UGRD:10 m above ground:85 hour fcst:
+120:449121925:d=2019081500:VGRD:10 m above ground:85 hour fcst:
+121:452975730:d=2019081500:UGRD:10 m above ground:86 hour fcst:
+122:456790788:d=2019081500:VGRD:10 m above ground:86 hour fcst:
+123:460647412:d=2019081500:UGRD:10 m above ground:87 hour fcst:
+124:464463059:d=2019081500:VGRD:10 m above ground:87 hour fcst:
+125:468159667:d=2019081500:UGRD:10 m above ground:88 hour fcst:
+126:472142747:d=2019081500:VGRD:10 m above ground:88 hour fcst:
+127:475841044:d=2019081500:UGRD:10 m above ground:89 hour fcst:
+128:479658540:d=2019081500:VGRD:10 m above ground:89 hour fcst:
+129:483357141:d=2019081500:UGRD:10 m above ground:90 hour fcst:
+130:487175692:d=2019081500:VGRD:10 m above ground:90 hour fcst:
+131:490875879:d=2019081500:UGRD:10 m above ground:91 hour fcst:
+132:494858832:d=2019081500:VGRD:10 m above ground:91 hour fcst:
+133:498559676:d=2019081500:UGRD:10 m above ground:92 hour fcst:
+134:502376505:d=2019081500:VGRD:10 m above ground:92 hour fcst:
+135:506074459:d=2019081500:UGRD:10 m above ground:93 hour fcst:
+136:509889294:d=2019081500:VGRD:10 m above ground:93 hour fcst:
+137:513583133:d=2019081500:UGRD:10 m above ground:94 hour fcst:
+138:517353063:d=2019081500:VGRD:10 m above ground:94 hour fcst:
+139:521042706:d=2019081500:UGRD:10 m above ground:95 hour fcst:
+140:524846299:d=2019081500:VGRD:10 m above ground:95 hour fcst:
+141:528531560:d=2019081500:UGRD:10 m above ground:96 hour fcst:
+142:532330008:d=2019081500:VGRD:10 m above ground:96 hour fcst:
+143:536011466:d=2019081500:UGRD:10 m above ground:97 hour fcst:
+144:539807519:d=2019081500:VGRD:10 m above ground:97 hour fcst:
+145:543483795:d=2019081500:UGRD:10 m above ground:98 hour fcst:
+146:547443352:d=2019081500:VGRD:10 m above ground:98 hour fcst:
+147:551117813:d=2019081500:UGRD:10 m above ground:99 hour fcst:
+148:554914094:d=2019081500:VGRD:10 m above ground:99 hour fcst:
+149:558587858:d=2019081500:UGRD:10 m above ground:100 hour fcst:
+150:562549029:d=2019081500:VGRD:10 m above ground:100 hour fcst:
+151:566222830:d=2019081500:UGRD:10 m above ground:101 hour fcst:
+152:570021167:d=2019081500:VGRD:10 m above ground:101 hour fcst:
+153:573693853:d=2019081500:UGRD:10 m above ground:102 hour fcst:
+154:577492124:d=2019081500:VGRD:10 m above ground:102 hour fcst:
+155:581329537:d=2019081500:UGRD:10 m above ground:103 hour fcst:
+156:585130498:d=2019081500:VGRD:10 m above ground:103 hour fcst:
+157:588804482:d=2019081500:UGRD:10 m above ground:104 hour fcst:
+158:592606583:d=2019081500:VGRD:10 m above ground:104 hour fcst:
+159:596280248:d=2019081500:UGRD:10 m above ground:105 hour fcst:
+160:600087612:d=2019081500:VGRD:10 m above ground:105 hour fcst:
+161:603764742:d=2019081500:UGRD:10 m above ground:106 hour fcst:
+162:607573787:d=2019081500:VGRD:10 m above ground:106 hour fcst:
+163:611252600:d=2019081500:UGRD:10 m above ground:107 hour fcst:
+164:615227271:d=2019081500:VGRD:10 m above ground:107 hour fcst:
+165:618908081:d=2019081500:UGRD:10 m above ground:108 hour fcst:
+166:622720665:d=2019081500:VGRD:10 m above ground:108 hour fcst:
+167:626404743:d=2019081500:UGRD:10 m above ground:109 hour fcst:
+168:630219880:d=2019081500:VGRD:10 m above ground:109 hour fcst:
+169:634129765:d=2019081500:UGRD:10 m above ground:110 hour fcst:
+170:637946100:d=2019081500:VGRD:10 m above ground:110 hour fcst:
+171:641799975:d=2019081500:UGRD:10 m above ground:111 hour fcst:
+172:645618316:d=2019081500:VGRD:10 m above ground:111 hour fcst:
+173:649311277:d=2019081500:UGRD:10 m above ground:112 hour fcst:
+174:653131840:d=2019081500:VGRD:10 m above ground:112 hour fcst:
+175:656990709:d=2019081500:UGRD:10 m above ground:113 hour fcst:
+176:660813160:d=2019081500:VGRD:10 m above ground:113 hour fcst:
+177:664510048:d=2019081500:UGRD:10 m above ground:114 hour fcst:
+178:668332733:d=2019081500:VGRD:10 m above ground:114 hour fcst:
+179:672194920:d=2019081500:UGRD:10 m above ground:115 hour fcst:
+180:676018754:d=2019081500:VGRD:10 m above ground:115 hour fcst:
+181:679717868:d=2019081500:UGRD:10 m above ground:116 hour fcst:
+182:683542383:d=2019081500:VGRD:10 m above ground:116 hour fcst:
+183:687404457:d=2019081500:UGRD:10 m above ground:117 hour fcst:
+184:691225544:d=2019081500:VGRD:10 m above ground:117 hour fcst:
+185:694922099:d=2019081500:UGRD:10 m above ground:118 hour fcst:
+186:698741689:d=2019081500:VGRD:10 m above ground:118 hour fcst:
+187:702433544:d=2019081500:UGRD:10 m above ground:119 hour fcst:
+188:706414867:d=2019081500:VGRD:10 m above ground:119 hour fcst:
+189:710104278:d=2019081500:UGRD:10 m above ground:120 hour fcst:
+190:714082412:d=2019081500:VGRD:10 m above ground:120 hour fcst:
