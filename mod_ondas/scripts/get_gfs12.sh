@@ -42,7 +42,7 @@ elif [ $# -eq 2 ]; then
    AMD=$2
 fi
 
-Nref=2
+Nref=55
 Flag=0
 Abort=300
 nt=0
@@ -102,8 +102,8 @@ done
 ${p_wgrib2} ${WORKDIRGFS12}/wnd.grb2 -netcdf ${WORKDIRGFS12}/wnd.nc
 
 # otimização arquivo
-
-${p_nccopy} -d 7 ${WORKDIRGFS12}/wnd.nc ${WORKDIRGFS12}/wnd_cp.nc
+${p_ncks} -4 -L 1 ${WORKDIRGFS12}/wnd.nc ${WORKDIRGFS12}/wnd_cp.nc
+#${p_nccopy} -d 7 ${WORKDIRGFS12}/wnd.nc ${WORKDIRGFS12}/wnd_cp.nc
 file_nc=gfs12.${AMD}${HSIM}.nc
 
 mv ${WORKDIRGFS12}/wnd_cp.nc ${DIRGFS12}/${file_nc}
