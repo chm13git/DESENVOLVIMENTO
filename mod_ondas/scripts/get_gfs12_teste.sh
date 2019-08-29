@@ -86,6 +86,7 @@ for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
          echo " Dado gfs.t${HSIM}z.sfluxgrbf${HH}.grib2 OK"
          echo " "
       fi
+      
 done
 
 for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
@@ -96,11 +97,16 @@ done
 
 ## consulta variaveis: /home/operador/bin/wgrib2 -header file.grb2
 for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
-   cat ${WORKDIRGFS12}/u${HH}.grib2  >> ${WORKDIRGFS12}/wnd.grb2 
-   cat ${WORKDIRGFS12}/v${HH}.grib2  >> ${WORKDIRGFS12}/wnd.grb2 
+   cat ${WORKDIRGFS12}/u${HH}.grib2  >> ${WORKDIRGFS12}/u.grb2 
+   cat ${WORKDIRGFS12}/v${HH}.grib2  >> ${WORKDIRGFS12}/v.grb2 
+   ${p_wgrib2} ${WORKDIRGFS12}/u.grb2 -netcdf ${WORKDIRGFS12}/u_${HH}.nc
+   ${p_wgrib2} ${WORKDIRGFS12}/v.grb2 -netcdf ${WORKDIRGFS12}/v_${HH}.nc
 done
 
-${p_wgrib2} ${WORKDIRGFS12}/wnd.grb2 -netcdf ${WORKDIRGFS12}/wnd.nc
+cdo mergetime ${WORKDIRGFS12}/u_*.nc ${WORKDIRGFS12}/wnd.nc
+cdo mergetime ${WORKDIRGFS12}/v_*.nc ${WORKDIRGFS12}/wnd.nc
+
+#${p_wgrib2} ${WORKDIRGFS12}/wnd.grb2 -netcdf ${WORKDIRGFS12}/wnd.nc
 #cdo -f nc copy ${WORKDIRGFS12}/wnd.grb2 ${WORKDIRGFS12}/wnd.nc
 
 ## Converte variável time para 'seconds since 1970-01-01'
