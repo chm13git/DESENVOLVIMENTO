@@ -8,6 +8,20 @@
 #          1T(RM2-T) Andressa D'Agostini         #     
 #                                                #   
 ##################################################
+
+if [ $# -lt 1 ]
+   then
+   echo "+------------------Utilização----------------+"
+   echo "   Script para realizar o download do ICON    "
+   echo "               13km, horário                  "
+   echo "                                              "
+   echo "          ./get_icon13.sh hh yyyymmdd         "
+   echo "                                              "
+   echo "       ex: ./get_icon13.sh 00 20190716        "
+   echo "+--------------------------------------------+"
+   exit
+fi
+
 # Carrega CDO
 source ~/.bashrc
 
@@ -25,19 +39,6 @@ DIRICONfiles13=${DIRICONdados13}/files
 TARGETICON13=${DIRICONfiles13}/target_grid_world_0125.txt
 GRIDICON13=${DIRICONfiles13}/icon_grid_0026_R03B07_G.nc
 WFILEICON13=${DIRICONfiles13}/weights_icogl2world_0125.nc
-
-if [ $# -lt 1 ]
-   then
-   echo "+------------------Utilização----------------+"
-   echo "   Script para realizar o download do ICON    "
-   echo "               13km, horário                  "
-   echo "                                              "
-   echo "          ./get_icon13.sh hh yyyymmdd         "
-   echo "                                              "
-   echo "       ex: ./get_icon13.sh 00 20190716        "
-   echo "+--------------------------------------------+"
-   exit
-fi
 
 HSIM=$1  
 HSTART1=0
@@ -78,7 +79,9 @@ for HH in `seq -s " " -f "%03g" ${HSTART1} 1 ${HSTOP1};seq -s " " -f "%03g" ${HS
         bunzip2 ${DIRICONdados13}/${iconfile}
 
       	# CHECAGEM DO DOWNLOAD
+
       	Nvar=`${p_wgrib2} ${DIRICONdados13}/${iconfile_grb2} | wc -l`
+
      if [ ${Nvar} -lt ${Nref} ];then
         Flag=1 
         
@@ -168,7 +171,8 @@ ${p_ncatted} -O -a missing_value,10u,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc
 ${p_ncatted} -O -a missing_value,10v,a,f,"9.999e+20" ${WORKDIRICON13}/wnd_out.nc -o ${WORKDIRICON13}/wnd_out.nc
 
 # Otimiza arquivo
-${p_nccopy} -d 7 ${WORKDIRICON13}/wnd_out.nc ${WORKDIRICON13}/wnd_cp.nc
+${p_ncks} -4 -L 1 ${WORKDIRICON13}/wnd_out.nc ${WORKDIRICON13}/wnd_cp.nc
+#${p_nccopy} -d 7 ${WORKDIRICON13}/wnd_out.nc ${WORKDIRICON13}/wnd_cp.nc
 file_nc=icon13.${AMD}${HSIM}.nc   
 #file_grb2=icon13.${AMD}${HSIM}.grb2 
 mv ${WORKDIRICON13}/wnd_cp.nc ${DIRICON13}/${file_nc}
