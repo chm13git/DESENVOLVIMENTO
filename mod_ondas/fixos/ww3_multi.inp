@@ -13,7 +13,7 @@ $
   'area2' 'no' 'no' 'wnd'  'no' 'no' 'no' 'no'  2  1  0.00 1.00  T
   'area3' 'no' 'no' 'wnd' 'ice' 'no' 'no' 'no'  3  1  0.00 1.00  T
 $
-   dataini cyc0000  datafim cyc0000
+   dataini cyc0000 datafim cyc0000
 $
   F F
 $
@@ -156,7 +156,7 @@ $
        -52.47         -33.81      'CHUI      '
        -43.95         -23.28      'LHFC_W    '
        -43.60         -23.23      'LHFC_E    '
-       -40.97         -20.97      'ITAOCA_ES '
+       -40.73         -20.91      'ITAOCA_ES '
        -40.26         -21.49      'B_ITAOCA  '
        -47.26         -27.41      'B_ITAJAISC'
        -49.84         -31.56      'B_RGRANDE3'
