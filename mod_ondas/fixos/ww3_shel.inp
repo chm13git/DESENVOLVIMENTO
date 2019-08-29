@@ -173,7 +173,7 @@ $
        -52.47         -33.81      'CHUI      '
        -43.95         -23.28      'LHFC_W    '
        -43.60         -23.23      'LHFC_E    '
-       -40.97         -20.97      'ITAOCA_ES '
+       -40.73         -20.91      'ITAOCA_ES '
        -40.26         -21.49      'B_ITAOCA  '
        -47.26         -27.41      'B_ITAJAISC'
        -49.84         -31.56      'B_RGRANDE3'
@@ -207,7 +207,7 @@ $
 $
    dataini  cyc0000       0  datafim  cyc0000  $ Output along track
 $
-   dataini  cyc0000   21600  restart  cyc0000  $ Restart files
+   dataini  cyc0000   43200  restart  cyc0000  $ Restart files
 $
    dataini  cyc0000    3600  datafim  cyc0000  $ Boundary data
 $
