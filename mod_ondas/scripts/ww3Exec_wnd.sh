@@ -49,7 +49,7 @@ fi
 Dnext=$(date -d "${AMD} +1 days" +%Y%m%d)
 Drest=$(date -d "${AMD} +2 days" +%Y%m%d)
 
-if [ ${HSIM} = 00 ];then
+if [ ${HSIM} == '00' ];then
  res=12
  rest1=${AMD}    
  rest2=${Dnext}
