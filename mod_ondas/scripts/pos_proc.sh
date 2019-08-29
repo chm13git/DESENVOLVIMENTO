@@ -162,7 +162,8 @@ for grd in "${AREAS[@]}"; do
   fi
 
   GRD=` echo ${grd} | cut -f1 -d"5" `
-  cp ${WORKDIR}/ww3${FORC}_${grd}_${AMD}${HSIM}.nc ${BCKDIR}/ww3${FORC}_${GRD}_${AMD}${HSIM}.nc
+  ${p_ncks} -4 -L 1 ${WORKDIR}/ww3${FORC}_${grd}_${AMD}${HSIM}.nc ${BCKDIR}/ww3${FORC}_${GRD}_${AMD}${HSIM}.nc
+#  cp ${WORKDIR}/ww3${FORC}_${grd}_${AMD}${HSIM}.nc ${BCKDIR}/ww3${FORC}_${GRD}_${AMD}${HSIM}.nc
 
   for filename in ${WORKDIR}/*; do
     rm $filename
