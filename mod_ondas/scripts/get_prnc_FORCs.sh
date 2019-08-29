@@ -29,7 +29,7 @@ fi
 
 HSIM=$1
 
-# -------------------------------
+# -----HSIM=--------------------------
 #  Definindo informação de datas
 
 if [ $# -eq 1 ]; then
@@ -58,10 +58,10 @@ BCKDIR=${WW3DIR}/backup
 #  Definindo as forçantes
 
 forc1=gfs
-forc2=gfs12
-forc3=icon
-forc4=icon13
-forc5=cosmo
+forc2=icon
+forc3=icon13
+forc4=cosmo
+forc5=gfs12
 FORCs=(${forc3} ${forc1} ${forc2} ${forc4} ${forc5})
 
 # Flags de tempo para o while
@@ -70,7 +70,7 @@ Tspended=0
 
 while [ ${Abort} -gt ${Tspended} ]; do
 
-    if [ -e ${HSIM} == '00' ] && [ ! -e ${GELODIR}/ice.${AMDm1}.ice ]; then
+    if [ ${HSIM} == '00' ] && [ ! -e ${GELODIR}/ice.${AMDm1}.ice ]; then
       echo ' '
       echo ' Download e interpolação da máscara de gelo '
       echo ' '
