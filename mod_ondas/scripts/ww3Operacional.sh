@@ -71,12 +71,12 @@ while [ ${Abort} -gt ${Tspended} ]; do
   for FORC in "${FORCs[@]}"; do
     
     if [ ${FORC} = "cosmo" ]; then
-      if [ -e ${OUTDIR}/ww3icon13/${AMD}/nest.t${HSIM}z.met5_icon13 ] && [ -e ${DIRWND}/${FORC}/wind.${AMD}${HSIM}.${FORC} ] && [ ! -e ${FLAGDIR}/WW3${FORC}_${AMD}${HSIM}_SAFO ]; then
+      if [ -e ${OUTDIR}/ww3icon13/${AMD}/nest.t${HSIM}z.met5_icon13 ] && [ -e ${DIRWND}/${FORC}/wind.${AMD}${HSIM}.${FORC} ] && [ ! -e ${FLAGDIR}/WW3${FORC}_${AMD}${HSIM}_SAFO ] || [ -e ${OUTDIR}/ww3icon/${AMD}/nest.t${HSIM}z.met5_icon ] && [ -e ${DIRWND}/${FORC}/wind.${AMD}${HSIM}.${FORC} ] && [ ! -e ${FLAGDIR}/WW3${FORC}_${AMD}${HSIM}_SAFO ]; then
         echo ' '
         echo ' Iniciando a rodada do WW3'${FORC}' Data e HH: '${AMD}${HSIM}
         echo ' '
-        ${WW3DIR}/scripts/ww3Exec_wnd.sh ${FORC} ${HSIM}
-        ${WW3DIR}/scripts/pos_proc.sh ${FORC} ${HSIM}      
+        ${WW3DIR}/scripts/ww3Exec_wnd.sh ${FORC} ${HSIM} ${AMD}
+        ${WW3DIR}/scripts/pos_proc.sh ${FORC} ${HSIM} ${AMD} 
         if [ -e ${OUTDIR}/ww3${FORC}/${AMD}/out_grd.t${HSIM}z.met5_${FORC} ] && [ -e ${BCKDIR}/ww3${FORC}/ww3${FORC}_met_${AMD}${HSIM}.nc ]; then
           touch ${FLAGDIR}/WW3${FORC}_${AMD}${HSIM}_SAFO
         fi
@@ -86,8 +86,8 @@ while [ ${Abort} -gt ${Tspended} ]; do
         echo ' '
         echo ' Iniciando a rodada do WW3'${FORC}' Data e HH: '${AMD}${HSIM}
         echo ' '
-        ${WW3DIR}/scripts/ww3Exec_wnd.sh ${FORC} ${HSIM}
-        ${WW3DIR}/scripts/pos_proc.sh ${FORC} ${HSIM}
+        ${WW3DIR}/scripts/ww3Exec_wnd.sh ${FORC} ${HSIM} ${AMD}
+        ${WW3DIR}/scripts/pos_proc.sh ${FORC} ${HSIM} ${AMD}
         if [ -e ${OUTDIR}/ww3${FORC}/${AMD}/out_grd.t${HSIM}z.met5_${FORC} ] && [ -e ${BCKDIR}/ww3${FORC}/ww3${FORC}_met_${AMD}${HSIM}.nc ]; then
           touch ${FLAGDIR}/WW3${FORC}_${AMD}${HSIM}_SAFO
         fi
