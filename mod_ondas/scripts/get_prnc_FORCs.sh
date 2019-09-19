@@ -59,7 +59,7 @@ BCKDIR=${WW3DIR}/backup
 
 forc1=gfs
 forc2=icon
-forc3=icon13
+forc3=ico13
 forc4=cosmo
 forc5=gfs12
 FORCs=(${forc3} ${forc1} ${forc2} ${forc4} ${forc5})
