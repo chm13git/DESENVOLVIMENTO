@@ -21,7 +21,7 @@ if ! [ $# -eq 1 ];
    echo "                                              "
    echo "        ./make_cold_restarts.sh wnd           "
    echo "                                              "
-   echo "    wnd = (gfs, icon, cosmo, gfs12, icon13)   "
+   echo "    wnd = (gfs, icon, cosmo, gfs12, ico13)    "
    echo "                                              "
    echo "       ex: ./make_cold_restarts.sh gfs        "
    echo "+--------------------------------------------+"
@@ -43,7 +43,7 @@ cd ${WORKDIR}
 # ----------------------
 #  Definição das grades
 
-if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "icon13" ]; then
+if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "ico13" ]; then
    ice=ice
    area1=glo_${FORC}
    area2=met5_${FORC}
