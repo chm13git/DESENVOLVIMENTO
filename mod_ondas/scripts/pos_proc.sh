@@ -24,7 +24,7 @@ if [ $# -lt 2 ]
    echo "                                              "
    echo "        ./pos_proc.sh wnd hh yyyymmdd         "
    echo "                                              "
-   echo "    wnd = (gfs, icon, cosmo, gfs12, icon13)   "
+   echo "    wnd = (gfs, icon, cosmo, gfs12, ico13)    "
    echo "                                              "
    echo "       ex: ./pos_proc.sh gfs 00 20190731      "
    echo "+--------------------------------------------+"
@@ -57,7 +57,7 @@ BCKDIR=${WW3DIR}/backup/ww3${FORC}
 # ----------------------
 #  Definição das áreas
 
-if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "icon13" ]; then
+if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "ico13" ]; then
    area1=met5_${FORC}
    area2=ant5_${FORC}
    AREAS=(${area1} ${area2})
