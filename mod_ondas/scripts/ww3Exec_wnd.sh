@@ -20,7 +20,7 @@ if [ $# -lt 2 ]
    echo "                                              "
    echo "      ./ww3Exec_wnd.sh wnd hh yyyymmdd        "
    echo "                                              "
-   echo "    wnd = (gfs, icon, cosmo, gfs12, icon13)   "
+   echo "    wnd = (gfs, icon, cosmo, gfs12, ico13)    "
    echo "                                              "
    echo "    ex: ./ww3Exec_wnd.sh gfs 00 20190716      "
    echo "+--------------------------------------------+"
@@ -92,7 +92,7 @@ export MPI_IB_RECV_BUFS=256
 # -----------------------------------------------------
 #  Definição das áreas e links das grades e restarts
 
-if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "icon13" ]; then
+if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "ico13" ]; then
   ice=ice
   area1=glo_${FORC}
   area2=met5_${FORC}
@@ -170,8 +170,8 @@ if [ ${FORC} = "cosmo" ]; then
      echo ''
      echo ' Linkando arquivos nest do WW3ICON para a rodada do WW3/'${FORC}
      echo ''
-  elif [ -e ${WW3DIR}/output/ww3icon13/${AMD}/nest.t${HSIM}z.met5_icon13 ]; then
-     ln -sf ${WW3DIR}/output/ww3icon13/${AMD}/nest.t${HSIM}z.met5_icon13 ${WORKDIR}/nest.ww3
+  elif [ -e ${WW3DIR}/output/ww3ico13/${AMD}/nest.t${HSIM}z.met5_ico13 ]; then
+     ln -sf ${WW3DIR}/output/ww3ico13/${AMD}/nest.t${HSIM}z.met5_ico13 ${WORKDIR}/nest.ww3
      echo ''
      echo ' Linkando arquivos nest do WW3ICON13 para a rodada do WW3/'${FORC}
      echo ''
@@ -204,7 +204,7 @@ fi
 
 cd ${WORKDIR}
 
-if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "icon13" ]; then 
+if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "ico13" ]; then 
    cp ${FIXODIR}/ww3_multi.inp ${WORKDIR}/ww3_multi.inp
    sed s/dataini/${AMD}/g ww3_multi.inp > temp_ww3multi
    sed s/datafim/${DATAf}/g temp_ww3multi > ww3_multi.inp
@@ -256,20 +256,6 @@ for grd in "${AREAS[@]}"; do
     cp ${WORKDIR}/out_grd.ww3 ${OUTDIR}/out_grd.t${HSIM}z.${grd}
     cp ${WORKDIR}/log.ww3 ${LOGDIR}/log.t${HSIM}z.${grd}
     cp ${WORKDIR}/out_pnt.ww3 ${OUTDIR}/out_pnt.t${HSIM}z.points
-  elif [ ${FORC} = "icon13" ] && [ ${grd} = "ant5_icon13" ] ||  [ ${FORC} = "icon13" ] && [ ${grd} = "met5_icon13" ]; then
-    if [ ${grd} = "ant5_icon13" ]; then
-      grd_aux=ant5_icon1
-      cp ${WORKDIR}/restart001.${grd_aux} ${RESTDIRo}/restart.${rest1}${res}.${grd}
-      cp ${WORKDIR}/restart002.${grd_aux} ${RESTDIRo}/restart.${rest2}${HSIM}.${grd}
-      cp ${WORKDIR}/restart003.${grd_aux} ${RESTDIRo}/restart.${rest3}${res}.${grd}
-      cp ${WORKDIR}/restart004.${grd_aux} ${RESTDIRo}/restart.${rest4}${HSIM}.${grd}
-    elif [ ${grd} = "met5_icon13" ]; then
-      grd_aux=met5_icon1
-      cp ${WORKDIR}/restart001.${grd_aux} ${RESTDIRo}/restart.${rest1}${res}.${grd}
-      cp ${WORKDIR}/restart002.${grd_aux} ${RESTDIRo}/restart.${rest2}${HSIM}.${grd}
-      cp ${WORKDIR}/restart003.${grd_aux} ${RESTDIRo}/restart.${rest3}${res}.${grd}
-      cp ${WORKDIR}/restart004.${grd_aux} ${RESTDIRo}/restart.${rest4}${HSIM}.${grd}    
-    fi    
     echo ''
     echo ' Copiando restarts e outputs do WW3/'${FORC}' grade '${grd}' data: '${AMD}${HSIM}
     echo ''
