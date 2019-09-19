@@ -1,23 +1,14 @@
-#!/bin/bash
+#!/bin/bash -x
+
 ##################################################
 # Script que realiza o Download do vento a 10 m  #
-# do GFS 12 km, horário, para a rodada WW3       #
+# do GFS12 para a rodada WW3                     #
 #                                                #
-# JUN2019                                        #  
-# Autoras: Bruna Reis                            #
+# SET2019                                        #
+# Autores: Bruna Reis                            #
 #          1T(RM2-T) Andressa D'Agostini         #     
 #                                                #   
 ##################################################
-# Carrega CDO
-source ~/.bashrc
-
-# Carrega diretórios e funções
-source ~/mod_ondas/fixos/dir.sh
-
-DIRWND=${WW3DIR}/input/vento
-DIRGFS12=${DIRWND}/gfs12
-DIRGFSdados12=${DIRGFS12}/dados
-WORKDIRGFS12=${DIRGFSdados12}/work
 
 if [ $# -lt 1 ]
    then
@@ -32,28 +23,43 @@ if [ $# -lt 1 ]
    exit
 fi
 
-HSIM=$1  
+# Carrega CDO
+source ~/.bashrc
+
+# Carrega diretórios e funções
+source ~/mod_ondas/fixos/dir.sh
+
+HH=$1
 HSTART=0
 HSTOP=120
 
 if [ $# -eq 1 ]; then
-   AMD=`cat ~/datas/datacorrente${HSIM}`
+   datacorrente=`cat ~/datas/datacorrente${HH}`
 elif [ $# -eq 2 ]; then
-   AMD=$2
+   datacorrente=$2
 fi
 
-Nref=55
+dir_scripts="/data1/ww3desenv/home/mod_ondas/scripts"
+dir_files=${DIRWND}/gfs12/files
+dir_work=${dir_files}/work
+dir_output=${DIRWND}/gfs12
+
+############
+# VAR = A lista de variáveis que o WRF necessita do downloado dos dados do GFS
+VAR="UGRD:VGRD"
+LEV='10_m'
+######################################################
+Nref=2
 Flag=0
 Abort=300
 nt=0
 
-for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
-      URL="https://nomads.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/gfs.${AMD}/${HSIM}/gfs.t${HSIM}z.sfluxgrbf${HH}.grib2"; 
-											 
-      wget "${URL}" -O "${DIRGFSdados12}/gfs.t${HSIM}z.sfluxgrbf${HH}.grib2"
+for HREF in `seq -f "%03g" $HSTART 1 $HSTOP` ;do
+
+	${dir_scripts}/get_gfs12.pl data ${datacorrente}${HH} ${HREF} ${HREF} ${HREF} ${VAR} ${LEV} ${dir_files}/
 
       # CHECAGEM DO DOWNLOAD
-      Nvar=`${p_wgrib2} ${DIRGFSdados12}/gfs.t${HSIM}z.sfluxgrbf${HH}.grib2 | wc -l`
+      Nvar=`${p_wgrib2} ${dir_files}/gfs.t${HH}z.sfluxgrbf${HREF}.grib2 | wc -l`
 
       if [ ${Nvar} -lt ${Nref} ];then
 
@@ -63,18 +69,18 @@ for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
 
             sleep 60
             echo " "
-            echo " Tentando o Download novamente do gfs.t${HSIM}z.sfluxgrbf${HH}.grib2"
+            echo " Tentando o Download novamente do gfs.t${HH}z.sfluxgrbf${HREF}.grib2"
             echo " "
 
-            wget "${URL}" -O "${DIRGFSdados12}/gfs.t${HSIM}z.sfluxgrbf${HH}.grib2"
-	    Nvar=`${p_wgrib2} ${DIRGFSdados12}/gfs.t${HSIM}z.sfluxgrbf${HH}.grib2 | wc -l`
+            ${dir_scripts}/get_gfs12.pl data ${datacorrente}${HH} ${HREF} ${HREF} ${HREF} ${VAR} ${LEV} ${dir_files}/
+	    Nvar=`${p_wgrib2} ${dir_files}/gfs.t${HH}z.sfluxgrbf${HREF}.grib2 | wc -l`
             
             if [ ${Nvar} -lt ${Nref} ];then
                Flag=1
             else               
                Flag=0
                echo " "
-               echo " Nova tentativa de Download do dado gfs.t${HSIM}z.sfluxgrbf${HH}.grib2  OK"
+               echo " Nova tentativa de Download do dado gfs.t${HH}z.sfluxgrbf${HREF}.grib2  OK"
                echo " "
             fi
 
@@ -83,44 +89,33 @@ for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
          done         
       else
          echo " "
-         echo " Dado gfs.t${HSIM}z.sfluxgrbf${HH}.grib2 OK"
+         echo " Dado gfs.t${HH}z.sfluxgrbf${HREF}.grib2 OK"
          echo " "
       fi
+
+cat ${dir_files}/gfs.t${HH}z.sfluxgrbf${HREF}.grib2  >> ${dir_work}/wnd.grb2 
+	
 done
 
-for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
-   ARQ=gfs.t${HSIM}z.sfluxgrbf${HH}.grib2
-   ${p_wgrib2}  ${DIRGFSdados12}/${ARQ}  | grep "UGRD:10 m above ground" | ${p_wgrib2} -i ${DIRGFSdados12}/${ARQ} -append -grib ${WORKDIRGFS12}/u${HH}.grib2
-   ${p_wgrib2}  ${DIRGFSdados12}/${ARQ}  | grep "VGRD:10 m above ground" | ${p_wgrib2} -i ${DIRGFSdados12}/${ARQ} -append -grib ${WORKDIRGFS12}/v${HH}.grib2
-done
-
-for HH in `seq -s " " -f "%03g" ${HSTART} 1 ${HSTOP}`;do
-   cat ${WORKDIRGFS12}/u${HH}.grib2  >> ${WORKDIRGFS12}/wnd.grb2 
-   cat ${WORKDIRGFS12}/v${HH}.grib2  >> ${WORKDIRGFS12}/wnd.grb2 
-done
-
-${p_wgrib2} ${WORKDIRGFS12}/wnd.grb2 -netcdf ${WORKDIRGFS12}/wnd.nc
-
+# conversão netcdf
+${p_wgrib2} ${dir_work}/wnd.grb2 -netcdf ${dir_work}/wnd.nc
 # otimização arquivo
-${p_ncks} -4 -L 1 ${WORKDIRGFS12}/wnd.nc ${WORKDIRGFS12}/wnd_cp.nc
-#${p_nccopy} -d 7 ${WORKDIRGFS12}/wnd.nc ${WORKDIRGFS12}/wnd_cp.nc
-file_nc=gfs12.${AMD}${HSIM}.nc
+${p_ncks} -4 -L 1 ${dir_work}/wnd.nc ${dir_work}/wnd_cp.nc
 
-mv ${WORKDIRGFS12}/wnd_cp.nc ${DIRGFS12}/${file_nc}
-#mv ${WORKDIRGFS12}/wnd.grb2 ${DIRGFS12}/gfs12.${AMD}${HSIM}.grb2
+file_nc=gfs12.${datacorrente}${HH}.nc
+mv ${dir_work}/wnd_cp.nc ${dir_output}/${file_nc}
 
 # Remove arquivos desnecessários
 
-if [ -f "${DIRGFS12}/${file_nc}" ]
+if [ -f "${dir_output}/${file_nc}" ]
 then
 
-for filename in ${DIRGFSdados12}/*; do
+for filename in ${dir_files}/gfs.t*; do
  rm $filename
 done
 
-for filename in ${WORKDIRGFS12}/*; do
+for filename in ${dir_work}/wnd*; do
  rm $filename
 done
 
 fi
-
