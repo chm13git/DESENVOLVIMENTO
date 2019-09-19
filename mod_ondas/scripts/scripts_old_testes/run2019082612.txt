@@ -1,0 +1,5404 @@
+ Rodada 20190826 12
+ 
+ Iniciando a rodada do WW3gfs Data e HH: 2019082612
+ 
+ 
+ Linkando mod.def da área:  glo_gfs
+ 
+
+ Linkando e restart da área:  glo_gfs
+
+ 
+ Linkando mod.def da área:  met5_gfs
+ 
+
+ Linkando e restart da área:  met5_gfs
+
+ 
+ Linkando mod.def da área:  ant5_gfs
+ 
+
+ Linkando e restart da área:  ant5_gfs
+
+ 
+ Linkando os mod.def do vento, points, ice e dados de entrada 
+ 
+
+ Linkando vento gfs 20190826 12
+
+
+ Linkando gelo para a data: 20190825
+
+
+ Iniciando Execução WW3/gfs data: 2019082612
+
+
+                    *** WAVEWATCH III Multi-grid shell ***    
+               =================================================
+
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ ========== STARTING MWW3 INITIALIZATION (WMINIT) =============================
+
+  Opening input file ww3_multi.inp (unit number  8)
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+  Opening output file log.mww3 (unit number  9)
+
+  Comment character : '$'
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+
+ *** WAVEWATCH III ERROR IN NEXTLN : 
+     ERROR ON BACKSPACE
+     IOSTAT =  264
+     IOMSG = operation requires file to be on disk or tape, unit 8, file /data1/ww3desenv/home/mod_ondas/work/./ww3_multi.inp
+
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+
+ Copiando os arquivos de output e restarts da rodada do WW3/gfs data: 2019082612
+
+ Já existe o diretório outdir 
+
+ Copiando restarts e outputs do WW3/gfs grade glo_gfs data: 2019082612
+
+
+ Copiando restarts e outputs do WW3/gfs grade met5_gfs data: 2019082612
+
+
+ Copiando restarts e outputs do WW3/gfs grade ant5_gfs data: 2019082612
+
+ --------------------------------------------------------------------------------- 
+                   ww3_ounf: saídas binárias do WW3 para NETCDF                    
+ --------------------------------------------------------------------------------- 
+ 
+ Linkando mod.def da área:  met5_gfs
+ 
+ 
+ Executando ww3_ounf área:  met5_gfs  2019082612
+ 
+
+                  *** WAVEWATCH III Field output postp. ***   
+               ===============================================
+
+  Grid name : MET 5m                        
+
+
+ *** WAVEWATCH III ERROR IN W3IOGO : 
+     ERROR IN OPENING FILE
+     IOSTAT =   29
+
+ 
+ Movendo as saídas em netcdf para a pasta Backup 
+ 
+
+ 
+ Linkando mod.def da área:  ant5_gfs
+ 
+ 
+ Executando ww3_ounf área:  ant5_gfs  2019082612
+ 
+
+                  *** WAVEWATCH III Field output postp. ***   
+               ===============================================
+
+  Grid name : ANT 5m                        
+
+
+ *** WAVEWATCH III ERROR IN W3IOGO : 
+     ERROR IN OPENING FILE
+     IOSTAT =   29
+
+ 
+ Movendo as saídas em netcdf para a pasta Backup 
+ 
+
+ 
+ Iniciando a rodada do WW3icon13 Data e HH: 2019082612
+ 
+ 
+ Linkando mod.def da área:  glo_icon13
+ 
+
+ Linkando e restart da área:  glo_icon13
+
+ 
+ Linkando mod.def da área:  met5_icon13
+ 
+
+ Linkando e restart da área:  met5_icon13
+
+ 
+ Linkando mod.def da área:  ant5_icon13
+ 
+
+ ATENÇÃO: Não há restart 20190826 ant5_icon13, VOU UTILIZAR UM RESTART FRIO 
+
+ 
+ Linkando os mod.def do vento, points, ice e dados de entrada 
+ 
+
+ Linkando vento icon13 20190826 12
+
+
+ Linkando gelo para a data: 20190825
+
+
+ Iniciando Execução WW3/icon13 data: 2019082612
+
+
+                    *** WAVEWATCH III Multi-grid shell ***    
+               =================================================
+
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ ========== STARTING MWW3 INITIALIZATION (WMINIT) =============================
+
+  Opening input file ww3_multi.inp (unit number  8)
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+  Opening output file log.mww3 (unit number  9)
+
+  Comment character : '$'
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+
+ *** WAVEWATCH III ERROR IN NEXTLN : 
+     ERROR ON BACKSPACE
+     IOSTAT =  264
+     IOMSG = operation requires file to be on disk or tape, unit 8, file /data1/ww3desenv/home/mod_ondas/work/./ww3_multi.inp
+
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+
+ Copiando os arquivos de output e restarts da rodada do WW3/icon13 data: 2019082612
+
+ Já existe o diretório outdir 
+
+ Copiando restarts e outputs do WW3/icon13 grade glo_icon13 data: 2019082612
+
+
+ Copiando restarts e outputs do WW3/icon13 grade met5_icon13 data: 2019082612
+
+
+ Copiando restarts e outputs do WW3/icon13 grade ant5_icon13 data: 2019082612
+
+ --------------------------------------------------------------------------------- 
+                   ww3_ounf: saídas binárias do WW3 para NETCDF                    
+ --------------------------------------------------------------------------------- 
+ 
+ Linkando mod.def da área:  met5_icon13
+ 
+ 
+ Executando ww3_ounf área:  met5_icon13  2019082612
+ 
+
+                  *** WAVEWATCH III Field output postp. ***   
+               ===============================================
+
+  Grid name : MET 5m                        
+
+
+ *** WAVEWATCH III ERROR IN W3IOGO : 
+     ERROR IN OPENING FILE
+     IOSTAT =   29
+
+ 
+ Movendo as saídas em netcdf para a pasta Backup 
+ 
+
+ 
+ Linkando mod.def da área:  ant5_icon13
+ 
+ 
+ Executando ww3_ounf área:  ant5_icon13  2019082612
+ 
+
+                  *** WAVEWATCH III Field output postp. ***   
+               ===============================================
+
+  Grid name : ANT 5m                        
+
+
+ *** WAVEWATCH III ERROR IN W3IOGO : 
+     ERROR IN OPENING FILE
+     IOSTAT =   29
+
+ 
+ Movendo as saídas em netcdf para a pasta Backup 
+ 
+
+ 
+ Aguardando Forçante de Vento chegar... sleep: 0
+ 
+ 
+ Iniciando a rodada do WW3gfs Data e HH: 2019082612
+ 
+ 
+ Linkando mod.def da área:  glo_gfs
+ 
+
+ Linkando e restart da área:  glo_gfs
+
+ 
+ Linkando mod.def da área:  met5_gfs
+ 
+
+ Linkando e restart da área:  met5_gfs
+
+ 
+ Linkando mod.def da área:  ant5_gfs
+ 
+
+ Linkando e restart da área:  ant5_gfs
+
+ 
+ Linkando os mod.def do vento, points, ice e dados de entrada 
+ 
+
+ Linkando vento gfs 20190826 12
+
+
+ Linkando gelo para a data: 20190825
+
+
+ Iniciando Execução WW3/gfs data: 2019082612
+
+
+                    *** WAVEWATCH III Multi-grid shell ***    
+               =================================================
+
+ ========== STARTING MWW3 INITIALIZATION (WMINIT) =============================
+
+  Opening input file ww3_multi.inp (unit number  8)
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+  Opening output file log.mww3 (unit number  9)
+
+  Comment character : '$'
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+
+ *** WAVEWATCH III ERROR IN NEXTLN : 
+     ERROR ON BACKSPACE
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+     IOSTAT =  264
+     IOMSG = operation requires file to be on disk or tape, unit 8, file /data1/ww3desenv/home/mod_ondas/work/./ww3_multi.inp
+
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+
+ Copiando os arquivos de output e restarts da rodada do WW3/gfs data: 2019082612
+
+ Já existe o diretório outdir 
+
+ Copiando restarts e outputs do WW3/gfs grade glo_gfs data: 2019082612
+
+
+ Copiando restarts e outputs do WW3/gfs grade met5_gfs data: 2019082612
+
+
+ Copiando restarts e outputs do WW3/gfs grade ant5_gfs data: 2019082612
+
+ --------------------------------------------------------------------------------- 
+                   ww3_ounf: saídas binárias do WW3 para NETCDF                    
+ --------------------------------------------------------------------------------- 
+ 
+ Linkando mod.def da área:  met5_gfs
+ 
+ 
+ Executando ww3_ounf área:  met5_gfs  2019082612
+ 
+
+                  *** WAVEWATCH III Field output postp. ***   
+               ===============================================
+
+  Grid name : MET 5m                        
+
+
+ *** WAVEWATCH III ERROR IN W3IOGO : 
+     ERROR IN OPENING FILE
+     IOSTAT =   29
+
+ 
+ Movendo as saídas em netcdf para a pasta Backup 
+ 
+
+ 
+ Linkando mod.def da área:  ant5_gfs
+ 
+ 
+ Executando ww3_ounf área:  ant5_gfs  2019082612
+ 
+
+                  *** WAVEWATCH III Field output postp. ***   
+               ===============================================
+
+  Grid name : ANT 5m                        
+
+
+ *** WAVEWATCH III ERROR IN W3IOGO : 
+     ERROR IN OPENING FILE
+     IOSTAT =   29
+
+ 
+ Movendo as saídas em netcdf para a pasta Backup 
+ 
+
+ 
+ Iniciando a rodada do WW3icon13 Data e HH: 2019082612
+ 
+ 
+ Linkando mod.def da área:  glo_icon13
+ 
+
+ Linkando e restart da área:  glo_icon13
+
+ 
+ Linkando mod.def da área:  met5_icon13
+ 
+
+ Linkando e restart da área:  met5_icon13
+
+ 
+ Linkando mod.def da área:  ant5_icon13
+ 
+
+ ATENÇÃO: Não há restart 20190826 ant5_icon13, VOU UTILIZAR UM RESTART FRIO 
+
+ 
+ Linkando os mod.def do vento, points, ice e dados de entrada 
+ 
+
+ Linkando vento icon13 20190826 12
+
+
+ Linkando gelo para a data: 20190825
+
+
+ Iniciando Execução WW3/icon13 data: 2019082612
+
+
+                    *** WAVEWATCH III Multi-grid shell ***    
+               =================================================
+
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ ========== STARTING MWW3 INITIALIZATION (WMINIT) =============================
+
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+  Opening input file ww3_multi.inp (unit number  8)
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+  Opening output file log.mww3 (unit number  9)
+
+  Comment character : '$'
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+
+ *** WAVEWATCH III ERROR IN NEXTLN : 
+     ERROR ON BACKSPACE
+     IOSTAT =  264
+     IOMSG = operation requires file to be on disk or tape, unit 8, file /data1/ww3desenv/home/mod_ondas/work/./ww3_multi.inp
+
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+
+ Copiando os arquivos de output e restarts da rodada do WW3/icon13 data: 2019082612
+
+ Já existe o diretório outdir 
+
+ Copiando restarts e outputs do WW3/icon13 grade glo_icon13 data: 2019082612
+
+
+ Copiando restarts e outputs do WW3/icon13 grade met5_icon13 data: 2019082612
+
+
+ Copiando restarts e outputs do WW3/icon13 grade ant5_icon13 data: 2019082612
+
+ --------------------------------------------------------------------------------- 
+                   ww3_ounf: saídas binárias do WW3 para NETCDF                    
+ --------------------------------------------------------------------------------- 
+ 
+ Linkando mod.def da área:  met5_icon13
+ 
+ 
+ Executando ww3_ounf área:  met5_icon13  2019082612
+ 
+
+                  *** WAVEWATCH III Field output postp. ***   
+               ===============================================
+
+  Grid name : MET 5m                        
+
+
+ *** WAVEWATCH III ERROR IN W3IOGO : 
+     ERROR IN OPENING FILE
+     IOSTAT =   29
+
+ 
+ Movendo as saídas em netcdf para a pasta Backup 
+ 
+
+ 
+ Linkando mod.def da área:  ant5_icon13
+ 
+ 
+ Executando ww3_ounf área:  ant5_icon13  2019082612
+ 
+
+                  *** WAVEWATCH III Field output postp. ***   
+               ===============================================
+
+  Grid name : ANT 5m                        
+
+
+ *** WAVEWATCH III ERROR IN W3IOGO : 
+     ERROR IN OPENING FILE
+     IOSTAT =   29
+
+ 
+ Movendo as saídas em netcdf para a pasta Backup 
+ 
+
+ 
+ Aguardando Forçante de Vento chegar... sleep: 1
+ 
+ 
+ Iniciando a rodada do WW3gfs Data e HH: 2019082612
+ 
+ 
+ Linkando mod.def da área:  glo_gfs
+ 
+
+ Linkando e restart da área:  glo_gfs
+
+ 
+ Linkando mod.def da área:  met5_gfs
+ 
+
+ Linkando e restart da área:  met5_gfs
+
+ 
+ Linkando mod.def da área:  ant5_gfs
+ 
+
+ Linkando e restart da área:  ant5_gfs
+
+ 
+ Linkando os mod.def do vento, points, ice e dados de entrada 
+ 
+
+ Linkando vento gfs 20190826 12
+
+
+ Linkando gelo para a data: 20190825
+
+
+ Iniciando Execução WW3/gfs data: 2019082612
+
+
+                    *** WAVEWATCH III Multi-grid shell ***    
+               =================================================
+
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ ========== STARTING MWW3 INITIALIZATION (WMINIT) =============================
+
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+  Opening input file ww3_multi.inp (unit number  8)
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+  Opening output file log.mww3 (unit number  9)
+
+  Comment character : '$'
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+
+ *** WAVEWATCH III ERROR IN NEXTLN : 
+     ERROR ON BACKSPACE
+     IOSTAT =  264
+     IOMSG = operation requires file to be on disk or tape, unit 8, file /data1/ww3desenv/home/mod_ondas/work/./ww3_multi.inp
+
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd COMM missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+
+ Copiando os arquivos de output e restarts da rodada do WW3/gfs data: 2019082612
+
+ Já existe o diretório outdir 
+
+ Copiando restarts e outputs do WW3/gfs grade glo_gfs data: 2019082612
+
+
+ Copiando restarts e outputs do WW3/gfs grade met5_gfs data: 2019082612
+
+
+ Copiando restarts e outputs do WW3/gfs grade ant5_gfs data: 2019082612
+
+ --------------------------------------------------------------------------------- 
+                   ww3_ounf: saídas binárias do WW3 para NETCDF                    
+ --------------------------------------------------------------------------------- 
+ 
+ Linkando mod.def da área:  met5_gfs
+ 
+ 
+ Executando ww3_ounf área:  met5_gfs  2019082612
+ 
+
+                  *** WAVEWATCH III Field output postp. ***   
+               ===============================================
+
+  Grid name : MET 5m                        
+
+
+ *** WAVEWATCH III ERROR IN W3IOGO : 
+     ERROR IN OPENING FILE
+     IOSTAT =   29
+
+ 
+ Movendo as saídas em netcdf para a pasta Backup 
+ 
+
+ 
+ Linkando mod.def da área:  ant5_gfs
+ 
+ 
+ Executando ww3_ounf área:  ant5_gfs  2019082612
+ 
+
+                  *** WAVEWATCH III Field output postp. ***   
+               ===============================================
+
+  Grid name : ANT 5m                        
+
+
+ *** WAVEWATCH III ERROR IN W3IOGO : 
+     ERROR IN OPENING FILE
+     IOSTAT =   29
+
+ 
+ Movendo as saídas em netcdf para a pasta Backup 
+ 
+
+ 
+ Iniciando a rodada do WW3icon13 Data e HH: 2019082612
+ 
+ 
+ Linkando mod.def da área:  glo_icon13
+ 
+
+ Linkando e restart da área:  glo_icon13
+
+ 
+ Linkando mod.def da área:  met5_icon13
+ 
+
+ Linkando e restart da área:  met5_icon13
+
+ 
+ Linkando mod.def da área:  ant5_icon13
+ 
+
+ ATENÇÃO: Não há restart 20190826 ant5_icon13, VOU UTILIZAR UM RESTART FRIO 
+
+ 
+ Linkando os mod.def do vento, points, ice e dados de entrada 
+ 
+
+ Linkando vento icon13 20190826 12
+
+
+ Linkando gelo para a data: 20190825
+
+
+ Iniciando Execução WW3/icon13 data: 2019082612
+
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+
+                    *** WAVEWATCH III Multi-grid shell ***    
+               =================================================
+
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ ========== STARTING MWW3 INITIALIZATION (WMINIT) =============================
+
+  Opening input file ww3_multi.inp (unit number  8)
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+  Opening output file log.mww3 (unit number  9)
+
+  Comment character : '$'
+
+ *** WAVEWATCH III ERROR IN NEXTLN : 
+     ERROR ON BACKSPACE
+     IOSTAT =  264
+     IOMSG = operation requires file to be on disk or tape, unit 8, file /data1/ww3desenv/home/mod_ondas/work/./ww3_multi.inp
+
+ w3servmd MPI_ABORT, IEXIT=           3
+ w3servmd UNIT missing
+ w3servmd MSG missing
+ w3servmd FILE missing
+ w3servmd LINE missing
+ w3servmd COMM missing
+
+ Copiando os arquivos de output e restarts da rodada do WW3/icon13 data: 2019082612
+
+ Já existe o diretório outdir 
+
+ Copiando restarts e outputs do WW3/icon13 grade glo_icon13 data: 2019082612
+
+
+ Copiando restarts e outputs do WW3/icon13 grade met5_icon13 data: 2019082612
+
+
+ Copiando restarts e outputs do WW3/icon13 grade ant5_icon13 data: 2019082612
+
+ --------------------------------------------------------------------------------- 
+                   ww3_ounf: saídas binárias do WW3 para NETCDF                    
+ --------------------------------------------------------------------------------- 
+ 
+ Linkando mod.def da área:  met5_icon13
+ 
+ 
+ Executando ww3_ounf área:  met5_icon13  2019082612
+ 
+
+                  *** WAVEWATCH III Field output postp. ***   
+               ===============================================
+
+  Grid name : MET 5m                        
+
+
+ *** WAVEWATCH III ERROR IN W3IOGO : 
+     ERROR IN OPENING FILE
+     IOSTAT =   29
+
+ 
+ Movendo as saídas em netcdf para a pasta Backup 
+ 
+
+ 
+ Linkando mod.def da área:  ant5_icon13
+ 
+ 
+ Executando ww3_ounf área:  ant5_icon13  2019082612
+ 
+
+                  *** WAVEWATCH III Field output postp. ***   
+               ===============================================
+
+  Grid name : ANT 5m                        
+
+
+ *** WAVEWATCH III ERROR IN W3IOGO : 
+     ERROR IN OPENING FILE
+     IOSTAT =   29
+
+ 
+ Movendo as saídas em netcdf para a pasta Backup 
+ 
+
+ 
+ Aguardando Forçante de Vento chegar... sleep: 2
+ 

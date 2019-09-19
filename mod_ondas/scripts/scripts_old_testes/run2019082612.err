@@ -1,0 +1,445 @@
+nohup: ignoring input
+MPT: libxmpi.so 'HPE MPT 2.17  11/01/17 04:28:44'
+MPT: libmpi_mt.so  'HPE MPT 2.17  11/01/17 04:27:42'
+	MPT Environmental Settings
+MPT: MPI_VERBOSE (default: disabled) : enabled
+MPT: MPI_IB_RECV_MSGS (default: 512) : 1024
+MPT: Using the InfiniBand RC interconnect on fabric 0x0
+MPT: Using the InfiniBand UD interconnect on fabric 0x0
+MPT ERROR: Rank 132(g:132) is aborting with error code 3.
+	Process ID: 37797, Host: r1i1n8, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 131(g:131) is aborting with error code 3.
+	Process ID: 40118, Host: r1i1n7, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 103(g:103) is aborting with error code 3.
+	Process ID: 40161, Host: r1i1n6, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 87(g:87) is aborting with error code 3.
+	Process ID: 40251, Host: r1i1n5, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 61(g:61) is aborting with error code 3.
+	Process ID: 39009, Host: r1i1n4, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 7(g:7) is aborting with error code 3.
+	Process ID: 20525, Host: r1i1n2, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: MPI_COMM_WORLD rank 153 has terminated without calling MPI_Finalize()
+	aborting job
+MPT: Shepherd process aborted
+real 1.85
+user 0.00
+sys 0.00
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/nest.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/nest.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.*': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_pnt.points': No such file or directory
+cdo mergetime: Open failed on >met5_gfs20190826.nc<
+No such file or directory
+ncks: ERROR file /data1/ww3desenv/home/mod_ondas/work/ww3gfs_met5_gfs_2019082612.nc not found. It does not exist on the local filesystem, nor does it match remote filename patterns (e.g., http://foo or foo.bar.edu:file).
+ncks: HINT file-not-found errors usually arise from filename typos, incorrect paths, missing files, or capricious gods. Please verify spelling and location of requested file. If the file resides on a High Performance Storage System (HPSS) accessible via the 'hsi' command, then add the --hpss option and re-try command.
+cdo mergetime: Open failed on >ant5_gfs20190826.nc<
+No such file or directory
+ncks: ERROR file /data1/ww3desenv/home/mod_ondas/work/ww3gfs_ant5_gfs_2019082612.nc not found. It does not exist on the local filesystem, nor does it match remote filename patterns (e.g., http://foo or foo.bar.edu:file).
+ncks: HINT file-not-found errors usually arise from filename typos, incorrect paths, missing files, or capricious gods. Please verify spelling and location of requested file. If the file resides on a High Performance Storage System (HPSS) accessible via the 'hsi' command, then add the --hpss option and re-try command.
+mv: cannot stat '/data1/ww3desenv/home/mod_ondas/output/ww3gfs/20190826/out_pnt.t12z.points': No such file or directory
+MPT: libxmpi.so 'HPE MPT 2.17  11/01/17 04:28:44'
+MPT: libmpi_mt.so  'HPE MPT 2.17  11/01/17 04:27:42'
+	MPT Environmental Settings
+MPT: MPI_VERBOSE (default: disabled) : enabled
+MPT: MPI_IB_RECV_MSGS (default: 512) : 1024
+MPT: Using the InfiniBand RC interconnect on fabric 0x0
+MPT: Using the InfiniBand UD interconnect on fabric 0x0
+MPT ERROR: Rank 79(g:79) is aborting with error code 3.
+	Process ID: 40298, Host: r1i1n5, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 12(g:12) is aborting with error code 3.
+	Process ID: 20585, Host: r1i1n2, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 127(g:127) is aborting with error code 3.
+	Process ID: 40168, Host: r1i1n7, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 150(g:150) is aborting with error code 3.
+	Process ID: 37870, Host: r1i1n8, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 57(g:57) is aborting with error code 3.
+	Process ID: 39061, Host: r1i1n4, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 101(g:101) is aborting with error code 3.
+	Process ID: 40214, Host: r1i1n6, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: MPI_COMM_WORLD rank 16 has terminated without calling MPI_Finalize()
+	aborting job
+MPT: Shepherd process aborted
+real 1.70
+user 0.00
+sys 0.00
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.met5_icon1': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.met5_icon1': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.met5_icon1': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.met5_icon1': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.met5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.met5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/nest.met5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/nest.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.*': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_pnt.points': No such file or directory
+cdo mergetime: Open failed on >met5_icon1320190826.nc<
+No such file or directory
+ncks: ERROR file /data1/ww3desenv/home/mod_ondas/work/ww3icon13_met5_icon13_2019082612.nc not found. It does not exist on the local filesystem, nor does it match remote filename patterns (e.g., http://foo or foo.bar.edu:file).
+ncks: HINT file-not-found errors usually arise from filename typos, incorrect paths, missing files, or capricious gods. Please verify spelling and location of requested file. If the file resides on a High Performance Storage System (HPSS) accessible via the 'hsi' command, then add the --hpss option and re-try command.
+cdo mergetime: Open failed on >ant5_icon1320190826.nc<
+No such file or directory
+ncks: ERROR file /data1/ww3desenv/home/mod_ondas/work/ww3icon13_ant5_icon13_2019082612.nc not found. It does not exist on the local filesystem, nor does it match remote filename patterns (e.g., http://foo or foo.bar.edu:file).
+ncks: HINT file-not-found errors usually arise from filename typos, incorrect paths, missing files, or capricious gods. Please verify spelling and location of requested file. If the file resides on a High Performance Storage System (HPSS) accessible via the 'hsi' command, then add the --hpss option and re-try command.
+mv: cannot stat '/data1/ww3desenv/home/mod_ondas/output/ww3icon13/20190826/out_pnt.t12z.points': No such file or directory
+MPT: libxmpi.so 'HPE MPT 2.17  11/01/17 04:28:44'
+MPT: libmpi_mt.so  'HPE MPT 2.17  11/01/17 04:27:42'
+	MPT Environmental Settings
+MPT: MPI_VERBOSE (default: disabled) : enabled
+MPT: MPI_IB_RECV_MSGS (default: 512) : 1024
+MPT: Using the InfiniBand RC interconnect on fabric 0x0
+MPT: Using the InfiniBand UD interconnect on fabric 0x0
+MPT ERROR: Rank 6(g:6) is aborting with error code 3.
+	Process ID: 20634, Host: r1i1n2, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 60(g:60) is aborting with error code 3.
+	Process ID: 39119, Host: r1i1n4, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 124(g:124) is aborting with error code 3.
+	Process ID: 40220, Host: r1i1n7, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 77(g:77) is aborting with error code 3.
+	Process ID: 40351, Host: r1i1n5, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 140(g:140) is aborting with error code 3.
+	Process ID: 37915, Host: r1i1n8, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 108(g:108) is aborting with error code 3.
+	Process ID: 40276, Host: r1i1n6, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: MPI_COMM_WORLD rank 143 has terminated without calling MPI_Finalize()
+	aborting job
+MPT: Shepherd process aborted
+real 2.14
+user 0.00
+sys 0.00
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/nest.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/nest.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.*': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_pnt.points': No such file or directory
+cdo mergetime: Open failed on >met5_gfs20190826.nc<
+No such file or directory
+ncks: ERROR file /data1/ww3desenv/home/mod_ondas/work/ww3gfs_met5_gfs_2019082612.nc not found. It does not exist on the local filesystem, nor does it match remote filename patterns (e.g., http://foo or foo.bar.edu:file).
+ncks: HINT file-not-found errors usually arise from filename typos, incorrect paths, missing files, or capricious gods. Please verify spelling and location of requested file. If the file resides on a High Performance Storage System (HPSS) accessible via the 'hsi' command, then add the --hpss option and re-try command.
+cdo mergetime: Open failed on >ant5_gfs20190826.nc<
+No such file or directory
+ncks: ERROR file /data1/ww3desenv/home/mod_ondas/work/ww3gfs_ant5_gfs_2019082612.nc not found. It does not exist on the local filesystem, nor does it match remote filename patterns (e.g., http://foo or foo.bar.edu:file).
+ncks: HINT file-not-found errors usually arise from filename typos, incorrect paths, missing files, or capricious gods. Please verify spelling and location of requested file. If the file resides on a High Performance Storage System (HPSS) accessible via the 'hsi' command, then add the --hpss option and re-try command.
+mv: cannot stat '/data1/ww3desenv/home/mod_ondas/output/ww3gfs/20190826/out_pnt.t12z.points': No such file or directory
+MPT: libxmpi.so 'HPE MPT 2.17  11/01/17 04:28:44'
+MPT: libmpi_mt.so  'HPE MPT 2.17  11/01/17 04:27:42'
+	MPT Environmental Settings
+MPT: MPI_VERBOSE (default: disabled) : enabled
+MPT: MPI_IB_RECV_MSGS (default: 512) : 1024
+MPT: Using the InfiniBand RC interconnect on fabric 0x0
+MPT: Using the InfiniBand UD interconnect on fabric 0x0
+MPT ERROR: Rank 70(g:70) is aborting with error code 3.
+	Process ID: 40398, Host: r1i1n5, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 14(g:14) is aborting with error code 3.
+	Process ID: 20696, Host: r1i1n2, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 57(g:57) is aborting with error code 3.
+	Process ID: 39170, Host: r1i1n4, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 136(g:136) is aborting with error code 3.
+	Process ID: 37967, Host: r1i1n8, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 123(g:123) is aborting with error code 3.
+	Process ID: 40274, Host: r1i1n7, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 107(g:107) is aborting with error code 3.
+	Process ID: 40329, Host: r1i1n6, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: MPI_COMM_WORLD rank 126 has terminated without calling MPI_Finalize()
+	aborting job
+MPT: Shepherd process aborted
+real 1.76
+user 0.00
+sys 0.00
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.met5_icon1': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.met5_icon1': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.met5_icon1': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.met5_icon1': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.met5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.met5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/nest.met5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/nest.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.*': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_pnt.points': No such file or directory
+cdo mergetime: Open failed on >met5_icon1320190826.nc<
+No such file or directory
+ncks: ERROR file /data1/ww3desenv/home/mod_ondas/work/ww3icon13_met5_icon13_2019082612.nc not found. It does not exist on the local filesystem, nor does it match remote filename patterns (e.g., http://foo or foo.bar.edu:file).
+ncks: HINT file-not-found errors usually arise from filename typos, incorrect paths, missing files, or capricious gods. Please verify spelling and location of requested file. If the file resides on a High Performance Storage System (HPSS) accessible via the 'hsi' command, then add the --hpss option and re-try command.
+cdo mergetime: Open failed on >ant5_icon1320190826.nc<
+No such file or directory
+ncks: ERROR file /data1/ww3desenv/home/mod_ondas/work/ww3icon13_ant5_icon13_2019082612.nc not found. It does not exist on the local filesystem, nor does it match remote filename patterns (e.g., http://foo or foo.bar.edu:file).
+ncks: HINT file-not-found errors usually arise from filename typos, incorrect paths, missing files, or capricious gods. Please verify spelling and location of requested file. If the file resides on a High Performance Storage System (HPSS) accessible via the 'hsi' command, then add the --hpss option and re-try command.
+mv: cannot stat '/data1/ww3desenv/home/mod_ondas/output/ww3icon13/20190826/out_pnt.t12z.points': No such file or directory
+MPT: libxmpi.so 'HPE MPT 2.17  11/01/17 04:28:44'
+MPT: libmpi_mt.so  'HPE MPT 2.17  11/01/17 04:27:42'
+	MPT Environmental Settings
+MPT: MPI_VERBOSE (default: disabled) : enabled
+MPT: MPI_IB_RECV_MSGS (default: 512) : 1024
+MPT: Using the InfiniBand RC interconnect on fabric 0x0
+MPT: Using the InfiniBand UD interconnect on fabric 0x0
+MPT ERROR: Rank 82(g:82) is aborting with error code 3.
+	Process ID: 40465, Host: r1i1n5, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 125(g:125) is aborting with error code 3.
+	Process ID: 40331, Host: r1i1n7, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 98(g:98) is aborting with error code 3.
+	Process ID: 40375, Host: r1i1n6, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 15(g:15) is aborting with error code 3.
+	Process ID: 20752, Host: r1i1n2, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 145(g:145) is aborting with error code 3.
+	Process ID: 38032, Host: r1i1n8, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 62(g:62) is aborting with error code 3.
+	Process ID: 39230, Host: r1i1n4, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: MPI_COMM_WORLD rank 129 has terminated without calling MPI_Finalize()
+	aborting job
+MPT: Shepherd process aborted
+real 1.89
+user 0.00
+sys 0.00
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.glo_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/nest.met5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/nest.ant5_gfs': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.*': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_pnt.points': No such file or directory
+cdo mergetime: Open failed on >met5_gfs20190826.nc<
+No such file or directory
+ncks: ERROR file /data1/ww3desenv/home/mod_ondas/work/ww3gfs_met5_gfs_2019082612.nc not found. It does not exist on the local filesystem, nor does it match remote filename patterns (e.g., http://foo or foo.bar.edu:file).
+ncks: HINT file-not-found errors usually arise from filename typos, incorrect paths, missing files, or capricious gods. Please verify spelling and location of requested file. If the file resides on a High Performance Storage System (HPSS) accessible via the 'hsi' command, then add the --hpss option and re-try command.
+cdo mergetime: Open failed on >ant5_gfs20190826.nc<
+No such file or directory
+ncks: ERROR file /data1/ww3desenv/home/mod_ondas/work/ww3gfs_ant5_gfs_2019082612.nc not found. It does not exist on the local filesystem, nor does it match remote filename patterns (e.g., http://foo or foo.bar.edu:file).
+ncks: HINT file-not-found errors usually arise from filename typos, incorrect paths, missing files, or capricious gods. Please verify spelling and location of requested file. If the file resides on a High Performance Storage System (HPSS) accessible via the 'hsi' command, then add the --hpss option and re-try command.
+mv: cannot stat '/data1/ww3desenv/home/mod_ondas/output/ww3gfs/20190826/out_pnt.t12z.points': No such file or directory
+MPT: libxmpi.so 'HPE MPT 2.17  11/01/17 04:28:44'
+MPT: libmpi_mt.so  'HPE MPT 2.17  11/01/17 04:27:42'
+	MPT Environmental Settings
+MPT: MPI_VERBOSE (default: disabled) : enabled
+MPT: MPI_IB_RECV_MSGS (default: 512) : 1024
+MPT: Using the InfiniBand RC interconnect on fabric 0x0
+MPT: Using the InfiniBand UD interconnect on fabric 0x0
+MPT ERROR: Rank 83(g:83) is aborting with error code 3.
+	Process ID: 40522, Host: r1i1n5, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 58(g:58) is aborting with error code 3.
+	Process ID: 39281, Host: r1i1n4, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 151(g:151) is aborting with error code 3.
+	Process ID: 38093, Host: r1i1n8, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 122(g:122) is aborting with error code 3.
+	Process ID: 40384, Host: r1i1n7, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 108(g:108) is aborting with error code 3.
+	Process ID: 40442, Host: r1i1n6, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: Rank 14(g:14) is aborting with error code 3.
+	Process ID: 20807, Host: r1i1n2, Program: /data1/ww3desenv/home/wavewatch/ww3v607/model/exe/ww3_multi
+	MPT Version: HPE MPT 2.17  11/01/17 04:27:42
+
+MPT: --------stack traceback-------
+MPT ERROR: MPI_COMM_WORLD rank 86 has terminated without calling MPI_Finalize()
+	aborting job
+MPT: Shepherd process aborted
+real 1.73
+user 0.00
+sys 0.00
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.glo_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.met5_icon1': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.met5_icon1': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.met5_icon1': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.met5_icon1': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.met5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.met5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart001.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart002.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart003.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/restart004.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_grd.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/nest.met5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/nest.ant5_icon13': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/log.*': No such file or directory
+cp: cannot stat '/data1/ww3desenv/home/mod_ondas/work/out_pnt.points': No such file or directory
+cdo mergetime: Open failed on >met5_icon1320190826.nc<
+No such file or directory
+ncks: ERROR file /data1/ww3desenv/home/mod_ondas/work/ww3icon13_met5_icon13_2019082612.nc not found. It does not exist on the local filesystem, nor does it match remote filename patterns (e.g., http://foo or foo.bar.edu:file).
+ncks: HINT file-not-found errors usually arise from filename typos, incorrect paths, missing files, or capricious gods. Please verify spelling and location of requested file. If the file resides on a High Performance Storage System (HPSS) accessible via the 'hsi' command, then add the --hpss option and re-try command.
+cdo mergetime: Open failed on >ant5_icon1320190826.nc<
+No such file or directory
+ncks: ERROR file /data1/ww3desenv/home/mod_ondas/work/ww3icon13_ant5_icon13_2019082612.nc not found. It does not exist on the local filesystem, nor does it match remote filename patterns (e.g., http://foo or foo.bar.edu:file).
+ncks: HINT file-not-found errors usually arise from filename typos, incorrect paths, missing files, or capricious gods. Please verify spelling and location of requested file. If the file resides on a High Performance Storage System (HPSS) accessible via the 'hsi' command, then add the --hpss option and re-try command.
+mv: cannot stat '/data1/ww3desenv/home/mod_ondas/output/ww3icon13/20190826/out_pnt.t12z.points': No such file or directory
