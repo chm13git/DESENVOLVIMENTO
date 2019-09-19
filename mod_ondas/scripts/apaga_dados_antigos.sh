@@ -14,18 +14,18 @@ ICEDIR=${WW3DIR}/input/gelo
 
 for arq in `find ${ICEDIR} -mtime +5 -name "seaice.*" `; do
   echo $arq
-#  rm $arq
+  rm $arq
 done
 
 for arq in `find ${ICEDIR} -mtime +5 -name "ice.*" `; do
   echo $arq
-#  rm $arq
+  rm $arq
 done
 
 forc1=gfs
 forc2=gfs12
 forc3=icon
-forc4=icon13
+forc4=ico13
 forc5=cosmo
 FORCs=(${forc1}  ${forc2} ${forc3}  ${forc4} ${forc5})
 
