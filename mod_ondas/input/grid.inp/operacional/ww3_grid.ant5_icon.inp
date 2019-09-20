@@ -8,9 +8,9 @@ $
    F T T T F T
    1800.  90.  90.  10.
 $
-  &SIN4 BETAMAX = 1.6 /
-  &MISC FLAGTR = 4 /
-  &MISC CICE0 = 0.25, CICEN = 0.75 /
+   &SIN4 BETAMAX = 1.6 /
+   &MISC FLAGTR = 4 /
+   &MISC CICE0 = 0.25, CICEN = 0.75 /
 $
 END OF NAMELISTS
 $
