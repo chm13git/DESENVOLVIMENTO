@@ -57,12 +57,11 @@ BCKDIR=${WW3DIR}/backup
 # ------------------------
 #  Definindo as forçantes
 
-forc1=gfs
-forc2=icon
-forc3=ico13
-forc4=cosmo
-forc5=gfs12
-FORCs=(${forc3} ${forc1} ${forc2} ${forc4} ${forc5})
+forc1=ico13
+forc2=gfs12
+forc3=cosmo
+
+FORCs=(${forc2} ${forc1} ${forc3})
 
 # Flags de tempo para o while
 Abort=480  # minutos - 8 horas de limite na tentativa de rodada do WW3 
@@ -74,7 +73,7 @@ while [ ${Abort} -gt ${Tspended} ]; do
       echo ' '
       echo ' Download e interpolação da máscara de gelo '
       echo ' '
-      ${WW3DIR}/scripts/get_ice.sh
+      ${WW3DIR}/scripts/get_ice_new.sh
       ${WW3DIR}/scripts/prnc_wnd_ice.sh ice 00
     fi
 
@@ -104,7 +103,7 @@ while [ ${Abort} -gt ${Tspended} ]; do
 
   done
 
-  if [ -e ${FLAGDIR}/WIND_${forc1}_${AMD}${HSIM}_safo ] && [ -e ${FLAGDIR}/WIND_${forc2}_${AMD}${HSIM}_safo ] && [ -e ${FLAGDIR}/WIND_${forc3}_${AMD}${HSIM}_safo ] && [ -e ${FLAGDIR}/WIND_${forc4}_${AMD}${HSIM}_safo ] && [ -e ${FLAGDIR}/WIND_${forc5}_${AMD}${HSIM}_safo ]; then
+  if [ -e ${FLAGDIR}/WIND_${forc1}_${AMD}${HSIM}_safo ] && [ -e ${FLAGDIR}/WIND_${forc2}_${AMD}${HSIM}_safo ] && [ -e ${FLAGDIR}/WIND_${forc3}_${AMD}${HSIM}_safo ]; then
 
     echo ' '
     echo ' Todas forçantes de vento baixaram!!! '
