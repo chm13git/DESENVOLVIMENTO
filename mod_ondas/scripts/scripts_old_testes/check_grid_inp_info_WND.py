@@ -58,17 +58,17 @@ if (vento == 'gfs') or (vento == 'icon'):
    print(' Lat max = '+str(lat_max))
    print(' Numero total de pontos = '+str(pts))
    print('')
-elif (vento == 'gfs12') or (vento == 'icon13'):
+elif (vento == 'gfs12') or (vento == 'ico13'):
    dados = '/data1/ww3desenv/home/mod_ondas/input/vento/'+vento+'/' 
 
    if (vento == 'gfs12'):
       nc_f=dados+'gfs12.'+datahh+'.nc'
    else:
-      nc_f=dados+'icon13.'+datahh+'.nc'
+      nc_f=dados+'ico13.'+datahh+'.nc'
 
    nc_fid=Dataset(nc_f, 'r')
    
-   if (vento == 'icon13'):
+   if (vento == 'ico13'):
       lat=nc_fid.variables['lat'][:]
       lon=nc_fid.variables['lon'][:]
    else:
