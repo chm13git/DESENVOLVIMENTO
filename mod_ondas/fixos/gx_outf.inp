@@ -4,7 +4,7 @@ $
  dataini cyc0000  10800  999
 $
   N 
-  WND ICE HS T02 T0M1 T01 FP DIR SPR DP PHS PTP PDIR 
+  WND HS T01 FP DIR DP
 $
  0 999 0 999 T T
 $
