@@ -20,9 +20,9 @@ if [ $# -lt 2 ]
    echo "                                              "
    echo "      ./ww3Exec_wnd.sh wnd hh yyyymmdd        "
    echo "                                              "
-   echo "    wnd = (gfs, icon, cosmo, gfs12, ico13)    "
+   echo "        wnd = (gfs12, ico13, cosmo)           "
    echo "                                              "
-   echo "    ex: ./ww3Exec_wnd.sh gfs 00 20190716      "
+   echo "    ex: ./ww3Exec_wnd.sh gfs12 00 20190716    "
    echo "+--------------------------------------------+"
    exit
 fi
@@ -92,7 +92,7 @@ export MPI_IB_RECV_BUFS=256
 # -----------------------------------------------------
 #  Definição das áreas e links das grades e restarts
 
-if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "ico13" ]; then
+if [ ${FORC} = "gfs12" ] || [ ${FORC} = "ico13" ]; then
   ice=ice
   area1=glo_${FORC}
   area2=met5_${FORC}
@@ -165,17 +165,10 @@ fi
 if [ ${FORC} = "cosmo" ]; then 
   ln -sf ${GRDDIR}/mod_def.met5_${FORC} ${WORKDIR}/mod_def.ww3
   ln -sf ${GRDDIR}/mod_def.points  ${WORKDIR}/mod_def.points
-  if [ -e ${WW3DIR}/output/ww3icon/${AMD}/nest.t${HSIM}z.met5_icon ]; then
-     ln -sf ${WW3DIR}/output/ww3icon/${AMD}/nest.t${HSIM}z.met5_icon ${WORKDIR}/nest.ww3
-     echo ''
-     echo ' Linkando arquivos nest do WW3ICON para a rodada do WW3/'${FORC}
-     echo ''
-  elif [ -e ${WW3DIR}/output/ww3ico13/${AMD}/nest.t${HSIM}z.met5_ico13 ]; then
-     ln -sf ${WW3DIR}/output/ww3ico13/${AMD}/nest.t${HSIM}z.met5_ico13 ${WORKDIR}/nest.ww3
-     echo ''
-     echo ' Linkando arquivos nest do WW3ICON13 para a rodada do WW3/'${FORC}
-     echo ''
-  fi
+  ln -sf ${WW3DIR}/output/ww3ico13/${AMD}/nest.t${HSIM}z.met5_ico13 ${WORKDIR}/nest.ww3
+  echo ''
+  echo ' Linkando arquivos nest do WW3ICON13 para a rodada do WW3/'${FORC}
+  echo ''
 else
   ln -sf ${GRDDIR}/mod_def.${FORC} ${WORKDIR}/mod_def.${FORC}
   ln -sf ${GRDDIR}/mod_def.points  ${WORKDIR}/mod_def.points
@@ -204,7 +197,7 @@ fi
 
 cd ${WORKDIR}
 
-if [ ${FORC} = "gfs" ] || [ ${FORC} = "gfs12" ] || [ ${FORC} = "icon" ] || [ ${FORC} = "ico13" ]; then 
+if [ ${FORC} = "gfs12" ] || [ ${FORC} = "ico13" ]; then 
    cp ${FIXODIR}/ww3_multi.inp ${WORKDIR}/ww3_multi.inp
    sed s/dataini/${AMD}/g ww3_multi.inp > temp_ww3multi
    sed s/datafim/${DATAf}/g temp_ww3multi > ww3_multi.inp
