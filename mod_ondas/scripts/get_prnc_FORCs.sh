@@ -91,14 +91,20 @@ while [ ${Abort} -gt ${Tspended} ]; do
     fi
 
     if [ ! -e ${DIRWND}/${FORC}/wind.${AMD}${HSIM}.${FORC} ]; then
-      echo ' '
-      echo ' Pegando e interpolando o vento '${FORC}' Data e HH: '${AMD}${HSIM}
-      echo ' '
-      ${WW3DIR}/scripts/get_${FORC}.sh ${HSIM}
-      ${WW3DIR}/scripts/prnc_wnd_ice.sh ${FORC} ${HSIM}
-      if [ -e ${DIRWND}/${FORC}/wind.${AMD}${HSIM}.${FORC} ]; then
-        touch ${FLAGDIR}/WIND_${FORC}_${AMD}${HSIM}_safo
-      fi
+
+      if [ ${FORC} == cosmo ] && [ ! -e ${COSMODATA}/prevdata${HSIM}/cosmo_met5_${HSIM}_${AMD}096 ]; then
+        echo ' '
+        echo ${FORC}' ainda não finalizou sua rodada '
+        echo ' '
+      else
+        echo ' '
+        echo ' Pegando e interpolando o vento '${FORC}' Data e HH: '${AMD}${HSIM}
+        echo ' '
+        ${WW3DIR}/scripts/get_${FORC}.sh ${HSIM}
+        ${WW3DIR}/scripts/prnc_wnd_ice.sh ${FORC} ${HSIM}
+        if [ -e ${DIRWND}/${FORC}/wind.${AMD}${HSIM}.${FORC} ]; then
+          touch ${FLAGDIR}/WIND_${FORC}_${AMD}${HSIM}_safo
+        fi
     fi
 
   done
