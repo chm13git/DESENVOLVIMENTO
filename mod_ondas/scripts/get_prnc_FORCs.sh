@@ -105,10 +105,11 @@ while [ ${Abort} -gt ${Tspended} ]; do
         if [ -e ${DIRWND}/${FORC}/wind.${AMD}${HSIM}.${FORC} ]; then
           touch ${FLAGDIR}/WIND_${FORC}_${AMD}${HSIM}_safo
         fi
+      fi
     fi
 
   done
-
+ 
   if [ -e ${FLAGDIR}/WIND_${forc1}_${AMD}${HSIM}_safo ] && [ -e ${FLAGDIR}/WIND_${forc2}_${AMD}${HSIM}_safo ] && [ -e ${FLAGDIR}/WIND_${forc3}_${AMD}${HSIM}_safo ]; then
 
     echo ' '
