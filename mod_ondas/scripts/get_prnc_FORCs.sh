@@ -43,7 +43,7 @@ AMDm1=`cat ~/datas/datacorrente_m100`
 echo ' Rodada '${AMD}' '${HSIM}
 
 # -----------------------
-#  Definindo diretorios
+####  Definindo diretorios
 
 WORKDIR=${WW3DIR}/work
 GRDDIR=${WW3DIR}/grids
