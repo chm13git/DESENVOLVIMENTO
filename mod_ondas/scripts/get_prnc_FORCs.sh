@@ -64,7 +64,7 @@ forc3=cosmo
 FORCs=(${forc2} ${forc1} ${forc3})
 
 # Flags de tempo para o while
-Abort=480  # minutos - 8 horas de limite na tentativa de rodada do WW3 
+Abort=480  # minutos - 8 horas de limite na tentativa de download dos dados
 Tspended=0
 
 while [ ${Abort} -gt ${Tspended} ]; do
