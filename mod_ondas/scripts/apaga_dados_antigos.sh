@@ -25,9 +25,8 @@ done
 forc1=gfs12
 forc2=ico13
 forc3=cosmo
-forc4=icon
-forc5=gfs
-FORCs=(${forc1}  ${forc2} ${forc3}  ${forc4} ${forc5})
+
+FORCs=(${forc1} ${forc2} ${forc3})
 
 for FORC in "${FORCs[@]}"; do
   WNDDIR=${VENTODIR}/${FORC}
