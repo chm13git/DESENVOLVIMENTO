@@ -1,1 +1,0 @@
-/data1/ww3desenv/home/mod_ondas//scripts/gfs12/gfs12.20190906/gfs12.2019090600.nc
